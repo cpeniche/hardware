@@ -1,0 +1,83 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 67b24d5e-a534-4ee5-bc93-35adb7cf41a1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+  (bus_alias "" (members "A0" "A1"))
+
+  (sheet (at 63.5 38.1) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 229 191 1.0000))
+    (uuid 0c19b311-00d7-4c25-a082-3b87c688c5a9)
+    (property "Sheetname" "Memory Interface" (at 63.5 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Memory_Inetrface.kicad_sch" (at 63.5 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f767-som"
+        (path "/67b24d5e-a534-4ee5-bc93-35adb7cf41a1" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 88.9) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5e738dc4-9f9a-4d5b-9747-1ee0f2dc2218)
+    (property "Sheetname" "SD Card" (at 63.5 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SD Card.kicad_sch" (at 63.5 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f767-som"
+        (path "/67b24d5e-a534-4ee5-bc93-35adb7cf41a1" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 127 38.1) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 194 194 0 1.0000))
+    (uuid 75d4a59f-0b74-4563-ba65-bba7ce03ca2f)
+    (property "Sheetname" "Power" (at 127 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 127 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f767-som"
+        (path "/67b24d5e-a534-4ee5-bc93-35adb7cf41a1" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 177.8 38.1) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 194 194 1.0000))
+    (uuid f18f8184-38a3-4407-acf2-59adf54d8893)
+    (property "Sheetname" "Peripherals" (at 177.8 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Peripherals.kicad_sch" (at 177.8 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "stm32f767-som"
+        (path "/67b24d5e-a534-4ee5-bc93-35adb7cf41a1" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
