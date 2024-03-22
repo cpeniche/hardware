@@ -387,12 +387,16 @@
       "Root"
     ],
     [
+      "14036ef8-ffdd-4c1c-9b39-3590703a0028",
+      "uController Core"
+    ],
+    [
       "0cf8eb29-79da-4214-b68a-93edab9e310b",
       "uC_Memory Interface"
     ],
     [
-      "14036ef8-ffdd-4c1c-9b39-3590703a0028",
-      "SRAM_Memory"
+      "33b7a559-6ff4-4c07-83a2-d5cf767c2d12",
+      "Jtag and Power"
     ]
   ],
   "text_variables": {}

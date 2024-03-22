@@ -1,4 +1,4 @@
-22733200632035298
+22740630740552567
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62853,6 +62853,13 @@ MX_CHERRY_KEY
 6
 4
 Local_Footprints
+OSC-SMD_L3.2-W1.5
+
+
+0
+0
+0
+Local_Footprints
 OSC_ECS-2333-160-BN-TR
 
 
@@ -62950,6 +62957,27 @@ S29GL512P10TFCR10
 0
 56
 56
+Local_Footprints
+TSOP-II-86_400MIL_ISI
+
+IS42S32160F-7TLI 
+0
+86
+86
+Local_Footprints
+TSOP-II-86_400MIL_ISI-L
+
+IS42S32160F-7TLI 
+0
+86
+86
+Local_Footprints
+TSOP-II-86_400MIL_ISI-M
+
+IS42S32160F-7TLI 
+0
+86
+86
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

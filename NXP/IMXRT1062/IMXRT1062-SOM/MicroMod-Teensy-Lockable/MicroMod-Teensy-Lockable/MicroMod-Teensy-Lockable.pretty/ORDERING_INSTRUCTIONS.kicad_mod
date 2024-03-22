@@ -1,0 +1,159 @@
+(footprint "ORDERING_INSTRUCTIONS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Special Ordering Instructions Alert\n\nIndicates that the PCB material, colors, copper weights, and/or thickness are non-standard.\n\n(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)\n\nUse 0.7\" Vector font @ 8% ratio")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c5627781-4306-4565-ab4d-1f9bdff5d843")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2861ffb8-a555-4c38-a8f3-58c77a4e5a6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26810383-2de7-4d82-952f-ccc81c48d920")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1a73ac8-129c-485e-a243-4b11800c98e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d32a447f-9dde-4a2a-8018-2d35f612e6ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start 0 0)
+		(end 101.6 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c84caf65-6fe2-4a95-afac-c3466064e7a4")
+	)
+	(fp_line
+		(start 0 8.89)
+		(end 0 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b1b090c-25ce-4ad1-bd56-d9e9aaeac9c7")
+	)
+	(fp_line
+		(start 0 8.89)
+		(end 101.6 8.89)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a26b951d-43c4-43ee-91e6-82424f328c10")
+	)
+	(fp_line
+		(start 0 50.8)
+		(end 0 8.89)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc8e8f96-cd46-486a-8952-864e42c8845d")
+	)
+	(fp_line
+		(start 101.6 0)
+		(end 101.6 8.89)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "910655fa-0a94-47d8-bca6-8fb2e0255c8f")
+	)
+	(fp_line
+		(start 101.6 8.89)
+		(end 101.6 50.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf3b95e2-419f-407d-be0e-a130edb96e09")
+	)
+	(fp_line
+		(start 101.6 50.8)
+		(end 0 50.8)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26c6709b-636f-4fba-9536-c0df64e437d0")
+	)
+	(fp_text user "(Add these comments when uploading gerbers.)"
+		(at 1.27 6.35 0)
+		(layer "F.Fab")
+		(uuid "3837ad72-5212-4d6a-a3c2-4a7c5fef0317")
+		(effects
+			(font
+				(size 1.63576 1.63576)
+				(thickness 0.14224)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "Ordering Instructions:"
+		(at 1.27 1.27 0)
+		(layer "F.Fab")
+		(uuid "a57747fa-fdbd-45e5-a02c-2f09fdc0d0c2")
+		(effects
+			(font
+				(size 2.5908 2.5908)
+				(thickness 0.4572)
+			)
+			(justify left top)
+		)
+	)
+)

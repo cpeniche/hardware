@@ -3975,7 +3975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bacf24f-ef9f-4641-820a-6889c7049a51")
-		(property "Reference" "U1"
+		(property "Reference" "U101"
 			(at -31.75 96.52 0)
 			(effects
 				(font
@@ -4756,7 +4756,7 @@
 		(instances
 			(project "lpc1788_som"
 				(path "/0de8293f-04e9-4d63-914d-fafec110604e"
-					(reference "U1")
+					(reference "U101")
 					(unit 3)
 				)
 			)
@@ -4772,7 +4772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edbf2299-3fc6-43fd-b5e8-f28813c2ee1c")
-		(property "Reference" "U1"
+		(property "Reference" "U101"
 			(at -90.17 -76.2 0)
 			(effects
 				(font
@@ -5553,14 +5553,14 @@
 		(instances
 			(project "lpc1788_som"
 				(path "/0de8293f-04e9-4d63-914d-fafec110604e"
-					(reference "U1")
+					(reference "U101")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 24.13 59.69)
+		(at 104.14 58.42)
 		(size 71.12 16.51)
 		(stroke
 			(width 0.1524)
@@ -5571,7 +5571,7 @@
 		)
 		(uuid "0cf8eb29-79da-4214-b68a-93edab9e310b")
 		(property "Sheetname" "uC_Memory Interface"
-			(at 25.654 58.674 0)
+			(at 105.664 57.404 0)
 			(effects
 				(font
 					(size 5 5)
@@ -5581,7 +5581,46 @@
 			)
 		)
 		(property "Sheetfile" "uC_Memory.kicad_sch"
-			(at 24.13 75.5146 0)
+			(at 104.14 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lpc1788_som"
+				(path "/0de8293f-04e9-4d63-914d-fafec110604e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 88.9)
+		(size 69.85 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14036ef8-ffdd-4c1c-9b39-3590703a0028")
+		(property "Sheetname" "uController Core"
+			(at 104.14 86.3234 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uController_Core.kicad_sch"
+			(at 104.14 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,8 +5637,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 90.17)
-		(size 69.85 12.7)
+		(at 104.14 115.57)
+		(size 57.15 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5608,9 +5647,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "14036ef8-ffdd-4c1c-9b39-3590703a0028")
-		(property "Sheetname" "SRAM_Memory"
-			(at 25.4 87.5934 0)
+		(uuid "33b7a559-6ff4-4c07-83a2-d5cf767c2d12")
+		(property "Sheetname" "Jtag and Power"
+			(at 104.14 112.9934 0)
 			(effects
 				(font
 					(size 5 5)
@@ -5619,8 +5658,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "SRAM_Memory.kicad_sch"
-			(at 25.4 103.4546 0)
+		(property "Sheetfile" "jtag_and_power.kicad_sch"
+			(at 104.14 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5670,7 @@
 		(instances
 			(project "lpc1788_som"
 				(path "/0de8293f-04e9-4d63-914d-fafec110604e"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
