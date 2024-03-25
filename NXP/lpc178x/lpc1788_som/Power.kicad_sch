@@ -2291,7 +2291,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Local_symbols:PGB1010603NR")
 		(lib_id "Local_symbols:PGB1010603NR")
 		(at 138.43 110.49 90)
 		(unit 1)
@@ -2817,7 +2816,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Local_symbols:PGB1010603NR")
 		(lib_id "Local_symbols:PGB1010603NR")
 		(at 146.05 110.49 90)
 		(unit 1)
@@ -2873,10 +2871,10 @@
 			)
 		)
 		(pin ""
-			(uuid "49692dbc-487c-4721-9569-218f25f3d743")
+			(uuid "49692dbc-487c-4721-9569-218f25f3d744")
 		)
 		(pin ""
-			(uuid "1f8266f2-8194-41ee-8c62-8aa42753c4ff")
+			(uuid "1f8266f2-8194-41ee-8c62-8aa42753c500")
 		)
 		(instances
 			(project "lpc1788_som"
@@ -2968,7 +2966,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1f6ed9b-bf4c-4f10-919a-4d69324ddf75")
 		(property "Reference" "#PWR013"
 			(at 142.24 125.73 0)
@@ -2980,7 +2977,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 124.46 0)
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
