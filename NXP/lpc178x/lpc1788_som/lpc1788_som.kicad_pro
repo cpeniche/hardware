@@ -397,6 +397,14 @@
     [
       "33b7a559-6ff4-4c07-83a2-d5cf767c2d12",
       "Jtag and Power"
+    ],
+    [
+      "b6661c30-5572-4983-bfb2-1cebb5227a01",
+      "sodim connector"
+    ],
+    [
+      "dbe3b537-158c-484a-8767-3a3a99d74a17",
+      "Power"
     ]
   ],
   "text_variables": {}
