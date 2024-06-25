@@ -1399,78 +1399,6 @@
 			)
 		)
 		(symbol "ADM7171ACPZ-3.0-R7_0_1"
-			(pin output line
-				(at -15.24 5.08 0)
-				(length 7.62)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -15.24 2.54 0)
-				(length 7.62)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 0 0)
-				(length 7.62)
-				(name "SENSE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -15.24 -2.54 0)
-				(length 7.62)
-				(name "SS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 12.7 -5.08 180)
 				(length 7.62)
@@ -1482,24 +1410,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 12.7 -2.54 180)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1572,6 +1482,96 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin power_out line
+				(at -15.24 5.08 0)
+				(length 7.62)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 2.54 0)
+				(length 7.62)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 0 0)
+				(length 7.62)
+				(name "SENSE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 -2.54 0)
+				(length 7.62)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -2.54 180)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -20993,7 +20993,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 23.86 0)
+			(at 27.94 21.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21002,7 +21002,7 @@
 			)
 		)
 		(property "Value" "SN74LV165APWR"
-			(at -12.7 -26.86 0)
+			(at 2.794 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21011,7 +21011,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 0 0 0)
+			(at -1.27 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21021,7 +21021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -1.27 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21030,7 +21030,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -1.27 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21040,8 +21040,8 @@
 		)
 		(symbol "SN74LV165APWR_0_0"
 			(rectangle
-				(start -12.7 22.86)
-				(end 12.7 -22.86)
+				(start -6.35 12.7)
+				(end 6.35 -13.97)
 				(stroke
 					(width 0.41)
 					(type default)
@@ -21051,7 +21051,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -12.7 0)
+				(at 11.43 -5.08 180)
 				(length 5.08)
 				(name "SH/~LD"
 					(effects
@@ -21069,7 +21069,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -10.16 0)
+				(at 11.43 -7.62 180)
 				(length 5.08)
 				(name "SER"
 					(effects
@@ -21087,7 +21087,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 15.24 0)
+				(at -11.43 8.89 0)
 				(length 5.08)
 				(name "A"
 					(effects
@@ -21105,7 +21105,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 12.7 0)
+				(at -11.43 6.35 0)
 				(length 5.08)
 				(name "B"
 					(effects
@@ -21123,7 +21123,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 10.16 0)
+				(at -11.43 3.81 0)
 				(length 5.08)
 				(name "C"
 					(effects
@@ -21141,7 +21141,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 2.54 0)
+				(at -11.43 1.27 0)
 				(length 5.08)
 				(name "D"
 					(effects
@@ -21159,7 +21159,7 @@
 				)
 			)
 			(pin input clock
-				(at -17.78 5.08 0)
+				(at 11.43 -1.27 180)
 				(length 5.08)
 				(name "CLK_INH"
 					(effects
@@ -21177,7 +21177,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 20.32 180)
+				(at 0 17.78 270)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -21195,7 +21195,7 @@
 				)
 			)
 			(pin input clock
-				(at -17.78 7.62 0)
+				(at 11.43 1.27 180)
 				(length 5.08)
 				(name "CLK"
 					(effects
@@ -21213,7 +21213,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 0 0)
+				(at -11.43 -1.27 0)
 				(length 5.08)
 				(name "E"
 					(effects
@@ -21231,7 +21231,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -2.54 0)
+				(at -11.43 -3.81 0)
 				(length 5.08)
 				(name "F"
 					(effects
@@ -21249,7 +21249,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -5.08 0)
+				(at -11.43 -6.35 0)
 				(length 5.08)
 				(name "G"
 					(effects
@@ -21267,7 +21267,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -7.62 0)
+				(at -11.43 -8.89 0)
 				(length 5.08)
 				(name "H"
 					(effects
@@ -21285,7 +21285,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 15.24 180)
+				(at 11.43 7.62 180)
 				(length 5.08)
 				(name "~{QH}"
 					(effects
@@ -21303,7 +21303,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -20.32 180)
+				(at 0 -19.05 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -21321,7 +21321,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 12.7 180)
+				(at 11.43 5.08 180)
 				(length 5.08)
 				(name "QH"
 					(effects
@@ -25764,7 +25764,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -4.445 12.065 0)
+			(at -5.715 13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25772,7 +25772,7 @@
 			)
 		)
 		(property "Value" "TLE94103EP"
-			(at 0.508 15.24 0)
+			(at -0.762 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25780,7 +25780,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
-			(at -0.762 22.352 0)
+			(at -2.032 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25789,7 +25789,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-TLE94103EP-DS-v01_00-EN.pdf?fileId=5546d4626176435901618f005622681e"
-			(at 0.762 18.796 0)
+			(at -0.508 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25798,7 +25798,7 @@
 			)
 		)
 		(property "Description" "Triple Half Bridge Driver"
-			(at 1.016 -15.24 0)
+			(at -0.254 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25809,7 +25809,7 @@
 		(symbol "TLE94103EP_1_1"
 			(rectangle
 				(start -6.35 10.795)
-				(end 5.715 -11.43)
+				(end 6.35 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -25837,7 +25837,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 8.255 -5.715 180)
+				(at 8.89 -7.62 180)
 				(length 2.54)
 				(name "NU"
 					(effects
@@ -25909,7 +25909,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.255 9.525 180)
+				(at 8.89 8.89 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -25981,7 +25981,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.255 6.985 180)
+				(at 8.89 6.35 180)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -25999,7 +25999,7 @@
 				)
 			)
 			(pin output line
-				(at 8.255 -1.905 180)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "OUT3"
 					(effects
@@ -26017,7 +26017,7 @@
 				)
 			)
 			(pin output line
-				(at 8.255 3.175 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -26035,7 +26035,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.255 -9.525 180)
+				(at 8.89 -10.16 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -26053,7 +26053,7 @@
 				)
 			)
 			(pin output line
-				(at 8.255 0.635 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -26080,7 +26080,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 49.022 7.62 0)
+			(at -6.096 10.414 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26088,15 +26088,15 @@
 			)
 		)
 		(property "Value" "TPS5410DR"
-			(at 49.022 5.08 0)
+			(at -0.254 8.128 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
-			(at 33.02 0 0)
+		(property "Footprint" "Local_Footprints:SOIC-8-1EP_3.9x4.9mm_P1.27mm"
+			(at -5.08 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26106,7 +26106,7 @@
 			)
 		)
 		(property "Datasheet" "TPS5410DR"
-			(at 33.02 0 0)
+			(at -8.636 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26116,7 +26116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 0 0)
+			(at -13.97 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26142,10 +26142,21 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS5410DR_0_1"
-			(pin unspecified line
-				(at 33.02 0 0)
-				(length 7.62)
+		(symbol "TPS5410DR_1_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 8.89 1.27 180)
+				(length 2.54)
 				(name "BOOT"
 					(effects
 						(font
@@ -26161,9 +26172,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 33.02 -2.54 0)
-				(length 7.62)
+			(pin no_connect line
+				(at -8.89 -1.27 0)
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
@@ -26179,9 +26190,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 33.02 -5.08 0)
-				(length 7.62)
+			(pin no_connect line
+				(at -8.89 -3.81 0)
+				(length 2.54)
 				(name "NC"
 					(effects
 						(font
@@ -26197,9 +26208,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 33.02 -7.62 0)
-				(length 7.62)
+			(pin input line
+				(at 8.89 -1.27 180)
+				(length 2.54)
 				(name "VSENSE"
 					(effects
 						(font
@@ -26215,9 +26226,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 60.96 -7.62 180)
-				(length 7.62)
+			(pin passive line
+				(at -8.89 1.27 0)
+				(length 2.54)
 				(name "ENA"
 					(effects
 						(font
@@ -26234,8 +26245,8 @@
 				)
 			)
 			(pin power_in line
-				(at 60.96 -5.08 180)
-				(length 7.62)
+				(at 8.89 -3.81 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -26251,9 +26262,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 60.96 -2.54 180)
-				(length 7.62)
+			(pin power_in line
+				(at -8.89 3.81 0)
+				(length 2.54)
 				(name "VIN"
 					(effects
 						(font
@@ -26269,9 +26280,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 60.96 0 180)
-				(length 7.62)
+			(pin passive line
+				(at 8.89 3.81 180)
+				(length 2.54)
 				(name "PH"
 					(effects
 						(font
@@ -26285,19 +26296,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "TPS5410DR_1_1"
-			(rectangle
-				(start 40.64 1.27)
-				(end 53.34 -8.89)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
