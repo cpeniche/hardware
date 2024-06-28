@@ -210,24 +210,24 @@
 		(uuid "f7409552-2756-42f6-b0ee-c5184ee19c49")
 	)
 	(pad "8" smd rect
-		(at -0.975 -1.5 90)
-		(size 0.3 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "ad5f7db2-1cdf-4ca8-81ca-b536608519d1")
-	)
-	(pad "9" smd rect
 		(at -1.415 0)
 		(size 0.38 0.43)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "92559006-d05b-4f45-af51-3339ab0e330d")
 	)
-	(pad "10" smd rect
+	(pad "8" smd rect
+		(at -0.975 -1.5 90)
+		(size 0.3 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ad5f7db2-1cdf-4ca8-81ca-b536608519d1")
+	)
+	(pad "8" smd rect
 		(at 0 -0.36 90)
 		(size 1.98 2.45)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8d81b24d-6100-4ba8-8ccc-9e775076c693")
 	)
-	(pad "11" smd rect
+	(pad "8" smd rect
 		(at 1.415 0)
 		(size 0.38 0.43)
 		(layers "F.Cu" "F.Paste" "F.Mask")

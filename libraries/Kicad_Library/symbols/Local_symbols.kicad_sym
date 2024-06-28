@@ -26059,7 +26059,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.715 13.335 0)
+			(at -5.715 14.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26067,7 +26067,7 @@
 			)
 		)
 		(property "Value" "TLE94103EP"
-			(at -0.762 16.51 0)
+			(at -0.762 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26075,7 +26075,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
-			(at -2.032 23.622 0)
+			(at -2.032 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26084,7 +26084,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-TLE94103EP-DS-v01_00-EN.pdf?fileId=5546d4626176435901618f005622681e"
-			(at -0.508 20.066 0)
+			(at -0.508 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26093,7 +26093,7 @@
 			)
 		)
 		(property "Description" "Triple Half Bridge Driver"
-			(at -0.254 -13.97 0)
+			(at -0.254 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26103,8 +26103,8 @@
 		)
 		(symbol "TLE94103EP_1_1"
 			(rectangle
-				(start -6.35 10.795)
-				(end 6.35 -11.43)
+				(start -6.35 12.065)
+				(end 6.35 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -26114,7 +26114,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 3.81 0)
+				(at -8.89 5.08 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -26132,7 +26132,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 8.89 -7.62 180)
+				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "NU"
 					(effects
@@ -26150,7 +26150,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -1.27 0)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -26168,7 +26168,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -6.35 0)
+				(at -8.89 -5.08 0)
 				(length 2.54)
 				(name "TEST"
 					(effects
@@ -26186,7 +26186,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 1.27 0)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
@@ -26204,7 +26204,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 8.89 180)
+				(at 8.89 10.16 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -26221,8 +26221,26 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "EDP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -8.89 8.89 0)
+				(at -8.89 10.16 0)
 				(length 2.54)
 				(name "~{CS}"
 					(effects
@@ -26240,7 +26258,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 6.35 0)
+				(at -8.89 7.62 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -26258,7 +26276,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -8.89 0)
+				(at -8.89 -7.62 0)
 				(length 2.54)
 				(name "TEST"
 					(effects
@@ -26276,7 +26294,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 6.35 180)
+				(at 8.89 7.62 180)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -26294,7 +26312,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -3.81 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "OUT3"
 					(effects
@@ -26312,7 +26330,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 1.27 180)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -26330,7 +26348,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -10.16 180)
+				(at 8.89 -8.89 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -26348,7 +26366,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -1.27 180)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
