@@ -10939,7 +10939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Local_Footprints:HeaderMotorCustomeSMD"
 			(at 1.27 1.27 0)
 			(effects
 				(font

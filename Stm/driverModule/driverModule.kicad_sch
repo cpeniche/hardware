@@ -9847,7 +9847,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "3be203f0-90f1-439c-bd75-30a65f4aaaa7")
 		(property "Reference" "U107"
@@ -9959,7 +9959,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "43cdccc6-f075-4d2f-8e89-fa903c852454")
 		(property "Reference" "U101"
@@ -11905,7 +11905,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "ba3df0fb-de8f-4a9a-bf91-a95ae001d9cf")
 		(property "Reference" "J103"

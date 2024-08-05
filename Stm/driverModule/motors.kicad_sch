@@ -3558,6 +3558,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 67.31) (xy 229.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2398de6c-5606-498d-85d5-33d2b7e1a4ca")
+	)
+	(wire
+		(pts
 			(xy 41.91 97.79) (xy 45.72 97.79)
 		)
 		(stroke
@@ -3715,16 +3725,6 @@
 			(type default)
 		)
 		(uuid "534507ee-b8a8-491d-8b1a-5c482f7d3e00")
-	)
-	(wire
-		(pts
-			(xy 210.82 62.23) (xy 229.87 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58230e8d-7078-4a49-ba20-556b20e5af6e")
 	)
 	(wire
 		(pts
@@ -4208,16 +4208,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 67.31) (xy 229.87 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9a1ec6d-21bf-431b-92c6-a59fe390166d")
-	)
-	(wire
-		(pts
 			(xy 160.02 50.8) (xy 165.1 50.8)
 		)
 		(stroke
@@ -4425,6 +4415,16 @@
 			(type default)
 		)
 		(uuid "eb0ca604-1267-4ca3-83a2-e96c5f592166")
+	)
+	(wire
+		(pts
+			(xy 210.82 62.23) (xy 229.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb4bc44-72a0-44de-bf09-802e812a55ae")
 	)
 	(wire
 		(pts
@@ -5219,6 +5219,7 @@
 	(symbol
 		(lib_id "Local_symbols:HeaderForCustomMotorConnector")
 		(at 231.14 63.5 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5226,7 +5227,7 @@
 		(dnp no)
 		(uuid "0189468b-a786-4a2e-beeb-984ae10d5a71")
 		(property "Reference" "U202"
-			(at 232.41 55.88 0)
+			(at 232.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5236,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 233.68 64.77 0)
+			(at 233.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,8 +5244,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 232.41 62.23 0)
+		(property "Footprint" "Local_Footprints:HeaderMotorCustomeSMD"
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 62.23 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 62.23 0)
+			(at 232.41 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
