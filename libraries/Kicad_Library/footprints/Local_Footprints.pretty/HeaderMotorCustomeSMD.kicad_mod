@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -1.77 0)
+		(at -7.62 -7.62 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8015651e-9bd5-49b6-b188-15674297982d")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "HeaderMotorCustomeSMD"
-		(at 0 -6.35 0)
+		(at 0 -10.16 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "408ab117-b427-42cd-8d17-5f18e1edd09e")
@@ -68,7 +68,7 @@
 	)
 	(attr smd)
 	(fp_text user "${REFERENCE}"
-		(at 0 -8.89 0)
+		(at 0 -12.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8eca8247-18d5-4d4c-a261-d19a83ba6b08")
@@ -80,7 +80,7 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0 -3.81)
+		(at 0 -7.62)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -88,7 +88,7 @@
 		(uuid "4f4547a8-d44f-4c4e-b22f-44226f8e0402")
 	)
 	(pad "2" smd roundrect
-		(at 0 -1.27)
+		(at 0 -2.54)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -96,7 +96,7 @@
 		(uuid "0a73cba5-df6e-4b21-a12b-1cb9dc6a6704")
 	)
 	(pad "3" smd roundrect
-		(at 0 1.27)
+		(at 0 2.54)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -104,11 +104,22 @@
 		(uuid "64777678-7519-47d6-b962-b7080c5c44a3")
 	)
 	(pad "4" smd roundrect
-		(at 0 3.81)
+		(at 0 7.62)
 		(size 3.5 2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "9447b7b2-56a3-482e-99b8-1fd5650bf712")
+	)
+	(model "${KICAD_EXTERNAL_DIR}/Motor Header.step"
+		(offset
+			(xyz -4.5 -7.65 0.34)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
 	)
 )

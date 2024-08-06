@@ -10924,7 +10924,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.254 7.112 0)
+			(at -6.731 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,7 +10932,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 1.27 1.27 0)
+			(at -5.715 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,7 +10940,7 @@
 			)
 		)
 		(property "Footprint" "Local_Footprints:HeaderMotorCustomeSMD"
-			(at 1.27 1.27 0)
+			(at -5.715 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,7 +10949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1.27 1.27 0)
+			(at -5.715 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +10958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 1.27 1.27 0)
+			(at -5.715 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,8 +10967,19 @@
 			)
 		)
 		(symbol "HeaderForCustomMotorConnector_1_1"
+			(rectangle
+				(start -5.715 10.16)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at -1.27 3.81 0)
+				(at -8.255 8.89 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -10986,7 +10997,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 1.27 0)
+				(at -8.255 6.35 0)
 				(length 2.54)
 				(name "Out1"
 					(effects
@@ -11004,7 +11015,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -1.27 0)
+				(at -8.255 3.81 0)
 				(length 2.54)
 				(name "VMOT"
 					(effects
@@ -11022,7 +11033,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -3.81 0)
+				(at -8.255 1.27 0)
 				(length 2.54)
 				(name "Out2"
 					(effects
