@@ -11,20 +11,26 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "ESP32-S3-WROOM-2_1"
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -11.43 32.766 0)
+			(property "Reference" "R"
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at -180.34 -99.06 0)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,7 +38,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -180.34 -99.06 0)
+				(at 1.016 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,693 +46,116 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2.4 GHz Wi-fi (802.11b/g/n) and Bluetooth 5 module"
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_1_1_1"
-				(rectangle
-					(start -7.62 8.89)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at 6.35 6.35 180)
-					(length 2.54)
-					(name "RXD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT2" output line)
-					(alternate "GPI044" bidirectional line)
-				)
-				(pin output line
-					(at 6.35 3.81 180)
-					(length 2.54)
-					(name "TXD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT1" output line)
-					(alternate "GPIO43" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 6.35 1.27 180)
-					(length 2.54)
-					(name "IO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB_D-" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 6.35 -1.27 180)
-					(length 2.54)
-					(name "IO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB_D+" bidirectional line)
+					(hide yes)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_1_2_1"
-				(rectangle
-					(start -12.7 30.48)
-					(end 10.16 -31.75)
-					(stroke
-						(width 0)
-						(type solid)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 24.13 0)
-					(length 2.54)
-					(name "IO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH4" input line)
-					(alternate "RTC_GPIO15" bidirectional line)
-					(alternate "U0RTS" bidirectional line)
-					(alternate "XTAL_32K_P" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 20.32 0)
-					(length 2.54)
-					(name "IO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH5" input line)
-					(alternate "RTC_GPIO16" bidirectional line)
-					(alternate "U0CTS" bidirectional line)
-					(alternate "XTAL_32K_N" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 16.51 0)
-					(length 2.54)
-					(name "IO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH6" input line)
-					(alternate "RTC_GPIO17" bidirectional line)
-					(alternate "U1TXD" output line)
-				)
-				(pin bidirectional line
-					(at -15.24 12.7 0)
-					(length 2.54)
-					(name "IO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH7" input line)
-					(alternate "CLK_OUT3" output line)
-					(alternate "RTC_GPIO18" bidirectional line)
-					(alternate "U1RXD" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 2.54 0)
-					(length 2.54)
-					(name "IO38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSPIWP" bidirectional line)
-					(alternate "SUBSPIWP" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -15.24 -1.27 0)
-					(length 2.54)
-					(name "I045"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -5.08 0)
-					(length 2.54)
-					(name "I046"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -8.89 0)
-					(length 2.54)
-					(name "IO47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPICLK_P_DIFF" output line)
-					(alternate "SUBSPICLK_P_DIFF" output line)
-				)
-				(pin bidirectional line
-					(at -15.24 -12.7 0)
-					(length 2.54)
-					(name "IO48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPICLK_N_DIFF" output line)
-					(alternate "SUBSPICLK_N_DIFF" output line)
-				)
-				(pin bidirectional line
-					(at 12.7 27.94 180)
-					(length 2.54)
-					(name "IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_GPIO0" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 24.13 180)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH0" input line)
-					(alternate "RTC_GPIO1" bidirectional line)
-					(alternate "TOUCH1" input line)
-				)
-				(pin bidirectional line
-					(at 12.7 20.32 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH1" input line)
-					(alternate "RTC_GPIO2" bidirectional line)
-					(alternate "TOUCH2" input line)
-				)
-				(pin bidirectional line
-					(at 12.7 16.51 180)
-					(length 2.54)
-					(name "I03"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH2" input line)
-					(alternate "RTC_GPIO3" bidirectional line)
-					(alternate "TOUCH3" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "I04"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH3" input line)
-					(alternate "RTC_GPIO4" bidirectional line)
-					(alternate "TOUCH4" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 8.89 180)
-					(length 2.54)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH4" input line)
-					(alternate "RTC_GPIO5" bidirectional line)
-					(alternate "TOUCH5" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "I06"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH5" input line)
-					(alternate "RTC_GPIO6" bidirectional line)
-					(alternate "TOUCH6" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "I07"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH6" input line)
-					(alternate "RTC_GPIO7" bidirectional line)
-					(alternate "TOUCH7" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "I08"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH7" input line)
-					(alternate "RTC_GPIO8" bidirectional line)
-					(alternate "SUBSPICS1" output line)
-					(alternate "TOUCH8" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "I09"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH8" input line)
-					(alternate "FSPIHD" bidirectional line)
-					(alternate "RTC_GPIO9" bidirectional line)
-					(alternate "SUBSPICS1" output line)
-					(alternate "SUBSPIHD" bidirectional line)
-					(alternate "TOUCH9" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "I010"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH9" input line)
-					(alternate "FSPICS0" bidirectional line)
-					(alternate "FSPII04" bidirectional line)
-					(alternate "RTC_GPIO10" bidirectional line)
-					(alternate "SUBSPICS0" output line)
-					(alternate "TOUCH10" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -13.97 180)
-					(length 2.54)
-					(name "I011"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH0" input line)
-					(alternate "FSPID" bidirectional line)
-					(alternate "FSPII05" output line)
-					(alternate "RTC_GPIO11" bidirectional line)
-					(alternate "SUBSPID" bidirectional line)
-					(alternate "TOUCH11" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -17.78 180)
-					(length 2.54)
-					(name "I012"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH1" input line)
-					(alternate "FSPICLK" bidirectional line)
-					(alternate "FSPII06" output line)
-					(alternate "RTC_GPIO12" bidirectional line)
-					(alternate "SUBSPICLK" bidirectional line)
-					(alternate "TOUCH12" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -21.59 180)
-					(length 2.54)
-					(name "I013"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH2" input line)
-					(alternate "FSPII07" output line)
-					(alternate "FSPIQ" bidirectional line)
-					(alternate "RTC_GPIO13" bidirectional line)
-					(alternate "SUBSPIQ" bidirectional line)
-					(alternate "TOUCH13" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -25.4 180)
-					(length 2.54)
-					(name "I014"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH3" input line)
-					(alternate "FSPIDQS" output line)
-					(alternate "FSPIWP" bidirectional line)
-					(alternate "RTC_GPIO14" bidirectional line)
-					(alternate "SUBSPIWP" bidirectional line)
-					(alternate "TOUCH14" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -29.21 180)
-					(length 2.54)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_GPIO21" bidirectional line)
+					(hide yes)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_1_3_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -8.89)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin no_connect line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "NC"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28,29,30"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -734,28 +163,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28,29,31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "3V3"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -770,139 +181,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1,40,41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_1_4_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 3.81 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 5.08 180)
-					(length 2.54)
-					(name "IO39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CKL_OUT3" output line)
-					(alternate "MTCK" input line)
-					(alternate "SUBSPICS1" output line)
-				)
-				(pin bidirectional line
-					(at 6.35 1.27 180)
-					(length 2.54)
-					(name "IO40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT2" output line)
-					(alternate "MTD0" output line)
-				)
-				(pin bidirectional line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "IO41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT1" output line)
-					(alternate "MTDI" input line)
-				)
-				(pin bidirectional line
-					(at 6.35 -6.35 180)
-					(length 2.54)
-					(name "IO42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "MTMS" input line)
-				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ESP32-S3-WROOM-2_2"
+		(symbol "_MCU_ESP32:ESP32-S3-WROOM-2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -957,7 +239,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_2_1_1"
+			(symbol "ESP32-S3-WROOM-2_1_1"
 				(rectangle
 					(start -7.62 8.89)
 					(end 3.81 -3.81)
@@ -1048,7 +330,7 @@
 					(alternate "USB_D+" bidirectional line)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_2_2_1"
+			(symbol "ESP32-S3-WROOM-2_2_1"
 				(rectangle
 					(start -12.7 29.21)
 					(end 10.16 -13.97)
@@ -1148,1360 +430,9 @@
 					(alternate "U1RXD" input line)
 				)
 				(pin bidirectional line
-					(at -15.24 8.89 0)
+					(at -15.24 13.97 0)
 					(length 2.54)
-					(name "IO38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSPIWP" bidirectional line)
-					(alternate "SUBSPIWP" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -15.24 6.35 0)
-					(length 2.54)
-					(name "I045"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 3.81 0)
-					(length 2.54)
-					(name "I046"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 1.27 0)
-					(length 2.54)
-					(name "IO47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPICLK_P_DIFF" output line)
-					(alternate "SUBSPICLK_P_DIFF" output line)
-				)
-				(pin bidirectional line
-					(at -15.24 -1.27 0)
-					(length 2.54)
-					(name "IO48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPICLK_N_DIFF" output line)
-					(alternate "SUBSPICLK_N_DIFF" output line)
-				)
-				(pin bidirectional line
-					(at 12.7 26.67 180)
-					(length 2.54)
-					(name "IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_GPIO0" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 24.13 180)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH0" input line)
-					(alternate "RTC_GPIO1" bidirectional line)
-					(alternate "TOUCH1" input line)
-				)
-				(pin bidirectional line
-					(at 12.7 21.59 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH1" input line)
-					(alternate "RTC_GPIO2" bidirectional line)
-					(alternate "TOUCH2" input line)
-				)
-				(pin bidirectional line
-					(at 12.7 19.05 180)
-					(length 2.54)
-					(name "I03"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH2" input line)
-					(alternate "RTC_GPIO3" bidirectional line)
-					(alternate "TOUCH3" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 16.51 180)
-					(length 2.54)
-					(name "I04"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH3" input line)
-					(alternate "RTC_GPIO4" bidirectional line)
-					(alternate "TOUCH4" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 13.97 180)
-					(length 2.54)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH4" input line)
-					(alternate "RTC_GPIO5" bidirectional line)
-					(alternate "TOUCH5" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 11.43 180)
-					(length 2.54)
-					(name "I06"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH5" input line)
-					(alternate "RTC_GPIO6" bidirectional line)
-					(alternate "TOUCH6" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 8.89 180)
-					(length 2.54)
-					(name "I07"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH6" input line)
-					(alternate "RTC_GPIO7" bidirectional line)
-					(alternate "TOUCH7" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 6.35 180)
-					(length 2.54)
-					(name "I08"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH7" input line)
-					(alternate "RTC_GPIO8" bidirectional line)
-					(alternate "SUBSPICS1" output line)
-					(alternate "TOUCH8" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 3.81 180)
-					(length 2.54)
-					(name "I09"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH8" input line)
-					(alternate "FSPIHD" bidirectional line)
-					(alternate "RTC_GPIO9" bidirectional line)
-					(alternate "SUBSPICS1" output line)
-					(alternate "SUBSPIHD" bidirectional line)
-					(alternate "TOUCH9" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "I010"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH9" input line)
-					(alternate "FSPICS0" bidirectional line)
-					(alternate "FSPII04" bidirectional line)
-					(alternate "RTC_GPIO10" bidirectional line)
-					(alternate "SUBSPICS0" output line)
-					(alternate "TOUCH10" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "I011"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH0" input line)
-					(alternate "FSPID" bidirectional line)
-					(alternate "FSPII05" output line)
-					(alternate "RTC_GPIO11" bidirectional line)
-					(alternate "SUBSPID" bidirectional line)
-					(alternate "TOUCH11" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "I012"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH1" input line)
-					(alternate "FSPICLK" bidirectional line)
-					(alternate "FSPII06" output line)
-					(alternate "RTC_GPIO12" bidirectional line)
-					(alternate "SUBSPICLK" bidirectional line)
-					(alternate "TOUCH12" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "I013"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH2" input line)
-					(alternate "FSPII07" output line)
-					(alternate "FSPIQ" bidirectional line)
-					(alternate "RTC_GPIO13" bidirectional line)
-					(alternate "SUBSPIQ" bidirectional line)
-					(alternate "TOUCH13" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -8.89 180)
-					(length 2.54)
-					(name "I014"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH3" input line)
-					(alternate "FSPIDQS" output line)
-					(alternate "FSPIWP" bidirectional line)
-					(alternate "RTC_GPIO14" bidirectional line)
-					(alternate "SUBSPIWP" bidirectional line)
-					(alternate "TOUCH14" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -11.43 180)
-					(length 2.54)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_GPIO21" bidirectional line)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_2_3_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin no_connect line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28,29,30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28,29,31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1,40,41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_2_4_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 3.81 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 5.08 180)
-					(length 2.54)
-					(name "IO39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CKL_OUT3" output line)
-					(alternate "MTCK" input line)
-					(alternate "SUBSPICS1" output line)
-				)
-				(pin bidirectional line
-					(at 6.35 1.27 180)
-					(length 2.54)
-					(name "IO40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT2" output line)
-					(alternate "MTD0" output line)
-				)
-				(pin bidirectional line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "IO41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT1" output line)
-					(alternate "MTDI" input line)
-				)
-				(pin bidirectional line
-					(at 6.35 -6.35 180)
-					(length 2.54)
-					(name "IO42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "MTMS" input line)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ESP32-S3-WROOM-2_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -11.43 32.766 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "RF_Module:ESP32-S3-WROOM-2"
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2.4 GHz Wi-fi (802.11b/g/n) and Bluetooth 5 module"
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_3_1_1"
-				(rectangle
-					(start -7.62 8.89)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at 6.35 6.35 180)
-					(length 2.54)
-					(name "RXD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT2" output line)
-					(alternate "GPI044" bidirectional line)
-				)
-				(pin output line
-					(at 6.35 3.81 180)
-					(length 2.54)
-					(name "TXD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT1" output line)
-					(alternate "GPIO43" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 6.35 1.27 180)
-					(length 2.54)
-					(name "IO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB_D-" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 6.35 -1.27 180)
-					(length 2.54)
-					(name "IO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB_D+" bidirectional line)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_3_2_1"
-				(rectangle
-					(start -12.7 29.21)
-					(end 10.16 -13.97)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 24.13 0)
-					(length 2.54)
-					(name "IO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH4" input line)
-					(alternate "RTC_GPIO15" bidirectional line)
-					(alternate "U0RTS" bidirectional line)
-					(alternate "XTAL_32K_P" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 21.59 0)
-					(length 2.54)
-					(name "IO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH5" input line)
-					(alternate "RTC_GPIO16" bidirectional line)
-					(alternate "U0CTS" bidirectional line)
-					(alternate "XTAL_32K_N" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 19.05 0)
-					(length 2.54)
-					(name "IO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH6" input line)
-					(alternate "RTC_GPIO17" bidirectional line)
-					(alternate "U1TXD" output line)
-				)
-				(pin bidirectional line
-					(at -15.24 16.51 0)
-					(length 2.54)
-					(name "IO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH7" input line)
-					(alternate "CLK_OUT3" output line)
-					(alternate "RTC_GPIO18" bidirectional line)
-					(alternate "U1RXD" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 8.89 0)
-					(length 2.54)
-					(name "IO38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSPIWP" bidirectional line)
-					(alternate "SUBSPIWP" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -15.24 6.35 0)
-					(length 2.54)
-					(name "I045"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 3.81 0)
-					(length 2.54)
-					(name "I046"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 1.27 0)
-					(length 2.54)
-					(name "IO47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPICLK_P_DIFF" output line)
-					(alternate "SUBSPICLK_P_DIFF" output line)
-				)
-				(pin bidirectional line
-					(at -15.24 -1.27 0)
-					(length 2.54)
-					(name "IO48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPICLK_N_DIFF" output line)
-					(alternate "SUBSPICLK_N_DIFF" output line)
-				)
-				(pin bidirectional line
-					(at 12.7 26.67 180)
-					(length 2.54)
-					(name "IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_GPIO0" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 24.13 180)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH0" input line)
-					(alternate "RTC_GPIO1" bidirectional line)
-					(alternate "TOUCH1" input line)
-				)
-				(pin bidirectional line
-					(at 12.7 21.59 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH1" input line)
-					(alternate "RTC_GPIO2" bidirectional line)
-					(alternate "TOUCH2" input line)
-				)
-				(pin bidirectional line
-					(at 12.7 19.05 180)
-					(length 2.54)
-					(name "I03"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH2" input line)
-					(alternate "RTC_GPIO3" bidirectional line)
-					(alternate "TOUCH3" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 16.51 180)
-					(length 2.54)
-					(name "I04"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH3" input line)
-					(alternate "RTC_GPIO4" bidirectional line)
-					(alternate "TOUCH4" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 13.97 180)
-					(length 2.54)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH4" input line)
-					(alternate "RTC_GPIO5" bidirectional line)
-					(alternate "TOUCH5" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 11.43 180)
-					(length 2.54)
-					(name "I06"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH5" input line)
-					(alternate "RTC_GPIO6" bidirectional line)
-					(alternate "TOUCH6" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 8.89 180)
-					(length 2.54)
-					(name "I07"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH6" input line)
-					(alternate "RTC_GPIO7" bidirectional line)
-					(alternate "TOUCH7" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 6.35 180)
-					(length 2.54)
-					(name "I08"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH7" input line)
-					(alternate "RTC_GPIO8" bidirectional line)
-					(alternate "SUBSPICS1" output line)
-					(alternate "TOUCH8" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 3.81 180)
-					(length 2.54)
-					(name "I09"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH8" input line)
-					(alternate "FSPIHD" bidirectional line)
-					(alternate "RTC_GPIO9" bidirectional line)
-					(alternate "SUBSPICS1" output line)
-					(alternate "SUBSPIHD" bidirectional line)
-					(alternate "TOUCH9" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "I010"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH9" input line)
-					(alternate "FSPICS0" bidirectional line)
-					(alternate "FSPII04" bidirectional line)
-					(alternate "RTC_GPIO10" bidirectional line)
-					(alternate "SUBSPICS0" output line)
-					(alternate "TOUCH10" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "I011"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH0" input line)
-					(alternate "FSPID" bidirectional line)
-					(alternate "FSPII05" output line)
-					(alternate "RTC_GPIO11" bidirectional line)
-					(alternate "SUBSPID" bidirectional line)
-					(alternate "TOUCH11" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "I012"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH1" input line)
-					(alternate "FSPICLK" bidirectional line)
-					(alternate "FSPII06" output line)
-					(alternate "RTC_GPIO12" bidirectional line)
-					(alternate "SUBSPICLK" bidirectional line)
-					(alternate "TOUCH12" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "I013"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH2" input line)
-					(alternate "FSPII07" output line)
-					(alternate "FSPIQ" bidirectional line)
-					(alternate "RTC_GPIO13" bidirectional line)
-					(alternate "SUBSPIQ" bidirectional line)
-					(alternate "TOUCH13" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -8.89 180)
-					(length 2.54)
-					(name "I014"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH3" input line)
-					(alternate "FSPIDQS" output line)
-					(alternate "FSPIWP" bidirectional line)
-					(alternate "RTC_GPIO14" bidirectional line)
-					(alternate "SUBSPIWP" bidirectional line)
-					(alternate "TOUCH14" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -11.43 180)
-					(length 2.54)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_GPIO21" bidirectional line)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_3_3_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin no_connect line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "NC"
+					(name "IO35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2515,12 +446,14 @@
 							)
 						)
 					)
+					(alternate "FSPID" bidirectional line)
+					(alternate "SPIIO6" bidirectional line)
+					(alternate "SUBSPID" bidirectional line)
 				)
-				(pin no_connect line
-					(at -8.89 -1.27 0)
+				(pin bidirectional line
+					(at -15.24 11.43 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "IO36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2534,12 +467,14 @@
 							)
 						)
 					)
+					(alternate "FSPICLK" bidirectional line)
+					(alternate "SPIIO7" bidirectional line)
+					(alternate "SUBSPICLK" bidirectional line)
 				)
-				(pin no_connect line
-					(at -8.89 -1.27 0)
+				(pin bidirectional line
+					(at -15.24 8.89 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "IO37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2552,6 +487,469 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+					(alternate "FSPIQ" bidirectional line)
+					(alternate "SPIDQS" bidirectional line)
+					(alternate "SUBSPIQ" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "IO38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "FSPIWP" bidirectional line)
+					(alternate "SUBSPIWP" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "I045"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name "I046"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -1.27 0)
+					(length 2.54)
+					(name "IO47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPICLK_P_DIFF" output line)
+					(alternate "SUBSPICLK_P_DIFF" output line)
+				)
+				(pin bidirectional line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "IO48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "SPICLK_N_DIFF" output line)
+					(alternate "SUBSPICLK_N_DIFF" output line)
+				)
+				(pin bidirectional line
+					(at 12.7 26.67 180)
+					(length 2.54)
+					(name "IO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RTC_GPIO0" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 24.13 180)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH0" input line)
+					(alternate "RTC_GPIO1" bidirectional line)
+					(alternate "TOUCH1" input line)
+				)
+				(pin bidirectional line
+					(at 12.7 21.59 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH1" input line)
+					(alternate "RTC_GPIO2" bidirectional line)
+					(alternate "TOUCH2" input line)
+				)
+				(pin bidirectional line
+					(at 12.7 19.05 180)
+					(length 2.54)
+					(name "I03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH2" input line)
+					(alternate "RTC_GPIO3" bidirectional line)
+					(alternate "TOUCH3" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 16.51 180)
+					(length 2.54)
+					(name "I04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH3" input line)
+					(alternate "RTC_GPIO4" bidirectional line)
+					(alternate "TOUCH4" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 13.97 180)
+					(length 2.54)
+					(name "IO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH4" input line)
+					(alternate "RTC_GPIO5" bidirectional line)
+					(alternate "TOUCH5" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 11.43 180)
+					(length 2.54)
+					(name "I06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH5" input line)
+					(alternate "RTC_GPIO6" bidirectional line)
+					(alternate "TOUCH6" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "I07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH6" input line)
+					(alternate "RTC_GPIO7" bidirectional line)
+					(alternate "TOUCH7" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "I08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH7" input line)
+					(alternate "RTC_GPIO8" bidirectional line)
+					(alternate "SUBSPICS1" output line)
+					(alternate "TOUCH8" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "I09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH8" input line)
+					(alternate "FSPIHD" bidirectional line)
+					(alternate "RTC_GPIO9" bidirectional line)
+					(alternate "SUBSPICS1" output line)
+					(alternate "SUBSPIHD" bidirectional line)
+					(alternate "TOUCH9" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "I010"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_CH9" input line)
+					(alternate "FSPICS0" bidirectional line)
+					(alternate "FSPII04" bidirectional line)
+					(alternate "RTC_GPIO10" bidirectional line)
+					(alternate "SUBSPICS0" output line)
+					(alternate "TOUCH10" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "I011"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC2_CH0" input line)
+					(alternate "FSPID" bidirectional line)
+					(alternate "FSPII05" output line)
+					(alternate "RTC_GPIO11" bidirectional line)
+					(alternate "SUBSPID" bidirectional line)
+					(alternate "TOUCH11" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "I012"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC2_CH1" input line)
+					(alternate "FSPICLK" bidirectional line)
+					(alternate "FSPII06" output line)
+					(alternate "RTC_GPIO12" bidirectional line)
+					(alternate "SUBSPICLK" bidirectional line)
+					(alternate "TOUCH12" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "I013"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC2_CH2" input line)
+					(alternate "FSPII07" output line)
+					(alternate "FSPIQ" bidirectional line)
+					(alternate "RTC_GPIO13" bidirectional line)
+					(alternate "SUBSPIQ" bidirectional line)
+					(alternate "TOUCH13" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "I014"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC2_CH3" input line)
+					(alternate "FSPIDQS" output line)
+					(alternate "FSPIWP" bidirectional line)
+					(alternate "RTC_GPIO14" bidirectional line)
+					(alternate "SUBSPIWP" bidirectional line)
+					(alternate "TOUCH14" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "IO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RTC_GPIO21" bidirectional line)
+				)
+			)
+			(symbol "ESP32-S3-WROOM-2_3_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin power_in line
@@ -2621,897 +1019,6 @@
 						)
 					)
 					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_3_4_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 3.81 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at 6.35 5.08 180)
-					(length 2.54)
-					(name "IO39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CKL_OUT3" output line)
-					(alternate "MTCK" input line)
-					(alternate "SUBSPICS1" output line)
-				)
-				(pin bidirectional line
-					(at 6.35 1.27 180)
-					(length 2.54)
-					(name "IO40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT2" output line)
-					(alternate "MTD0" output line)
-				)
-				(pin bidirectional line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "IO41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT1" output line)
-					(alternate "MTDI" input line)
-				)
-				(pin bidirectional line
-					(at 6.35 -6.35 180)
-					(length 2.54)
-					(name "IO42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "MTMS" input line)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Esp32-Carrier-Board:ESP32-S3-WROOM-2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -11.43 32.766 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2.4 GHz Wi-fi (802.11b/g/n) and Bluetooth 5 module"
-				(at -180.34 -99.06 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_1_1"
-				(rectangle
-					(start -5.08 8.89)
-					(end 3.81 -7.62)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at 6.35 6.35 180)
-					(length 2.54)
-					(name "RXD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT2" output line)
-					(alternate "GPI044" bidirectional line)
-				)
-				(pin output line
-					(at 6.35 2.54 180)
-					(length 2.54)
-					(name "TXD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "CLK_OUT1" output line)
-					(alternate "GPIO43" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 6.35 -1.27 180)
-					(length 2.54)
-					(name "IO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB_D-" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 6.35 -5.08 180)
-					(length 2.54)
-					(name "IO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "USB_D+" bidirectional line)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_2_1"
-				(rectangle
-					(start -12.7 30.48)
-					(end 10.16 -31.75)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 24.13 0)
-					(length 2.54)
-					(name "IO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH4" input line)
-					(alternate "RTC_GPIO15" bidirectional line)
-					(alternate "U0RTS" bidirectional line)
-					(alternate "XTAL_32K_P" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 20.32 0)
-					(length 2.54)
-					(name "IO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH5" input line)
-					(alternate "RTC_GPIO16" bidirectional line)
-					(alternate "U0CTS" bidirectional line)
-					(alternate "XTAL_32K_N" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 16.51 0)
-					(length 2.54)
-					(name "IO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH6" input line)
-					(alternate "RTC_GPIO17" bidirectional line)
-					(alternate "U1TXD" output line)
-				)
-				(pin bidirectional line
-					(at -15.24 12.7 0)
-					(length 2.54)
-					(name "IO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH7" input line)
-					(alternate "CLK_OUT3" output line)
-					(alternate "RTC_GPIO18" bidirectional line)
-					(alternate "U1RXD" input line)
-				)
-				(pin bidirectional line
-					(at -15.24 2.54 0)
-					(length 2.54)
-					(name "IO38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "FSPIWP" bidirectional line)
-					(alternate "SUBSPIWP" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -15.24 -1.27 0)
-					(length 2.54)
-					(name "I045"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -5.08 0)
-					(length 2.54)
-					(name "I046"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -8.89 0)
-					(length 2.54)
-					(name "IO47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPICLK_P_DIFF" output line)
-					(alternate "SUBSPICLK_P_DIFF" output line)
-				)
-				(pin bidirectional line
-					(at -15.24 -12.7 0)
-					(length 2.54)
-					(name "IO48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "SPICLK_N_DIFF" output line)
-					(alternate "SUBSPICLK_N_DIFF" output line)
-				)
-				(pin bidirectional line
-					(at 12.7 27.94 180)
-					(length 2.54)
-					(name "IO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_GPIO0" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 24.13 180)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH0" input line)
-					(alternate "RTC_GPIO1" bidirectional line)
-					(alternate "TOUCH1" input line)
-				)
-				(pin bidirectional line
-					(at 12.7 20.32 180)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH1" input line)
-					(alternate "RTC_GPIO2" bidirectional line)
-					(alternate "TOUCH2" input line)
-				)
-				(pin bidirectional line
-					(at 12.7 16.51 180)
-					(length 2.54)
-					(name "I03"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH2" input line)
-					(alternate "RTC_GPIO3" bidirectional line)
-					(alternate "TOUCH3" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "I04"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH3" input line)
-					(alternate "RTC_GPIO4" bidirectional line)
-					(alternate "TOUCH4" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 8.89 180)
-					(length 2.54)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH4" input line)
-					(alternate "RTC_GPIO5" bidirectional line)
-					(alternate "TOUCH5" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "I06"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH5" input line)
-					(alternate "RTC_GPIO6" bidirectional line)
-					(alternate "TOUCH6" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "I07"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH6" input line)
-					(alternate "RTC_GPIO7" bidirectional line)
-					(alternate "TOUCH7" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "I08"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH7" input line)
-					(alternate "RTC_GPIO8" bidirectional line)
-					(alternate "SUBSPICS1" output line)
-					(alternate "TOUCH8" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "I09"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH8" input line)
-					(alternate "FSPIHD" bidirectional line)
-					(alternate "RTC_GPIO9" bidirectional line)
-					(alternate "SUBSPICS1" output line)
-					(alternate "SUBSPIHD" bidirectional line)
-					(alternate "TOUCH9" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "I010"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_CH9" input line)
-					(alternate "FSPICS0" bidirectional line)
-					(alternate "FSPII04" bidirectional line)
-					(alternate "RTC_GPIO10" bidirectional line)
-					(alternate "SUBSPICS0" output line)
-					(alternate "TOUCH10" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -13.97 180)
-					(length 2.54)
-					(name "I011"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH0" input line)
-					(alternate "FSPID" bidirectional line)
-					(alternate "FSPII05" output line)
-					(alternate "RTC_GPIO11" bidirectional line)
-					(alternate "SUBSPID" bidirectional line)
-					(alternate "TOUCH11" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -17.78 180)
-					(length 2.54)
-					(name "I012"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH1" input line)
-					(alternate "FSPICLK" bidirectional line)
-					(alternate "FSPII06" output line)
-					(alternate "RTC_GPIO12" bidirectional line)
-					(alternate "SUBSPICLK" bidirectional line)
-					(alternate "TOUCH12" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -21.59 180)
-					(length 2.54)
-					(name "I013"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH2" input line)
-					(alternate "FSPII07" output line)
-					(alternate "FSPIQ" bidirectional line)
-					(alternate "RTC_GPIO13" bidirectional line)
-					(alternate "SUBSPIQ" bidirectional line)
-					(alternate "TOUCH13" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -25.4 180)
-					(length 2.54)
-					(name "I014"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC2_CH3" input line)
-					(alternate "FSPIDQS" output line)
-					(alternate "FSPIWP" bidirectional line)
-					(alternate "RTC_GPIO14" bidirectional line)
-					(alternate "SUBSPIWP" bidirectional line)
-					(alternate "TOUCH14" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -29.21 180)
-					(length 2.54)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_GPIO21" bidirectional line)
-				)
-			)
-			(symbol "ESP32-S3-WROOM-2_3_1"
-				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -8.89)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin no_connect line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28,29,30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28,29,31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1,40,41"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3908,6 +1415,18 @@
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
 	)
 	(junction
+		(at 247.65 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c19b2da-4ff6-4f3b-9f30-9b3fe77e9114")
+	)
+	(junction
+		(at 247.65 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38b61962-c510-4aa7-ae47-74dee9085955")
+	)
+	(junction
 		(at 229.87 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3960,6 +1479,15 @@
 			(type default)
 		)
 		(uuid "2aa934cc-b045-43e9-ae17-68cec7f18f4f")
+	)
+	(bus_entry
+		(at 113.03 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2caa7a99-06c3-4fc7-b1a5-7ff595f0f109")
 	)
 	(bus_entry
 		(at 113.03 91.44)
@@ -4059,6 +1587,24 @@
 			(type default)
 		)
 		(uuid "76de6dc9-3e44-4f23-a902-35be79d8b0d6")
+	)
+	(bus_entry
+		(at 113.03 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e898884-da58-42fb-8855-4c46087dd4d8")
+	)
+	(bus_entry
+		(at 113.03 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8813bcff-7beb-467c-8c84-6790cd51e1c1")
 	)
 	(bus_entry
 		(at 113.03 86.36)
@@ -4242,6 +1788,16 @@
 		)
 		(uuid "07f0f009-8fd9-49e8-8130-912c552def10")
 	)
+	(wire
+		(pts
+			(xy 247.65 107.95) (xy 247.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bbccae-7db0-4bfa-9050-7fa3daae9893")
+	)
 	(bus
 		(pts
 			(xy 77.47 62.23) (xy 77.47 64.77)
@@ -4272,6 +1828,16 @@
 		)
 		(uuid "0c704711-480c-4a7c-9924-1f8551eb7a9b")
 	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd14d81-e289-4248-aba3-3137930c2c21")
+	)
 	(bus
 		(pts
 			(xy 113.03 109.22) (xy 113.03 111.76)
@@ -4294,13 +1860,23 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 121.92) (xy 243.84 121.92)
+			(xy 238.76 121.92) (xy 247.65 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1674d995-0ba4-444e-932e-98cddfed2db4")
+	)
+	(wire
+		(pts
+			(xy 247.65 121.92) (xy 252.73 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a15e8a5-49b2-4438-9107-7469dca4d531")
 	)
 	(wire
 		(pts
@@ -4361,6 +1937,16 @@
 			(type default)
 		)
 		(uuid "276d6ef2-3c56-4e93-93d5-e3bbfe0e2849")
+	)
+	(wire
+		(pts
+			(xy 247.65 107.95) (xy 255.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c7bc75-9035-4ab8-be0e-4e5a5b5975c0")
 	)
 	(bus
 		(pts
@@ -4432,6 +2018,16 @@
 		)
 		(uuid "42835457-41bf-4f87-89fd-5deeeefc51ee")
 	)
+	(bus
+		(pts
+			(xy 113.03 96.52) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45462ac2-b8d3-4b22-8209-b0ab15ef4879")
+	)
 	(wire
 		(pts
 			(xy 229.87 105.41) (xy 229.87 107.95)
@@ -4501,6 +2097,16 @@
 			(type default)
 		)
 		(uuid "540ec4ca-50f2-40eb-a96a-52be4e8f671d")
+	)
+	(bus
+		(pts
+			(xy 113.03 111.76) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57796613-b399-45d7-985f-48bd8ab7c8fa")
 	)
 	(wire
 		(pts
@@ -4664,7 +2270,7 @@
 	)
 	(bus
 		(pts
-			(xy 113.03 93.98) (xy 113.03 101.6)
+			(xy 113.03 93.98) (xy 113.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4804,7 +2410,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 107.95) (xy 233.68 107.95)
+			(xy 115.57 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c600aaad-121b-4725-b165-2c1a42acc09c")
+	)
+	(wire
+		(pts
+			(xy 229.87 107.95) (xy 247.65 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4871,6 +2487,16 @@
 			(type default)
 		)
 		(uuid "d6bae64f-e582-434d-b6e8-818f76b7b2c0")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c1e4f2-34af-4844-856a-2908f7d62360")
 	)
 	(bus
 		(pts
@@ -5012,6 +2638,16 @@
 		)
 		(uuid "f9805ade-2321-41e5-b78c-f2af010c3d40")
 	)
+	(bus
+		(pts
+			(xy 113.03 99.06) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd39ee98-a009-4ef9-8ea4-4247ab4db1bd")
+	)
 	(wire
 		(pts
 			(xy 115.57 106.68) (xy 127 106.68)
@@ -5042,7 +2678,17 @@
 		)
 		(uuid "03105705-a7c9-4ac2-bff0-eea76e767097")
 	)
-	(label "GPIO47"
+	(label "GPIO48"
+		(at 115.57 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a613d7c-da5f-4c4b-ad18-6587563f8a00")
+	)
+	(label "GPIO46"
 		(at 115.57 111.76 0)
 		(effects
 			(font
@@ -5052,7 +2698,7 @@
 		)
 		(uuid "1f8aeb5d-161b-4126-96a6-3471470afa45")
 	)
-	(label "GPIO38"
+	(label "GPIO37"
 		(at 115.57 104.14 0)
 		(effects
 			(font
@@ -5152,7 +2798,7 @@
 		)
 		(uuid "421527be-bd5c-4013-ab5d-38717d5b5e0c")
 	)
-	(label "GPIO48"
+	(label "GPIO47"
 		(at 115.57 114.3 0)
 		(effects
 			(font
@@ -5212,6 +2858,16 @@
 		)
 		(uuid "71acbba8-9a59-4acd-a600-d9044936230f")
 	)
+	(label "GPIO35"
+		(at 115.57 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "753efa19-a3bc-487d-858c-1acf607c3e76")
+	)
 	(label "GPIO10"
 		(at 154.94 111.76 0)
 		(effects
@@ -5232,7 +2888,7 @@
 		)
 		(uuid "834915f2-fd54-41a3-a895-f4283ecee4ce")
 	)
-	(label "GPIO45"
+	(label "GPIO38"
 		(at 115.57 106.68 0)
 		(effects
 			(font
@@ -5292,7 +2948,7 @@
 		)
 		(uuid "cc94020e-1934-4823-9893-4108e4250e34")
 	)
-	(label "GPIO46"
+	(label "GPIO45"
 		(at 115.57 109.22 0)
 		(effects
 			(font
@@ -5311,6 +2967,16 @@
 			(justify left bottom)
 		)
 		(uuid "d58ffb11-526f-498f-b11a-3805561e047e")
+	)
+	(label "GPIO36"
+		(at 115.57 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db351ed6-5117-449b-9b05-3fd63e95bdba")
 	)
 	(label "JTAG.TDI"
 		(at 62.23 120.65 0)
@@ -5364,7 +3030,7 @@
 	)
 	(hierarchical_label "3v3"
 		(shape input)
-		(at 233.68 107.95 0)
+		(at 255.27 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5384,7 +3050,7 @@
 		)
 		(uuid "2ee474a5-0c73-40c5-b4c4-fb57d7745361")
 	)
-	(hierarchical_label "{GPIO[0..20] GPIO21 GPIO38 GPIO[45..48]}"
+	(hierarchical_label "{GPIO[0..20] GPIO21 GPIO[35..38] GPIO[45..48]}"
 		(shape input)
 		(at 195.58 80.01 0)
 		(effects
@@ -5408,7 +3074,7 @@
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 243.84 121.92 0)
+		(at 252.73 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5561,8 +3227,7 @@
 		)
 	)
 	(symbol
-		(lib_name "ESP32-S3-WROOM-2_3")
-		(lib_id "Esp32-Carrier-Board:ESP32-S3-WROOM-2")
+		(lib_id "_MCU_ESP32:ESP32-S3-WROOM-2")
 		(at 229.87 120.65 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -5572,19 +3237,21 @@
 		(fields_autoplaced yes)
 		(uuid "44498e29-3441-4b40-9e82-154efa01e938")
 		(property "Reference" "U1"
-			(at 240.03 116.7698 0)
+			(at 222.25 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 240.03 118.6749 0)
+			(at 222.25 122.5549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-2"
@@ -5747,8 +3414,7 @@
 		)
 	)
 	(symbol
-		(lib_name "ESP32-S3-WROOM-2_1")
-		(lib_id "Esp32-Carrier-Board:ESP32-S3-WROOM-2")
+		(lib_id "_MCU_ESP32:ESP32-S3-WROOM-2")
 		(at 54.61 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5758,7 +3424,7 @@
 		(fields_autoplaced yes)
 		(uuid "44e4e314-0190-46bc-84b9-29ee378c2a2d")
 		(property "Reference" "U1"
-			(at 53.975 53.34 0)
+			(at 52.705 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +3432,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 53.975 55.88 0)
+			(at 52.705 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +3472,7 @@
 		(pin "11"
 			(uuid "d1bb0819-d345-4751-b4de-4a050e2bcd1b")
 		)
-		(pin "1,40,41"
+		(pin "41"
 			(uuid "389b64b8-924a-45bc-aa50-1eb024eb5a8e")
 		)
 		(pin "33"
@@ -5881,7 +3547,7 @@
 		(pin "12"
 			(uuid "efb141e2-a02a-42c1-9a2b-e9ff09c21773")
 		)
-		(pin "28,29,31"
+		(pin "30"
 			(uuid "5d7c782a-483f-4fb7-96a9-9ba6617a3f63")
 		)
 		(pin "3"
@@ -5896,7 +3562,7 @@
 		(pin "8"
 			(uuid "f2c5a1bc-fd6d-4173-a8f5-5d25c99d7b18")
 		)
-		(pin "28,29,30"
+		(pin "1"
 			(uuid "97da8152-5a1f-453c-b61c-04a0d814e0c4")
 		)
 		(pin "14"
@@ -5914,6 +3580,15 @@
 		(pin "39"
 			(uuid "6eba9d8d-30a6-4510-bb6e-7b8d5dc13e4a")
 		)
+		(pin "28"
+			(uuid "c925045f-0004-4934-a36c-322216ae69eb")
+		)
+		(pin "40"
+			(uuid "26cb6b8a-8875-4fbb-bfe6-a12aeb8b37a6")
+		)
+		(pin "29"
+			(uuid "3cb2c366-37b8-44e1-9c79-b37181cd6bfa")
+		)
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
@@ -5924,8 +3599,7 @@
 		)
 	)
 	(symbol
-		(lib_name "ESP32-S3-WROOM-2_2")
-		(lib_id "Esp32-Carrier-Board:ESP32-S3-WROOM-2")
+		(lib_id "_MCU_ESP32:ESP32-S3-WROOM-2")
 		(at 142.24 113.03 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5982,7 +3656,7 @@
 		(pin "11"
 			(uuid "d1bb0819-d345-4751-b4de-4a050e2bcd1c")
 		)
-		(pin "1,40,41"
+		(pin "41"
 			(uuid "389b64b8-924a-45bc-aa50-1eb024eb5a8f")
 		)
 		(pin "33"
@@ -6057,7 +3731,7 @@
 		(pin "12"
 			(uuid "efb141e2-a02a-42c1-9a2b-e9ff09c21774")
 		)
-		(pin "28,29,31"
+		(pin "29"
 			(uuid "5d7c782a-483f-4fb7-96a9-9ba6617a3f64")
 		)
 		(pin "3"
@@ -6072,7 +3746,7 @@
 		(pin "8"
 			(uuid "f2c5a1bc-fd6d-4173-a8f5-5d25c99d7b19")
 		)
-		(pin "28,29,30"
+		(pin "30"
 			(uuid "97da8152-5a1f-453c-b61c-04a0d814e0c5")
 		)
 		(pin "14"
@@ -6090,6 +3764,15 @@
 		(pin "39"
 			(uuid "6eba9d8d-30a6-4510-bb6e-7b8d5dc13e4b")
 		)
+		(pin "1"
+			(uuid "f73f203f-da9f-4a55-8db0-20e388711ffe")
+		)
+		(pin "40"
+			(uuid "fd94344c-8749-4d3b-9d36-2336064caa58")
+		)
+		(pin "28"
+			(uuid "274da08e-9e0e-4971-bc03-106aa3013360")
+		)
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
@@ -6100,7 +3783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Esp32-Carrier-Board:ESP32-S3-WROOM-2")
+		(lib_id "_MCU_ESP32:ESP32-S3-WROOM-2")
 		(at 55.88 118.11 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -6110,7 +3793,7 @@
 		(fields_autoplaced yes)
 		(uuid "af7570ab-3a0d-4dbc-b8f3-a5298270876a")
 		(property "Reference" "U1"
-			(at 55.245 106.68 0)
+			(at 55.245 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +3801,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.245 109.22 0)
+			(at 55.245 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +3841,7 @@
 		(pin "11"
 			(uuid "d1bb0819-d345-4751-b4de-4a050e2bcd1d")
 		)
-		(pin "1,40,41"
+		(pin "30"
 			(uuid "389b64b8-924a-45bc-aa50-1eb024eb5a90")
 		)
 		(pin "33"
@@ -6233,7 +3916,7 @@
 		(pin "12"
 			(uuid "efb141e2-a02a-42c1-9a2b-e9ff09c21775")
 		)
-		(pin "28,29,31"
+		(pin "1"
 			(uuid "5d7c782a-483f-4fb7-96a9-9ba6617a3f65")
 		)
 		(pin "3"
@@ -6248,7 +3931,7 @@
 		(pin "8"
 			(uuid "f2c5a1bc-fd6d-4173-a8f5-5d25c99d7b1a")
 		)
-		(pin "28,29,30"
+		(pin "29"
 			(uuid "97da8152-5a1f-453c-b61c-04a0d814e0c6")
 		)
 		(pin "14"
@@ -6266,11 +3949,90 @@
 		(pin "39"
 			(uuid "6eba9d8d-30a6-4510-bb6e-7b8d5dc13e4c")
 		)
+		(pin "41"
+			(uuid "53924af5-bea1-4cd9-80ed-614c2bf2553f")
+		)
+		(pin "28"
+			(uuid "a5ee20d8-8ac4-4acf-9d3d-966c8d4c2187")
+		)
+		(pin "40"
+			(uuid "a6cc8c8e-6171-47c2-ba5d-e50f3c3a6ad0")
+		)
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "U1")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 247.65 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9ba669d-2318-4343-adfc-25b8d3739e84")
+		(property "Reference" "R5"
+			(at 250.19 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 250.19 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 248.666 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 247.65 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fbeb177-f73f-4ded-9f97-01bc86fcc1ef")
+		)
+		(pin "1"
+			(uuid "e7ad199e-2827-4ceb-82a6-56c06febe26f")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "R5")
+					(unit 1)
 				)
 			)
 		)
