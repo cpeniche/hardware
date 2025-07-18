@@ -3831,10 +3831,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "770e81c3-b189-4e01-8a70-697ca1511900")
+			(uuid "770e81c3-b189-4e01-8a70-697ca1511901")
 		)
 		(pin "1"
-			(uuid "344e941b-bd6d-4880-87ff-a339d850d98f")
+			(uuid "344e941b-bd6d-4880-87ff-a339d850d990")
 		)
 		(instances
 			(project ""
