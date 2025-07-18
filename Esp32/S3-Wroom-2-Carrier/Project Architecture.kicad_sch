@@ -88,6 +88,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 116.84) (xy 135.89 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169d5b43-b832-4a92-8995-a63ed34b0fea")
+	)
+	(wire
+		(pts
 			(xy 165.1 163.83) (xy 179.07 163.83)
 		)
 		(stroke
@@ -128,6 +138,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 114.3) (xy 135.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a927bb-02b8-4050-8cef-a79e2924ea41")
+	)
+	(wire
+		(pts
 			(xy 223.52 115.57) (xy 231.14 115.57)
 		)
 		(stroke
@@ -135,6 +155,26 @@
 			(type default)
 		)
 		(uuid "33effd5c-eb00-4609-8fce-9ad04744facb")
+	)
+	(wire
+		(pts
+			(xy 165.1 160.02) (xy 179.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628f92db-e461-4d8b-95e1-1a273fd6d3bb")
+	)
+	(wire
+		(pts
+			(xy 128.27 125.73) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797fdae9-3ca5-4583-9fc1-e41d441d22ea")
 	)
 	(wire
 		(pts
@@ -196,25 +236,15 @@
 		)
 		(uuid "ae89aa28-18e6-44a4-bdcb-c5d1b7690d4c")
 	)
-	(wire
-		(pts
-			(xy 165.1 152.4) (xy 179.07 152.4)
+	(label "PWR_EN"
+		(at 135.89 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c608e43c-8097-4b05-8926-84ddded34a13")
-	)
-	(wire
-		(pts
-			(xy 128.27 118.11) (xy 135.89 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d42aff55-5f4f-486a-9305-2c16aabf161f")
+		(uuid "1acbcf40-8dee-4b94-9776-960f0d973f1b")
 	)
 	(label "GND"
 		(at 231.14 110.49 0)
@@ -226,6 +256,16 @@
 		)
 		(uuid "269f4e6b-3a5e-47df-9ef4-58a7e2e79ecb")
 	)
+	(label "PWR_EN"
+		(at 165.1 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63d6880f-c15e-4b91-b82c-8e763e895630")
+	)
 	(label "USB_D-"
 		(at 165.1 163.83 0)
 		(effects
@@ -236,8 +276,8 @@
 		)
 		(uuid "6c4a95b2-abfb-4c9b-ab71-1d28223ea882")
 	)
-	(label "3v3"
-		(at 165.1 152.4 0)
+	(label "VIN"
+		(at 165.1 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -266,8 +306,8 @@
 		)
 		(uuid "8d7b56d4-6f92-4177-a0e7-be1682142966")
 	)
-	(label "3v3"
-		(at 135.89 118.11 0)
+	(label "VIN"
+		(at 135.89 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -306,6 +346,26 @@
 		)
 		(uuid "eae348d9-7cfc-43d3-b58e-ab981eb947dd")
 	)
+	(label "3v3"
+		(at 165.1 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb63079f-4cc1-4d05-860b-9a4c36bf9698")
+	)
+	(label "3v3"
+		(at 135.89 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecae18be-5f76-4b71-a4f0-2a3070a1456d")
+	)
 	(sheet
 		(at 179.07 146.05)
 		(size 27.94 28.575)
@@ -340,26 +400,6 @@
 				(justify left top)
 			)
 		)
-		(pin "3v3" input
-			(at 179.07 152.4 180)
-			(uuid "b059d888-0252-483c-b825-1e48ca79014e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EN" input
-			(at 179.07 157.48 180)
-			(uuid "16658a7c-b873-4356-8279-7fdd1b218ba0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VIN" input
 			(at 179.07 154.94 180)
 			(uuid "66b3be8b-3bf7-4750-bdfa-a87124574a89")
@@ -383,6 +423,26 @@
 		(pin "USB_D+" input
 			(at 179.07 167.64 180)
 			(uuid "0b8d7308-d745-444b-850a-89dbbb017204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 179.07 157.48 180)
+			(uuid "82e9c01a-d59b-4ee8-bb26-63f36685238c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3v3" input
+			(at 179.07 160.02 180)
+			(uuid "8b4beec4-8336-4e8b-aa59-4467b9ff498f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -558,16 +618,6 @@
 				(justify right)
 			)
 		)
-		(pin "3v3" input
-			(at 128.27 118.11 0)
-			(uuid "59dc0d03-0bf5-4fa9-adcd-c73d80fe561c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "JTAG{TDO TDI TMS TCLK}" bidirectional
 			(at 128.27 102.87 0)
 			(uuid "f59186be-943c-4e83-9057-40792901a493")
@@ -591,6 +641,36 @@
 		(pin "{GPIO[0..20] GPIO21 GPIO[35..38] GPIO[45..48]}" input
 			(at 128.27 106.68 0)
 			(uuid "ddc2f3c1-397d-4f33-8297-8d4aed3e9f89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 128.27 114.3 0)
+			(uuid "3d62b00b-61f5-407f-946f-234e640dd6e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 128.27 116.84 0)
+			(uuid "90b33968-30af-4bda-88da-0ea80d7bfef1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 128.27 125.73 0)
+			(uuid "b201f59b-d148-40b5-b14b-f13074da9779")
 			(effects
 				(font
 					(size 1.27 1.27)
