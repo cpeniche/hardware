@@ -264,7 +264,7 @@
 		(uuid "7daaeda0-5bc0-4ffe-bf6c-6d0bc40cd821")
 	)
 	(embedded_fonts no)
-	(model "/home/carlo/smbshare/Projects/hardware/libraries/Kicad_Library/3d_models/usb_mini_b.stp"
+	(model "${KICAD_USER_3D_MODELS}/usb_mini_b.stp"
 		(offset
 			(xyz 0 0 2)
 		)

@@ -377,7 +377,7 @@
 		(uuid "1946f015-65dc-4363-b217-b48af63de0f7")
 	)
 	(embedded_fonts no)
-	(model "/home/carlo/smbshare/Projects/hardware/libraries/Kicad_Library/3d_models/DF9B-21S-1V.stp"
+	(model "${KICAD_USER_3D_MODELS}/DF9B-21S-1V.stp"
 		(offset
 			(xyz -26.4 -45.5 3.3)
 		)

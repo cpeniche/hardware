@@ -1,3 +1,6 @@
 [submodule "libraries/SparkFun-Kicad-Libraries"]
 	path = libraries/SparkFun-Kicad-Libraries
 	url = https://github.com/benwis/SparkFun-Kicad-Libraries.git
+[submodule "libraries/SparkFun-KiCad-Libraries"]
+	path = libraries/SparkFun-KiCad-Libraries
+	url = https://github.com/sparkfun/SparkFun-KiCad-Libraries.git
