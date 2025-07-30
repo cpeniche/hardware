@@ -573,7 +573,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_text_size": 150.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -612,6 +612,14 @@
     [
       "00ed8740-45a2-4b9d-9104-9548b81da339",
       "Root"
+    ],
+    [
+      "09e16224-89ef-41be-8e8a-e086d89a7af9",
+      "Power Sheet"
+    ],
+    [
+      "8377aa62-8d99-48c6-8d5e-0da5edecd305",
+      "Microcontroller"
     ]
   ],
   "text_variables": {}
