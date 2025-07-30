@@ -1,0 +1,5 @@
+"category_id","id","datasheet","description","footprint","keyword","name","quantity","reference","symbol_id_str","tolerance","value","voltage"
+1,1,www.Kicad.org,"10K Smd Resistor",Resistor_SMD:R_0603_160Metric, ,"10K", ,R,Device:R,"10%","10K","10V"
+2,2,www.Kicad.org,"10uF Smd Capacitor",Resistor_SMD:R_0603_160Metric, ,"10uF", ,C,Device:C,"10%","10uF","10V"
+2,3,www.Kicad.org,"100uF Smd Capacitor",Resistor_SMD:R_0603_160Metric, ,"100uF", ,C,Device:C,"1%","100uF","10V"
+3,4,https://datasheets.maximintegrated.com/en/ds/MAX1873.pdf,"Charger for 4 lithium-ion (Li+), 10 NickelCadium (NiCD) cells or 10 NickelMetalHydride (NiMH), 9 to 28V VDD, -40 to +85 degree Celsius, QSOP-16",Package_SO:QSOP-16_3.9x4.9mm_P0.635mm,"",MAX1873TEEE,"5",U,Battery_Management:MAX1873TEEE, , , 

@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "version": 1.0
+    },
+    "name": "KiCad HTTP Library",
+    "description": "KiCad components database",
+    "source": {
+        "type": "REST_API",
+        "api_version": "v1",
+        "root_url": "http://localhost:8080/",
+        "token": "usertokendatastring",
+        "timeout_parts_seconds": 60,
+        "timeout_categories_seconds": 600
+    }
+  }
+   
+            
