@@ -1603,6 +1603,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Local_Footprints:DFN_3X3_EP"
@@ -1626,7 +1627,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 30V 9.5A 8DFN"
-			(at -12.7 3.81 0)
+			(at -15.24 9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,64 +1715,177 @@
 				(hide yes)
 			)
 		)
-		(symbol "AON7410_0_0"
-			(pin passive line
-				(at -12.7 3.81 0)
-				(length 5.08)
-				(name "S_1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		(symbol "AON7410_0_1"
+			(polyline
+				(pts
+					(xy -1.016 1.905) (xy -1.016 -1.905)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-			(pin passive line
-				(at -12.7 1.27 0)
-				(length 5.08)
-				(name "S_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy -1.016 0) (xy -3.81 0)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-			(pin passive line
-				(at -12.7 -1.27 0)
-				(length 5.08)
-				(name "S_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy -0.508 2.286) (xy -0.508 1.27)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
-			(pin passive line
-				(at -12.7 -3.81 0)
-				(length 5.08)
+			(polyline
+				(pts
+					(xy -0.508 0.508) (xy -0.508 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.27) (xy -0.508 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0.381 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy 1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AON7410_1_1"
+			(pin input line
+				(at -6.35 0 0)
+				(length 2.54)
 				(name "G"
 					(effects
 						(font
@@ -1788,9 +1902,9 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 3.81 180)
-				(length 5.08)
-				(name "D_1"
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1806,9 +1920,10 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 1.27 180)
-				(length 5.08)
-				(name "D_2"
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1824,9 +1939,10 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -1.27 180)
-				(length 5.08)
-				(name "D_3"
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1842,9 +1958,10 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -3.81 180)
-				(length 5.08)
-				(name "D_4"
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(hide yes)
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1859,18 +1976,60 @@
 					)
 				)
 			)
-		)
-		(symbol "AON7410_1_1"
-			(polyline
-				(pts
-					(xy -7.62 6.35) (xy 7.62 6.35) (xy 7.62 -6.35) (xy -7.62 -6.35) (xy -7.62 6.35)
+			(pin passive line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(stroke
-					(width 0.1524)
-					(type solid)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
+			)
+			(pin passive line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
