@@ -4300,16 +4300,16 @@
 		(uuid "333c16dc-14d3-4846-91d9-935a42960ad0")
 	)
 	(junction
-		(at 144.78 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e5cde3b-8d3e-4278-9737-f82be960b4f0")
-	)
-	(junction
 		(at 93.98 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58c9dec3-3114-4a3c-ad3d-523f3af48038")
+	)
+	(junction
+		(at 144.78 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b0d19ec-3f30-4853-a39e-4b33d4bc79b9")
 	)
 	(junction
 		(at 200.66 121.92)
@@ -5477,7 +5477,7 @@
 		)
 		(uuid "2b61a6d9-3b2e-409b-b31f-7be349398b84")
 	)
-	(label "IO13"
+	(label "+3.3V"
 		(at 76.2 63.5 0)
 		(effects
 			(font
@@ -5506,6 +5506,36 @@
 			(justify right bottom)
 		)
 		(uuid "32936982-3fdc-4b4b-89a3-d2deb0b849ce")
+	)
+	(label "GND"
+		(at 76.2 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "337c7a90-c0e7-455e-9134-4f077c2e62a6")
+	)
+	(label "GND"
+		(at 76.2 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d259a9d-e581-43d7-b136-d457a432ef33")
+	)
+	(label "+3.3V"
+		(at 76.2 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e87f34a-ca06-428e-9637-651fe5d10853")
 	)
 	(label "EN"
 		(at 143.51 49.53 0)
@@ -5557,6 +5587,16 @@
 		)
 		(uuid "518f4320-3499-49a0-9ca3-2cfa6cc295e4")
 	)
+	(label "GND"
+		(at 76.2 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "589550ce-7552-4bc1-bb68-36dee4d493bc")
+	)
 	(label "RX0"
 		(at 41.91 120.65 180)
 		(effects
@@ -5576,6 +5616,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ad8ad59-2339-4670-8c5b-8851e28493c2")
+	)
+	(label "+3.3V"
+		(at 76.2 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67123262-864c-47a8-9fb4-b1148c22330d")
 	)
 	(label "IO4"
 		(at 179.07 54.61 0)
@@ -6620,7 +6670,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbd007de-6f5e-46f6-b211-6b6e023eddf4")
+			(uuid "bbd007de-6f5e-46f6-b211-6b6e023eddf5")
 		)
 		(instances
 			(project ""
@@ -6901,7 +6951,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbd007de-6f5e-46f6-b211-6b6e023eddf4")
+			(uuid "bbd007de-6f5e-46f6-b211-6b6e023eddf6")
 		)
 		(instances
 			(project ""
@@ -7180,86 +7230,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_B_Mini")
-		(at 144.78 125.73 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98dfa73d-947c-46d1-be0d-f8af594d6896")
-		(property "Reference" "J2"
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_B_Mini"
-			(at 144.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "User_Footprint:Usb_B_mini_Wurth_65100516121"
-			(at 140.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Mini Type B connector"
-			(at 144.78 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b240752-ef2c-41f1-9bce-ee7f4e329270")
-		)
-		(pin "3"
-			(uuid "3c41b1e9-f59b-4040-8db0-9e15ff560f76")
-		)
-		(pin "5"
-			(uuid "3a71a66e-c611-416d-ace5-6346e2d60add")
-		)
-		(pin "2"
-			(uuid "b44b3747-413a-40d7-b79a-f8e196afd0e4")
-		)
-		(pin "6"
-			(uuid "db998436-70d8-47e0-ae1d-94cc8cbaf9ff")
-		)
-		(pin "4"
-			(uuid "116bb1df-315e-45c0-9be4-6baf5020c9ab")
-		)
-		(instances
-			(project "esp-wroom-2-carrier-board"
-				(path "/02e826db-efcd-428f-8d48-cef0de8c3fb5/74f3df9c-3c45-447b-96d6-ab37cb14244d"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 208.28 139.7 90)
 		(unit 1)
@@ -7467,6 +7437,86 @@
 			(project "esp-wroom-2-carrier-board"
 				(path "/02e826db-efcd-428f-8d48-cef0de8c3fb5/74f3df9c-3c45-447b-96d6-ab37cb14244d"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B_Mini")
+		(at 144.78 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af98ab26-6973-4bc8-84c0-8f42c0001ebd")
+		(property "Reference" "J3"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B_Mini"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal"
+			(at 140.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Mini Type B connector"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7b600cba-b9a2-4dc3-aef7-be7e92e0bf9a")
+		)
+		(pin "4"
+			(uuid "bc9ed1cb-daae-46a5-a7d0-40c6a1aaa8bf")
+		)
+		(pin "3"
+			(uuid "072cb54a-0d39-43ea-b138-3fb3825b2a39")
+		)
+		(pin "1"
+			(uuid "1313ce79-69b9-4405-9fc2-93c6ebb498b0")
+		)
+		(pin "6"
+			(uuid "49e739bd-6b04-437e-a378-0c02557fb284")
+		)
+		(pin "2"
+			(uuid "5eb09f45-fd43-493c-b7d0-3553f88320cc")
+		)
+		(instances
+			(project ""
+				(path "/02e826db-efcd-428f-8d48-cef0de8c3fb5/74f3df9c-3c45-447b-96d6-ab37cb14244d"
+					(reference "J3")
 					(unit 1)
 				)
 			)
