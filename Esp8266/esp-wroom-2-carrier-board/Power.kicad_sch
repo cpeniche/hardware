@@ -5,6 +5,114 @@
 	(uuid "48c67d62-242f-420f-98fa-174e444555ea")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -318,7 +426,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:B340"
+		(symbol "Diode:1N5819WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -337,7 +445,7 @@
 					)
 				)
 			)
-			(property "Value" "B340"
+			(property "Value" "1N5819WS"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -345,7 +453,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMC"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -354,7 +462,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -363,7 +471,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -381,7 +489,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SMC*"
+			(property "ki_fp_filters" "D*SOD?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -390,7 +498,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "B340_0_1"
+			(symbol "1N5819WS_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -428,7 +536,7 @@
 					)
 				)
 			)
-			(symbol "B340_1_1"
+			(symbol "1N5819WS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1518,6 +1626,12 @@
 		(uuid "30482641-3cf7-4c06-a10e-62a67ee27f15")
 	)
 	(junction
+		(at 91.44 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48ca9cf5-9d2e-45a7-83c5-0f682702ee7a")
+	)
+	(junction
 		(at 115.57 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1528,6 +1642,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a1073e8-3915-4eb2-a1a4-4d8c8b4ca4c7")
+	)
+	(junction
+		(at 107.95 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c65371ac-403a-4fe0-a9cb-9127830ee259")
 	)
 	(junction
 		(at 168.91 81.28)
@@ -1761,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 115.57 78.74)
+			(xy 88.9 78.74) (xy 91.44 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1831,6 +1951,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 78.74) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d87bbc-1f8c-4261-8287-e0038c41e4fc")
+	)
+	(wire
+		(pts
 			(xy 181.61 81.28) (xy 175.26 81.28)
 		)
 		(stroke
@@ -1848,6 +1978,16 @@
 			(type default)
 		)
 		(uuid "efc6fba1-3f00-41db-90f7-8be95eadd4c9")
+	)
+	(wire
+		(pts
+			(xy 107.95 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54a979e-c258-40f0-aeed-014f0dc91c78")
 	)
 	(wire
 		(pts
@@ -1871,7 +2011,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 104.14 78.74 180)
+		(at 88.9 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1892,7 +2032,7 @@
 		(uuid "d9ab4f94-c9bf-4a07-aaea-e95ac0e711db")
 	)
 	(symbol
-		(lib_id "Diode:B340")
+		(lib_id "Diode:1N5819WS")
 		(at 115.57 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1910,7 +2050,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B340"
+		(property "Value" "1N5819ws"
 			(at 118.11 76.5175 90)
 			(effects
 				(font
@@ -1919,7 +2059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 120.015 74.93 0)
 			(effects
 				(font
@@ -1928,7 +2068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 115.57 74.93 0)
 			(effects
 				(font
@@ -1937,7 +2077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 			(at 115.57 74.93 0)
 			(effects
 				(font
@@ -2023,6 +2163,72 @@
 			(project "esp-wroom-2-carrier-board"
 				(path "/02e826db-efcd-428f-8d48-cef0de8c3fb5/ce7027db-382f-4a3d-842f-452933e73176"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 107.95 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d6e8e85-63c9-41eb-9002-40dde7478500")
+		(property "Reference" "#FLG01"
+			(at 107.95 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73a2374a-13c1-4f8b-92e3-2f0465a11041")
+		)
+		(instances
+			(project ""
+				(path "/02e826db-efcd-428f-8d48-cef0de8c3fb5/ce7027db-382f-4a3d-842f-452933e73176"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2319,17 +2525,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:B340")
+		(lib_id "Diode:1N5819WS")
 		(at 156.21 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87476405-8db4-4179-855d-4b4763276b71")
 		(property "Reference" "D3"
-			(at 158.75 87.3124 90)
+			(at 158.75 87.3125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,8 +2542,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B340"
-			(at 158.75 89.8524 90)
+		(property "Value" "1N5819WS"
+			(at 151.13 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +2551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 151.765 88.9 0)
 			(effects
 				(font
@@ -2355,7 +2560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 156.21 88.9 0)
 			(effects
 				(font
@@ -2364,7 +2569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 			(at 156.21 88.9 0)
 			(effects
 				(font
@@ -2383,6 +2588,73 @@
 			(project "esp-wroom-2-carrier-board"
 				(path "/02e826db-efcd-428f-8d48-cef0de8c3fb5/ce7027db-382f-4a3d-842f-452933e73176"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 91.44 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97ff5ea5-157a-45ea-bbbb-d2edcdb06af9")
+		(property "Reference" "TP2"
+			(at 93.98 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIN"
+			(at 93.98 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e32ca83-4a59-4c55-8b5a-efc82c0c0757")
+		)
+		(instances
+			(project ""
+				(path "/02e826db-efcd-428f-8d48-cef0de8c3fb5/ce7027db-382f-4a3d-842f-452933e73176"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
