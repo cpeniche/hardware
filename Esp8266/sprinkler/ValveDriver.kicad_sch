@@ -2125,7 +2125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "431e1008-6712-433a-a0b4-773e11eda44c")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 104.14 133.0325 90)
 			(effects
 				(font
@@ -2179,7 +2179,7 @@
 		(instances
 			(project "sprinkler"
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2270,7 +2270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ad46b4-c530-4d3b-a815-6e30db47cbd8")
-		(property "Reference" "R22"
+		(property "Reference" "R27"
 			(at 173.99 44.45 0)
 			(effects
 				(font
@@ -2324,7 +2324,7 @@
 		(instances
 			(project "sprinkler"
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "R22")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2415,7 +2415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f11de5a-a7d6-4fc1-8385-fd6edc8dae9f")
-		(property "Reference" "R18"
+		(property "Reference" "R23"
 			(at 64.77 127 90)
 			(effects
 				(font
@@ -2467,7 +2467,7 @@
 		(instances
 			(project "sprinkler"
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "R18")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2482,7 +2482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "848706fe-6177-4f41-a030-ac01d1dc8533")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 132.08 62.8649 0)
 			(effects
 				(font
@@ -2538,7 +2538,7 @@
 		(instances
 			(project ""
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2554,7 +2554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85604ad2-3aba-4a70-a1c7-86aa2a76a4c5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR035"
 			(at 91.44 88.9 0)
 			(effects
 				(font
@@ -2604,7 +2604,7 @@
 		(instances
 			(project ""
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "#PWR026")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2619,7 +2619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87ab586c-a3b5-4525-ae9e-510961dec982")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 217.17 62.8649 0)
 			(effects
 				(font
@@ -2675,7 +2675,7 @@
 		(instances
 			(project ""
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2842,7 +2842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a77247d6-5720-4a0c-891c-503f0ad50c9a")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 104.14 69.5325 90)
 			(effects
 				(font
@@ -2896,7 +2896,7 @@
 		(instances
 			(project ""
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2912,7 +2912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a90f3d05-4106-4979-a6c6-179ad666dcd1")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR037"
 			(at 181.61 97.79 0)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 		(instances
 			(project "sprinkler"
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "#PWR028")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2978,7 +2978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9724565-889a-4d34-9716-f8e90cdebcc5")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 194.31 69.5325 90)
 			(effects
 				(font
@@ -3032,7 +3032,7 @@
 		(instances
 			(project "sprinkler"
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3048,7 +3048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aefa1304-2913-4233-ab49-b423f7d9807e")
-		(property "Reference" "R20"
+		(property "Reference" "R25"
 			(at 83.82 107.95 0)
 			(effects
 				(font
@@ -3102,7 +3102,7 @@
 		(instances
 			(project "sprinkler"
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "R20")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3117,7 +3117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd9b7991-e437-41e0-838e-e1fa407f9a95")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 132.08 126.3649 0)
 			(effects
 				(font
@@ -3173,7 +3173,7 @@
 		(instances
 			(project ""
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3189,7 +3189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf97937c-0e11-4e66-bbc9-979c4d3be23d")
-		(property "Reference" "R19"
+		(property "Reference" "R24"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -3243,7 +3243,7 @@
 		(instances
 			(project ""
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "R19")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3259,7 +3259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbba643d-2426-472f-80a0-ceda323607df")
-		(property "Reference" "R17"
+		(property "Reference" "R22"
 			(at 64.77 63.5 90)
 			(effects
 				(font
@@ -3311,7 +3311,7 @@
 		(instances
 			(project ""
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "R17")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3403,7 +3403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15e0e13-99db-45b3-b9f0-76d218439fd1")
-		(property "Reference" "R21"
+		(property "Reference" "R26"
 			(at 154.94 63.5 90)
 			(effects
 				(font
@@ -3455,7 +3455,7 @@
 		(instances
 			(project "sprinkler"
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "R21")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3471,7 +3471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e531ab1e-5aec-4994-a374-bca7712f46e8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR036"
 			(at 91.44 152.4 0)
 			(effects
 				(font
@@ -3521,7 +3521,7 @@
 		(instances
 			(project "sprinkler"
 				(path "/00ed8740-45a2-4b9d-9104-9548b81da339/d6cea5a1-e7b3-49dc-9ebd-3b743e9b1ddf"
-					(reference "#PWR027")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
