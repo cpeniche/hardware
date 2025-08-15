@@ -988,6 +988,7 @@
 		(property "Reference" "TP1"
 			(at -2.3 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5129c621-c359-49d3-a97c-5d6eaa786758")
 			(effects
 				(font
@@ -1075,7 +1076,7 @@
 			(at 0 0)
 			(size 1 1)
 			(drill 0.5)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 8 "+3.3V")
 			(pinfunction "1")
@@ -1697,7 +1698,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at 0 -1.65 90)
+			(at -1.1 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "2bf12e82-9a2c-4ec6-91ed-dc1b2754b4a1")
 			(effects
@@ -5163,7 +5164,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 0 -2 0)
+			(at 1.1 -1.9 0)
 			(layer "F.SilkS")
 			(uuid "eeb4e7d3-ba16-40cb-ba19-04fe60b5e6f0")
 			(effects
@@ -5364,6 +5365,7 @@
 		(property "Reference" "TP2"
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "175ebbde-4afa-4105-91c2-234613c52351")
 			(effects
 				(font
@@ -5941,6 +5943,7 @@
 		(property "Reference" "TP3"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a5ecea15-cf3e-455c-95c9-e2808cb87b70")
 			(effects
 				(font
@@ -8357,7 +8360,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 150.7 79.5 0)
+		(at 150.7 76 0)
 		(layer "F.SilkS")
 		(uuid "69076855-1587-43fe-8dc5-ceb7c5a2ba47")
 		(effects
@@ -8378,6 +8381,158 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "16f2997e-89a0-4e6c-8653-e98521056455")
+		(pts
+			(xy 132.599999 91.6) (xy 121 91.5)
+		)
+		(height -32.1)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "11.6"
+			(at 126.799999 58.35 0)
+			(layer "User.1")
+			(uuid "16f2997e-89a0-4e6c-8653-e98521056455")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "406de72a-0a65-41ba-b12b-a74d3a669321")
+		(pts
+			(xy 132.599999 91.6) (xy 132.2 108.2)
+		)
+		(height -30.799999)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "16.6"
+			(at 100.65 99.9 90)
+			(layer "User.1")
+			(uuid "406de72a-0a65-41ba-b12b-a74d3a669321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "53c15bf0-164c-4a13-8ac4-28bc0ee0d7c4")
+		(pts
+			(xy 132.599999 91.6) (xy 155 91.5)
+		)
+		(height -32.1)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "22.4"
+			(at 143.8 58.35 0)
+			(layer "User.1")
+			(uuid "53c15bf0-164c-4a13-8ac4-28bc0ee0d7c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "997e08ac-b7c7-4c2e-b0eb-756a895cff21")
+		(pts
+			(xy 132.599999 91.6) (xy 132.7 73.7)
+		)
+		(height -30.799999)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "17.9"
+			(at 100.65 82.65 90)
+			(layer "User.1")
+			(uuid "997e08ac-b7c7-4c2e-b0eb-756a895cff21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
