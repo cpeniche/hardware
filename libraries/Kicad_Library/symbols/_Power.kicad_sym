@@ -135,24 +135,6 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -15.24 90)
-				(length 5.08)
-				(name "GROUND__1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 -15.24 90)
 				(length 5.08)
 				(name "GROUND"
@@ -217,6 +199,26 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM2577S-ADJ_NOPB_1_0"
+			(pin power_in line
+				(at -5.08 -15.24 90)
+				(length 5.08)
+				(name "GROUND__1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
