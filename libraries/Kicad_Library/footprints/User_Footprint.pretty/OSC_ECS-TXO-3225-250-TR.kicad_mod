@@ -1,27 +1,211 @@
-
-(module OSC_ECS-TXO-3225-250-TR (layer F.Cu) (tedit 64A0E0E6)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -0.9854775 -1.9290945 0) (layer F.SilkS)
-    (effects (font (size 0.320479527559 0.320479527559) (thickness 0.15)))
-  )
-  (fp_text value OSC_ECS-TXO-3225-250-TR (at 2.6466585 1.9675605 0) (layer F.Fab)
-    (effects (font (size 0.320613385827 0.320613385827) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -1.365 0.895 90.0) (size 1.09 0.85) (layers F.Cu F.Mask F.Paste))
-  (pad 2 smd rect (at 1.365 0.895 90.0) (size 1.09 0.85) (layers F.Cu F.Mask F.Paste))
-  (pad 3 smd rect (at 1.365 -0.895 90.0) (size 1.09 0.85) (layers F.Cu F.Mask F.Paste))
-  (pad 4 smd rect (at -1.365 -0.895 90.0) (size 1.09 0.85) (layers F.Cu F.Mask F.Paste))
-  (fp_line (start -1.6 -1.25) (end 1.6 -1.25) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.6 -1.25) (end 1.6 1.25) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.6 1.25) (end -1.6 1.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -2.04 -1.69) (end 2.04 -1.69) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.04 -1.69) (end 2.04 1.69) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.04 1.69) (end -2.04 1.69) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.04 1.69) (end -2.04 -1.69) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.705 1.25) (end 0.705 1.25) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.705 -1.25) (end 0.705 -1.25) (layer F.SilkS) (width 0.127))
-  (fp_circle (center -2.4 1.0) (end -2.3 1.0) (layer F.Fab) (width 0.2))
-  (fp_circle (center -2.4 1.0) (end -2.3 1.0) (layer F.SilkS) (width 0.2))
+(footprint "OSC_ECS-TXO-3225-250-TR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.985478 -1.929095 0)
+		(layer "F.SilkS")
+		(uuid "64add51d-a145-422a-bd20-63459eed8b21")
+		(effects
+			(font
+				(size 0.32048 0.32048)
+				(thickness 0.08012)
+			)
+		)
+	)
+	(property "Value" "OSC_ECS-TXO-3225-250-TR"
+		(at 2.646659 1.967561 0)
+		(layer "F.Fab")
+		(uuid "6bcfc983-33e1-45e0-8a00-8901709f1afa")
+		(effects
+			(font
+				(size 0.320613 0.320613)
+				(thickness 0.080153)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fad4c824-6c7e-4cba-b827-90bc76290778")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ed9afce-1af1-4bb3-bc79-01e9f379db92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.705 -1.25)
+		(end 0.705 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "207cf925-2aa9-4587-8d05-d5aef8a245ff")
+	)
+	(fp_line
+		(start -0.705 1.25)
+		(end 0.705 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77a5b81f-aa4a-4413-a123-13370b46a8a9")
+	)
+	(fp_circle
+		(center -2.4 1)
+		(end -2.3 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "db64a1c8-cb28-4259-a624-6acce0ac53dd")
+	)
+	(fp_line
+		(start -2.04 -1.69)
+		(end 2.04 -1.69)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b43348ce-cddb-4cca-860c-5be6ad0d7322")
+	)
+	(fp_line
+		(start -2.04 1.69)
+		(end -2.04 -1.69)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "baa25c43-25f1-4bb4-971a-be6d12dcfb8a")
+	)
+	(fp_line
+		(start 2.04 -1.69)
+		(end 2.04 1.69)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d1de1f6-7a8b-4ce8-bf3a-1cf15cd248b9")
+	)
+	(fp_line
+		(start 2.04 1.69)
+		(end -2.04 1.69)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "27b3fdaf-8c3f-449c-8c11-6ba828fb540c")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1dd3e6d9-58b0-4c1a-9dc0-3e56b649c5c1")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0aac5ebc-59b4-4e23-bde9-77172d0da66c")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abb416ee-aacb-4262-9eea-6bba289292d5")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8324558-7e79-4059-9421-c4b8697ce6f5")
+	)
+	(fp_circle
+		(center -2.4 1)
+		(end -2.3 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "83285006-5bfc-4b2f-b3a5-5b76dd9e6d37")
+	)
+	(pad "1" smd rect
+		(at -1.365 0.895 90)
+		(size 1.09 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b49a9f27-6abe-48d0-9ec7-beff1484db45")
+	)
+	(pad "2" smd rect
+		(at 1.365 0.895 90)
+		(size 1.09 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6732ce42-1e05-4c76-b37d-272a77e77d69")
+	)
+	(pad "3" smd rect
+		(at 1.365 -0.895 90)
+		(size 1.09 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60dd9345-ca18-4f64-bad4-c091cc4ecb78")
+	)
+	(pad "4" smd rect
+		(at -1.365 -0.895 90)
+		(size 1.09 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7a4ace3-63e8-4f04-a939-4f310a954f5f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3D_MODELS_DIR}/ECS-TXO-3225MV-250-TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -11728,7 +11728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32.768Khz Crystal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11837,7 +11837,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Local_Footprints:OSC_ECS-2333-160-BN-TR"
+		(property "Footprint" "User_Footprint:OSC_ECS-2333-160-BN-TR"
 			(at -10.16 8.89 0)
 			(effects
 				(font
@@ -11857,7 +11857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32.768 Khz CMOS Oscillaor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12008,7 +12008,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Local_Footprints:OSC_ECS-3953M-250-B-TR"
+		(property "Footprint" "User_Footprint:OSC_ECS-3953M-250-B-TR"
 			(at -7.62 -7.62 0)
 			(effects
 				(font
@@ -12028,7 +12028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25 Mhz XO HCMOS oscillator 3.3V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12179,7 +12179,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Local_Footprints:OSC_ECS-TXO-3225-250-TR"
+		(property "Footprint" "User_Footprint:OSC_ECS-TXO-3225-250-TR"
 			(at -12.7 -6.35 0)
 			(effects
 				(font
@@ -12199,7 +12199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25 Mhz TCXO HCMOS Oscillator 3.3V 4-smd"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29135,7 +29135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1A Wide Input Range, Step-Down Converter"
 			(at -13.97 3.81 0)
 			(effects
 				(font
@@ -30355,7 +30355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12 Mhz yxc Crystal Oscillator 20pf smd"
 			(at 0 0 0)
 			(effects
 				(font
