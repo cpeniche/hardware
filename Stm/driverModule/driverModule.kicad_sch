@@ -4700,7 +4700,7 @@
 		)
 	)
 	(sheet
-		(at 222.25 27.94)
+		(at 172.085 34.29)
 		(size 24.13 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4716,7 +4716,7 @@
 		)
 		(uuid "3773b339-3206-4883-8898-36ed0c1c1b1f")
 		(property "Sheetname" "CPU Board Connector"
-			(at 222.25 27.2284 0)
+			(at 172.085 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4725,7 @@
 			)
 		)
 		(property "Sheetfile" "CPU_Board_Connector.kicad_sch"
-			(at 222.25 47.5746 0)
+			(at 172.085 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4742,7 @@
 		)
 	)
 	(sheet
-		(at 219.71 102.87)
+		(at 174.625 105.41)
 		(size 45.72 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4757,7 +4757,7 @@
 		)
 		(uuid "929fc890-f6da-48d5-a213-781ba4c4fd4e")
 		(property "Sheetname" "Motors Interface"
-			(at 219.71 99.314 0)
+			(at 174.625 101.854 0)
 			(effects
 				(font
 					(size 3 3)
@@ -4767,7 +4767,7 @@
 			)
 		)
 		(property "Sheetfile" "motors.kicad_sch"
-			(at 219.71 154.686 0)
+			(at 174.625 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4776,7 @@
 			)
 		)
 		(pin "SpiMasterInput" input
-			(at 265.43 114.3 0)
+			(at 220.345 116.84 0)
 			(uuid "0d829f00-da9c-458b-b1b6-6f17883bb241")
 			(effects
 				(font
@@ -4786,7 +4786,7 @@
 			)
 		)
 		(pin "LatchMotorB" input
-			(at 265.43 130.81 0)
+			(at 220.345 133.35 0)
 			(uuid "ea164385-da4a-4049-80ce-77505221b57d")
 			(effects
 				(font
@@ -4796,7 +4796,7 @@
 			)
 		)
 		(pin "MirrorMotorXA" input
-			(at 219.71 111.76 180)
+			(at 174.625 114.3 180)
 			(uuid "12e27c4b-6c27-47da-bf93-a403aa9be6c5")
 			(effects
 				(font
@@ -4806,7 +4806,7 @@
 			)
 		)
 		(pin "EN{slash}DIAGA" input
-			(at 219.71 128.27 180)
+			(at 174.625 130.81 180)
 			(uuid "bf511f9e-3d2a-4195-9137-ea096815155b")
 			(effects
 				(font
@@ -4816,7 +4816,7 @@
 			)
 		)
 		(pin "WindowMotorCurrentSense" input
-			(at 219.71 135.89 180)
+			(at 174.625 138.43 180)
 			(uuid "28c39544-71c3-48ad-9e71-9e3391e1ae34")
 			(effects
 				(font
@@ -4826,7 +4826,7 @@
 			)
 		)
 		(pin "MirrorMotorXYB" input
-			(at 219.71 114.3 180)
+			(at 174.625 116.84 180)
 			(uuid "1397cf05-b364-4ac3-892e-76e9361d4ef9")
 			(effects
 				(font
@@ -4836,7 +4836,7 @@
 			)
 		)
 		(pin "KeyFobClose12V" input
-			(at 265.43 143.51 0)
+			(at 220.345 146.05 0)
 			(uuid "d2b6a311-0161-48e7-bdb7-b3434ea2ab9c")
 			(effects
 				(font
@@ -4846,7 +4846,7 @@
 			)
 		)
 		(pin "LatchMotorA" input
-			(at 265.43 128.27 0)
+			(at 220.345 130.81 0)
 			(uuid "c4fe313a-0e42-4992-aa1a-95acdbcb79b2")
 			(effects
 				(font
@@ -4856,7 +4856,7 @@
 			)
 		)
 		(pin "SpiClock" input
-			(at 265.43 111.76 0)
+			(at 220.345 114.3 0)
 			(uuid "e827586b-e86f-4ddd-88c9-301b1e22697e")
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 			)
 		)
 		(pin "KeyfobClose3v3" input
-			(at 265.43 146.05 0)
+			(at 220.345 148.59 0)
 			(uuid "5d3eb007-e849-4c91-b488-976cca66f7a8")
 			(effects
 				(font
@@ -4876,7 +4876,7 @@
 			)
 		)
 		(pin "EN{slash}DIAGB" input
-			(at 219.71 130.81 180)
+			(at 174.625 133.35 180)
 			(uuid "b69e377a-4cef-4dba-9522-69ed48f7cad1")
 			(effects
 				(font
@@ -4886,7 +4886,7 @@
 			)
 		)
 		(pin "WindowMotorDirB" input
-			(at 219.71 138.43 180)
+			(at 174.625 140.97 180)
 			(uuid "10156385-5bfa-490f-a9ba-e5c154135edb")
 			(effects
 				(font
@@ -4896,7 +4896,7 @@
 			)
 		)
 		(pin "WindowMotorDirA" input
-			(at 219.71 140.97 180)
+			(at 174.625 143.51 180)
 			(uuid "8aadf6a2-23f0-431c-a4ba-278a7957bf84")
 			(effects
 				(font
@@ -4906,7 +4906,7 @@
 			)
 		)
 		(pin "MirrorMotorsEnable" input
-			(at 219.71 109.22 180)
+			(at 174.625 111.76 180)
 			(uuid "5f6de462-1cb7-4da2-9d74-58663cd645d1")
 			(effects
 				(font
@@ -4916,7 +4916,7 @@
 			)
 		)
 		(pin "LatchMotorEnable" input
-			(at 265.43 125.73 0)
+			(at 220.345 128.27 0)
 			(uuid "172e58f9-d9cd-451a-99a9-2a0c89bf5cdf")
 			(effects
 				(font
@@ -4926,7 +4926,7 @@
 			)
 		)
 		(pin "LatchMotorDirection" input
-			(at 265.43 123.19 0)
+			(at 220.345 125.73 0)
 			(uuid "3abf617d-b9fc-4d62-8eb7-8138bf313ef0")
 			(effects
 				(font
@@ -4936,7 +4936,7 @@
 			)
 		)
 		(pin "WindowMotorPWM" input
-			(at 219.71 133.35 180)
+			(at 174.625 135.89 180)
 			(uuid "c90eed6f-95df-4267-87f3-4c163392bcd6")
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 			)
 		)
 		(pin "MirrorSpiChipSelect" input
-			(at 219.71 106.68 180)
+			(at 174.625 109.22 180)
 			(uuid "a229af90-bb72-4cc7-bd2d-2bbf48be11b9")
 			(effects
 				(font
@@ -4956,7 +4956,7 @@
 			)
 		)
 		(pin "keyFobOpen12V" input
-			(at 265.43 140.97 0)
+			(at 220.345 143.51 0)
 			(uuid "82df3030-958d-4eb5-b03a-4abee84eda31")
 			(effects
 				(font
@@ -4966,7 +4966,7 @@
 			)
 		)
 		(pin "KeyfobOpen3v3" input
-			(at 265.43 148.59 0)
+			(at 220.345 151.13 0)
 			(uuid "2b78f53b-4466-4d14-9b51-a66166228a86")
 			(effects
 				(font
@@ -4976,7 +4976,7 @@
 			)
 		)
 		(pin "nSleep" input
-			(at 265.43 133.35 0)
+			(at 220.345 135.89 0)
 			(uuid "c27fba79-47d1-4849-a97e-187ec2e2d633")
 			(effects
 				(font
@@ -4986,7 +4986,7 @@
 			)
 		)
 		(pin "SpiMasterOutput" input
-			(at 265.43 116.84 0)
+			(at 220.345 119.38 0)
 			(uuid "e6e80762-e4ef-4669-b245-0aa17ea6a9ff")
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 			)
 		)
 		(pin "MirrorMotorYA" input
-			(at 219.71 116.84 180)
+			(at 174.625 119.38 180)
 			(uuid "e7224680-e5c5-43c3-9958-59abb53f71d8")
 			(effects
 				(font
