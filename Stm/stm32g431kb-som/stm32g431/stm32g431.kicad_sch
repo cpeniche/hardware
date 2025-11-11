@@ -5030,8 +5030,48 @@
 		(uuid "f3570060-9a4c-4d93-9c9e-63e410f405df")
 	)
 	(no_connect
+		(at 71.12 77.47)
+		(uuid "18a625dc-a2c8-4d02-ac0e-b2beda397f3e")
+	)
+	(no_connect
+		(at 71.12 95.25)
+		(uuid "1cd7dbf0-2e1e-4aa1-8cff-6af9d788bcde")
+	)
+	(no_connect
+		(at 71.12 74.93)
+		(uuid "1dd0aeb5-bd26-49cb-84cc-b91ae0d9e62e")
+	)
+	(no_connect
 		(at 71.12 173.99)
 		(uuid "1eb61757-aec0-4b6a-b469-540eda5ba018")
+	)
+	(no_connect
+		(at 81.28 82.55)
+		(uuid "21ee24ce-edb5-48b4-a068-cabc5d4f0ee8")
+	)
+	(no_connect
+		(at 71.12 82.55)
+		(uuid "27c14600-0088-4f1a-90bc-a2c82d59f930")
+	)
+	(no_connect
+		(at 81.28 85.09)
+		(uuid "28343d82-9f82-45c6-9ea0-691d9adf24fc")
+	)
+	(no_connect
+		(at 71.12 90.17)
+		(uuid "3aa543f6-b83e-4212-9403-f35e4c1c5c9e")
+	)
+	(no_connect
+		(at 81.28 77.47)
+		(uuid "476e9ab2-7467-4821-b703-2a175ef9d788")
+	)
+	(no_connect
+		(at 81.28 90.17)
+		(uuid "55f11d06-0d94-45a1-8d3a-6841e9a50026")
+	)
+	(no_connect
+		(at 71.12 87.63)
+		(uuid "761503d9-0a43-4e95-b2d0-84ac8b8c2c53")
 	)
 	(no_connect
 		(at 71.12 151.13)
@@ -5042,16 +5082,48 @@
 		(uuid "88ff1398-2b85-4cf8-9df2-d34bfff62e32")
 	)
 	(no_connect
+		(at 71.12 97.79)
+		(uuid "92ef4ece-5853-43e1-867d-e796c001846b")
+	)
+	(no_connect
+		(at 71.12 92.71)
+		(uuid "9f258085-3491-4c88-8899-ca20e8389f6f")
+	)
+	(no_connect
+		(at 71.12 85.09)
+		(uuid "ab0f944a-2878-427a-b8ac-f423fd4cc964")
+	)
+	(no_connect
 		(at 196.85 119.38)
 		(uuid "bf2860b9-0397-472b-b135-02160fc4b94e")
+	)
+	(no_connect
+		(at 81.28 80.01)
+		(uuid "cd3cf64a-5eab-42e1-b4d3-0cb25de59162")
 	)
 	(no_connect
 		(at 196.85 121.92)
 		(uuid "cf74180e-5f47-4ec7-b509-a48841e58d4f")
 	)
 	(no_connect
+		(at 81.28 95.25)
+		(uuid "d8daf8ff-a156-4473-baa7-8380226caa70")
+	)
+	(no_connect
 		(at 196.85 109.22)
 		(uuid "e074c124-ff99-4916-9fd2-2a987939bfbf")
+	)
+	(no_connect
+		(at 81.28 87.63)
+		(uuid "ef41e5bb-7a7f-4898-940e-f7f417a56f45")
+	)
+	(no_connect
+		(at 71.12 80.01)
+		(uuid "f00fae5f-994d-41c6-990f-832edb7eafcb")
+	)
+	(no_connect
+		(at 81.28 92.71)
+		(uuid "f2eb5245-990a-4f61-8480-f78bda106949")
 	)
 	(no_connect
 		(at 71.12 153.67)
@@ -10897,10 +10969,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf4a2aeb-7361-45ca-9723-5f60baeec30a")
+			(uuid "cf4a2aeb-7361-45ca-9723-5f60baeec30b")
 		)
 		(pin "2"
-			(uuid "158ae725-24fc-4ffc-9df8-ac7c14faec87")
+			(uuid "158ae725-24fc-4ffc-9df8-ac7c14faec88")
 		)
 		(instances
 			(project ""
