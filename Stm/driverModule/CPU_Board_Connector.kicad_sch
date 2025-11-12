@@ -2735,16 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 101.6) (xy 151.13 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5be2100b-5710-4d0e-9152-80f7e44fa829")
-	)
-	(wire
-		(pts
 			(xy 148.59 73.66) (xy 153.67 73.66)
 		)
 		(stroke
@@ -2865,16 +2855,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 151.13 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc97ce97-11c3-4634-a1f5-0acb367591c3")
-	)
-	(wire
-		(pts
 			(xy 153.67 68.58) (xy 148.59 68.58)
 		)
 		(stroke
@@ -2965,16 +2945,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 151.13 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e20727ba-5e31-4f2a-9f12-73bea3142acd")
-	)
-	(wire
-		(pts
 			(xy 148.59 99.06) (xy 151.13 99.06)
 		)
 		(stroke
@@ -3012,16 +2982,6 @@
 			(type default)
 		)
 		(uuid "f8bf0044-78b0-4bfa-9e76-e9bcb294c7ad")
-	)
-	(label "LatchSensorPurpleConnector"
-		(at 156.21 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f1f6c17-475a-421a-abe9-0af63120e1dd")
 	)
 	(label "GND"
 		(at 128.27 129.54 180)
@@ -3073,16 +3033,6 @@
 		)
 		(uuid "7be39dc1-9824-45c8-99e9-a31601fda0f2")
 	)
-	(label "LatchSensorGreenConnector"
-		(at 156.21 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ede8ede-7825-44ef-bf85-7acd1cce263e")
-	)
 	(label "GND"
 		(at 153.67 66.04 180)
 		(effects
@@ -3123,17 +3073,6 @@
 		)
 		(uuid "e964ba6c-8eee-4f51-8c0e-a0c3115aa9cb")
 	)
-	(hierarchical_label "WindowMotorPWM"
-		(shape input)
-		(at 151.13 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0aadbed0-8a5c-4efc-ab61-cbc0a7abc601")
-	)
 	(hierarchical_label "Uart_Rx"
 		(shape input)
 		(at 128.27 109.22 180)
@@ -3144,17 +3083,6 @@
 			(justify right)
 		)
 		(uuid "0bb69810-e1fc-47fc-9864-da11c9529ed6")
-	)
-	(hierarchical_label "MirrorMotorsEnable"
-		(shape input)
-		(at 151.13 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1336449b-695c-46c5-acd9-b7f2598e6eeb")
 	)
 	(hierarchical_label "KeyfobClose3v3"
 		(shape input)
@@ -3244,7 +3172,7 @@
 		)
 		(uuid "39da637f-8cb8-414b-aadd-3f74ec31fcde")
 	)
-	(hierarchical_label "WindowMotorDirA"
+	(hierarchical_label "WindowMotorDir"
 		(shape input)
 		(at 151.13 109.22 0)
 		(effects
@@ -3288,6 +3216,28 @@
 		)
 		(uuid "5da7ded1-995d-49b4-b074-ec0f000ad22f")
 	)
+	(hierarchical_label "LatchSensorPurpleConnector"
+		(shape input)
+		(at 151.13 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88942354-7d5c-4272-a8d4-beac859d269e")
+	)
+	(hierarchical_label "WindownMotorEnable"
+		(shape input)
+		(at 151.13 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f92a9bf-c519-468c-b690-f24452f7685b")
+	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
 		(at 151.13 119.38 0)
@@ -3298,17 +3248,6 @@
 			(justify left)
 		)
 		(uuid "93a66793-6b22-4989-bb1d-70184bf4ab9e")
-	)
-	(hierarchical_label "WindowMotorDirB"
-		(shape input)
-		(at 151.13 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9ec81196-45cf-4abd-bb4c-df201696cf6b")
 	)
 	(hierarchical_label "SpiMasterOutput"
 		(shape input)
@@ -3332,16 +3271,16 @@
 		)
 		(uuid "c141a5f8-5173-4dfe-bb67-ca6d3e6581bb")
 	)
-	(hierarchical_label "nSleep"
+	(hierarchical_label "LatchSensorGreenConnector"
 		(shape input)
-		(at 151.13 116.84 0)
+		(at 151.13 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e5d9b2cd-3906-4325-ba94-11b18766bb5b")
+		(uuid "c16f8984-a811-48b9-a7a3-1a5b6cab4e86")
 	)
 	(hierarchical_label "LatchPositionThroughSignal"
 		(shape input)
@@ -3353,28 +3292,6 @@
 			(justify right)
 		)
 		(uuid "e8bd1ca7-f65a-4b70-8a5f-c502f75bccce")
-	)
-	(hierarchical_label "EN{slash}DIAGB"
-		(shape input)
-		(at 151.13 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec166087-7a8d-4212-a21b-54a366d7ce5d")
-	)
-	(hierarchical_label "EN{slash}DIAGA"
-		(shape input)
-		(at 151.13 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f03c372d-9a45-433b-8616-1b873a295812")
 	)
 	(hierarchical_label "Uart_Tx"
 		(shape input)

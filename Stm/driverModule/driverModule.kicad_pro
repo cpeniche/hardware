@@ -679,6 +679,14 @@
     [
       "3773b339-3206-4883-8898-36ed0c1c1b1f",
       "CPU Board Connector"
+    ],
+    [
+      "d4c8ef4b-9cb8-45ee-8d95-7903b03c1e59",
+      "Power"
+    ],
+    [
+      "ad1971f1-cc31-4ec5-9754-d2c10a4924d8",
+      "Harness"
     ]
   ],
   "text_variables": {}
