@@ -1128,16 +1128,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 107.95) (xy 129.54 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf427b7-1287-4fa4-a679-a6317739350e")
-	)
-	(wire
-		(pts
 			(xy 124.46 67.31) (xy 129.54 67.31)
 		)
 		(stroke
@@ -1238,6 +1228,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 107.95) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e2ff14-15d6-40b0-867d-8eed29717a07")
+	)
+	(wire
+		(pts
 			(xy 124.46 62.23) (xy 129.54 62.23)
 		)
 		(stroke
@@ -1245,6 +1245,16 @@
 			(type default)
 		)
 		(uuid "ad6dba29-0c58-491c-8038-69dd8b932d1c")
+	)
+	(wire
+		(pts
+			(xy 129.54 113.03) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a1ee6c-7066-4922-a40c-6204730f2350")
 	)
 	(wire
 		(pts
@@ -1411,7 +1421,7 @@
 	)
 	(hierarchical_label "LIN_BUS"
 		(shape bidirectional)
-		(at 186.69 90.17 0)
+		(at 87.63 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,6 +1440,17 @@
 			(justify left)
 		)
 		(uuid "bb02f65f-f6e2-432e-875d-62b3c20f69d6")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 129.54 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c167c99a-b72b-4dd9-a18f-c0d0199665df")
 	)
 	(hierarchical_label "LatchMotorB"
 		(shape output)
@@ -1624,7 +1645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 107.95 0)
+		(at 129.54 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1633,7 +1654,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd1b65a9-9d16-4684-ac39-dd95d479e538")
 		(property "Reference" "#PWR019"
-			(at 129.54 114.3 0)
+			(at 129.54 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 113.03 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 107.95 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 107.95 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 107.95 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
