@@ -356,7 +356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "353180420"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/353180420?display=pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -366,8 +366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Through Hole, Right Angle 8 Positions"
-			(at 0 0 0)
+		(property "Description" "Connector Header Through Hole, Right Angle 4 Positions"
+			(at 12.192 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,40 +394,15 @@
 			)
 		)
 		(symbol "353180420_1_1"
-			(polyline
-				(pts
-					(xy 5.08 2.54) (xy 5.08 -10.16)
-				)
+			(rectangle
+				(start 5.08 2.54)
+				(end 12.7 -10.16)
 				(stroke
-					(width 0.127)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -10.16) (xy 12.7 -10.16)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 0) (xy 5.08 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(polyline
@@ -562,31 +537,7 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 12.7 2.54) (xy 5.08 2.54)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -10.16) (xy 12.7 2.54)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 0 0)
 				(length 5.08)
 				(name "1"
@@ -604,7 +555,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -2.54 0)
 				(length 5.08)
 				(name "2"
@@ -622,7 +573,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "3"
@@ -640,7 +591,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -7.62 0)
 				(length 5.08)
 				(name "4"
