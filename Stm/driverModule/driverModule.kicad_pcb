@@ -13488,7 +13488,7 @@
 			(uuid "9f171aa1-6402-447b-8f08-e322334bdbd9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_USER_3D_MODELS}/Molex_Ultrafit_1723103105.step"
+		(model "${KICAD_USER_3D_MODELS_DIR}/Molex_Ultrafit_1723103105.step"
 			(offset
 				(xyz 7 -5 2.5)
 			)
