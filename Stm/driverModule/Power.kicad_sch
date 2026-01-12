@@ -5,6 +5,113 @@
 	(uuid "40505ae5-97a0-4bff-b9f2-a608614c2fb3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1907,6 +2014,12 @@
 		(uuid "76626c40-3434-47be-9948-2908c652e6df")
 	)
 	(junction
+		(at 182.88 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88e4a8a8-c8f5-4875-ab58-2f95d966a375")
+	)
+	(junction
 		(at 106.68 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1965,6 +2078,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e63ac099-a580-4207-b9eb-e66aabb16626")
+	)
+	(junction
+		(at 162.56 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6631ccb-89d1-4278-8b7e-643692b8b8a8")
 	)
 	(wire
 		(pts
@@ -2078,6 +2197,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 96.52) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3578a68c-f25e-4a65-91ec-720b70f17788")
+	)
+	(wire
+		(pts
 			(xy 149.86 66.04) (xy 149.86 68.58)
 		)
 		(stroke
@@ -2175,6 +2304,16 @@
 			(type default)
 		)
 		(uuid "5d085cd1-7743-46fb-b286-f26612cab562")
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 186.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615be407-317c-48dc-a83c-a1c2fc5c316b")
 	)
 	(wire
 		(pts
@@ -2278,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 110.49) (xy 95.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f622d2-019a-42a4-bcd0-8825165e4f20")
+	)
+	(wire
+		(pts
 			(xy 114.3 107.95) (xy 111.76 107.95)
 		)
 		(stroke
@@ -2325,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "b841bc39-247f-4615-91b1-3cf3d0e86f29")
+	)
+	(wire
+		(pts
+			(xy 167.64 62.23) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb01a39-126f-4340-a047-9c905171e7cf")
 	)
 	(wire
 		(pts
@@ -2428,6 +2587,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 105.41) (xy 97.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9a5771-c6e0-465d-92a2-cd7235949381")
+	)
+	(wire
+		(pts
 			(xy 168.91 101.6) (xy 177.8 101.6)
 		)
 		(stroke
@@ -2435,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "e114a74f-e088-4782-9f59-7be23c1b9758")
+	)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 162.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20abbe6-fa4c-4bd7-a44e-522a9b7157fa")
 	)
 	(wire
 		(pts
@@ -2448,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 101.6) (xy 186.69 101.6)
+			(xy 177.8 101.6) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2759,6 +2938,73 @@
 			(project "driverModule"
 				(path "/959b66be-b3e0-42f8-ad58-f1baefc5b565/d4c8ef4b-9cb8-45ee-8d95-7903b03c1e59"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 95.25 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20db2e13-e93c-46ae-bef7-a1b6aa636777")
+		(property "Reference" "TP3"
+			(at 93.98 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 93.98 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ee4a88-3951-4c91-8a28-c6357a7bc0a0")
+		)
+		(instances
+			(project "driverModule"
+				(path "/959b66be-b3e0-42f8-ad58-f1baefc5b565/d4c8ef4b-9cb8-45ee-8d95-7903b03c1e59"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3101,6 +3347,73 @@
 			(project "driverModule"
 				(path "/959b66be-b3e0-42f8-ad58-f1baefc5b565/d4c8ef4b-9cb8-45ee-8d95-7903b03c1e59"
 					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 167.64 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4803353a-f6d0-4787-98bb-8b13a4fba020")
+		(property "Reference" "TP1"
+			(at 168.91 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 168.91 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f444630b-800b-4427-8b23-fa68801bee34")
+		)
+		(instances
+			(project "driverModule"
+				(path "/959b66be-b3e0-42f8-ad58-f1baefc5b565/d4c8ef4b-9cb8-45ee-8d95-7903b03c1e59"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3931,6 +4244,73 @@
 			(project "driverModule"
 				(path "/959b66be-b3e0-42f8-ad58-f1baefc5b565/d4c8ef4b-9cb8-45ee-8d95-7903b03c1e59"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 182.88 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae19760c-e679-45e3-81db-e68e2053da66")
+		(property "Reference" "TP2"
+			(at 184.15 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 184.15 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bde2fbde-cabb-4a2a-b38a-e3d96bcd9a3f")
+		)
+		(instances
+			(project "driverModule"
+				(path "/959b66be-b3e0-42f8-ad58-f1baefc5b565/d4c8ef4b-9cb8-45ee-8d95-7903b03c1e59"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
