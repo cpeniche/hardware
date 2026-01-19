@@ -1859,7 +1859,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54CW"
+		(symbol "Diode:BAT54C"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1875,7 +1875,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BAT54CW"
+			(property "Value" "BAT54C"
 				(at -6.35 3.175 0)
 				(effects
 					(font
@@ -1884,7 +1884,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 1.905 3.175 0)
 				(effects
 					(font
@@ -1894,7 +1894,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
 				(at -2.032 0 0)
 				(effects
 					(font
@@ -1903,7 +1903,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(property "Description" "dual schottky barrier diode, common cathode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1912,7 +1912,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dual schottky diode"
+			(property "ki_keywords" "schottky diode common cathode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1921,7 +1921,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?323*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1930,7 +1930,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT54CW_0_1"
+			(symbol "BAT54C_0_1"
 				(polyline
 					(pts
 						(xy -3.175 -1.27) (xy -3.175 1.27) (xy -1.27 0) (xy -3.175 -1.27)
@@ -2123,7 +2123,7 @@
 					)
 				)
 			)
-			(symbol "BAT54CW_1_1"
+			(symbol "BAT54C_1_1"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -8076,7 +8076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 148.844 145.034 90)
 			(effects
 				(font
@@ -8137,7 +8137,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15pF"
 			(at 170.18 43.1799 0)
 			(effects
 				(font
@@ -8146,7 +8146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 167.3352 45.72 0)
 			(effects
 				(font
@@ -8411,7 +8411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.884 164.084 90)
 			(effects
 				(font
@@ -8612,7 +8612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 125.4252 29.21 0)
 			(effects
 				(font
@@ -8681,7 +8681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 229.5652 69.85 0)
 			(effects
 				(font
@@ -8882,7 +8882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 107.6452 29.21 0)
 			(effects
 				(font
@@ -9112,7 +9112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 116.5352 29.21 0)
 			(effects
 				(font
@@ -9420,7 +9420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 97.4852 29.21 0)
 			(effects
 				(font
@@ -9694,7 +9694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 156.464 152.146 90)
 			(effects
 				(font
@@ -9761,7 +9761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 105.156 81.026 90)
 			(effects
 				(font
@@ -9960,7 +9960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.884 159.004 90)
 			(effects
 				(font
@@ -10519,7 +10519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 112.7252 153.67 0)
 			(effects
 				(font
@@ -10871,7 +10871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 199.644 29.464 90)
 			(effects
 				(font
@@ -10941,7 +10941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 139.3952 153.67 0)
 			(effects
 				(font
@@ -11074,7 +11074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 101.854 75.184 90)
 			(effects
 				(font
@@ -11274,7 +11274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 155.956 39.116 90)
 			(effects
 				(font
@@ -11342,7 +11342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 215.646 63.246 90)
 			(effects
 				(font
@@ -11469,7 +11469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15pF"
 			(at 196.85 35.5599 0)
 			(effects
 				(font
@@ -11478,7 +11478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 194.0052 38.1 0)
 			(effects
 				(font
@@ -11734,7 +11734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54CW")
+		(lib_id "Diode:BAT54C")
 		(at 100.33 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11759,7 +11759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 102.235 137.795 0)
 			(effects
 				(font
@@ -11769,7 +11769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
 			(at 98.298 140.97 0)
 			(effects
 				(font
@@ -11778,7 +11778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+		(property "Description" "dual schottky barrier diode, common cathode"
 			(at 100.33 140.97 0)
 			(effects
 				(font
