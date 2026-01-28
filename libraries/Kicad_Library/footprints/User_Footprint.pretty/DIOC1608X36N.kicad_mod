@@ -145,7 +145,7 @@
 		(uuid "a3c3d493-a0bb-4b89-8725-8047c96ab4eb")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_3D_MODELS}/PGB1010603NR.step"
+	(model "${KICAD_USER_3D_MODELS_DIR}/PGB1010603NR.step"
 		(offset
 			(xyz 0 0 0)
 		)
