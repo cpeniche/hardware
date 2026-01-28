@@ -2712,13 +2712,13 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D1"
-			(at 0 -2.4 180)
+			(at -2.53 0.42 180)
 			(layer "F.SilkS")
 			(uuid "b4143a7c-fe63-42af-b05d-4d5b3e93bcb0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.0625)
 				)
 			)
 		)
@@ -3813,7 +3813,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c866b4d9-11a9-416e-b1f0-2530839dec35")
+			(uuid "e12169b7-ec95-4d4a-99e1-c7e304060ede")
 		)
 		(fp_line
 			(start 1.485 -0.72)
@@ -3823,7 +3823,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1633682d-cf4e-423b-a37e-9a0e55e6694a")
+			(uuid "43bc469f-6c9a-4d24-b3bb-992e24d8ffbd")
 		)
 		(fp_line
 			(start -1.485 0.72)
@@ -3833,7 +3833,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7e9fc78d-25dc-4c25-886f-a8de3c4216f9")
+			(uuid "3ebfca2c-8525-4d55-a416-42abfd2107f7")
 		)
 		(fp_line
 			(start -1.485 -0.72)
@@ -3843,7 +3843,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bc2994ad-31b0-4b3e-bc83-3347e19508a8")
+			(uuid "231e6d26-0ddf-41e5-b212-5b0fb4e3f342")
 		)
 		(fp_line
 			(start 0.83 0.42)
@@ -3853,7 +3853,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d0d7d3b8-db16-4704-bc78-478742599e0f")
+			(uuid "92bb7a0b-acf6-42eb-a4b6-375dad58b159")
 		)
 		(fp_line
 			(start 0.83 -0.42)
@@ -3863,7 +3863,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2ba98786-a602-4fd8-8457-4aa54234ef89")
+			(uuid "36a307c1-6288-4912-8b1a-ca5e62decead")
 		)
 		(fp_line
 			(start -0.83 0.42)
@@ -3873,7 +3873,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b1f362db-34ec-4ff9-b9bb-612e78d53bc1")
+			(uuid "100e1ffc-56db-48af-a34a-04de02999e4b")
 		)
 		(fp_line
 			(start -0.83 -0.42)
@@ -3883,7 +3883,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4a04e67b-7b87-457b-b62b-e3080960f5c9")
+			(uuid "ccbaf8ee-f2f3-4c85-9936-c9e7b1fe5715")
 		)
 		(pad "1" smd rect
 			(at -0.75 0 180)
@@ -3904,7 +3904,7 @@
 			(uuid "1cdd8ffe-574f-4597-9339-234b8179995d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_USER_3D_MODELS}/PGB1010603NR.step"
+		(model "${KICAD_USER_3D_MODELS_DIR}/PGB1010603NR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4700,7 +4700,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5abf71bb-c6f3-4c6e-945c-0c8f1e307a1d")
+			(uuid "d8c04272-36c6-40dd-aa51-487dfabdfb9c")
 		)
 		(fp_line
 			(start -1.485 0.72)
@@ -4710,7 +4710,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6c241423-21c8-4604-8740-9a89cdeacdcd")
+			(uuid "45c69143-7bde-4132-94eb-ebaa3cd54df2")
 		)
 		(fp_line
 			(start 1.485 -0.72)
@@ -4720,7 +4720,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8137fcc6-242f-4283-b4e5-5fd6f63d36a3")
+			(uuid "7bf8f36b-2b19-4bc5-9213-d44e38e4b460")
 		)
 		(fp_line
 			(start 1.485 0.72)
@@ -4730,7 +4730,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c6797bb6-5ebf-4abf-83ca-83a8345aa388")
+			(uuid "e78a65fb-3f2c-4853-9e54-183622b8dfee")
 		)
 		(fp_line
 			(start -0.83 -0.42)
@@ -4740,7 +4740,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5b1f9f49-8e38-4f17-8395-042e75e65788")
+			(uuid "97cc1ed7-78ce-432b-865e-cd6f268394b3")
 		)
 		(fp_line
 			(start -0.83 0.42)
@@ -4750,7 +4750,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "edab4a78-5abb-45c2-98f5-43c455db60e9")
+			(uuid "4aa74d5d-b393-45e1-9e21-2ac0635aed29")
 		)
 		(fp_line
 			(start 0.83 -0.42)
@@ -4760,7 +4760,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "49a97a9c-cf75-4053-9296-bc07b56520ec")
+			(uuid "55da86c4-1333-4f74-810f-bd07a8a10279")
 		)
 		(fp_line
 			(start 0.83 0.42)
@@ -4770,7 +4770,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "79afdaa7-c4d2-478d-b8d2-717a4315dcee")
+			(uuid "a022b8cd-5172-4b5a-bbf5-d9144a993099")
 		)
 		(pad "1" smd rect
 			(at -0.75 0)
@@ -4791,7 +4791,7 @@
 			(uuid "7b48e5c2-a8ed-4dae-b4ef-48075aa6d228")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_USER_3D_MODELS}/PGB1010603NR.step"
+		(model "${KICAD_USER_3D_MODELS_DIR}/PGB1010603NR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8399,14 +8399,6 @@
 		(uuid "79977cb5-d4ad-4dfc-acdd-e686074a78db")
 	)
 	(segment
-		(start 145.6875 83.5)
-		(end 145.6875 83.813046)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "7faaa310-7762-41b0-a69c-04744c44b760")
-	)
-	(segment
 		(start 145.66 83.5275)
 		(end 145.6875 83.5)
 		(width 0.5)
@@ -8479,7 +8471,7 @@
 		(uuid "62702c84-83ec-4f98-b77c-07b1dca75732")
 	)
 	(segment
-		(start 144.8 92.65)
+		(start 144.8 94.048)
 		(end 144.8 85.33)
 		(width 0.5)
 		(layer "B.Cu")
@@ -8501,14 +8493,6 @@
 		(layer "B.Cu")
 		(net 3)
 		(uuid "e3e6fe6e-9ce7-4774-b98a-c27d9c555390")
-	)
-	(segment
-		(start 144.8 94.048)
-		(end 144.8 92.65)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "f71a0537-4b11-4255-9437-a47fd1801f78")
 	)
 	(segment
 		(start 156.7575 86.4075)
@@ -10956,14 +10940,6 @@
 		(uuid "39c92eb7-12f9-4a68-8fdc-1cb1c1e85196")
 	)
 	(segment
-		(start 147.93 94.73)
-		(end 148.81 94.73)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 35)
-		(uuid "4da290a1-20bf-4e6f-ba2c-1de1ef370e3a")
-	)
-	(segment
 		(start 139.58 90.76)
 		(end 139.54 90.72)
 		(width 0.2)
@@ -11284,14 +11260,6 @@
 		(uuid "092917fe-12ba-4444-89ed-fa7ea90ca89d")
 	)
 	(segment
-		(start 151.3425 90.6125)
-		(end 151.3425 91.45)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 42)
-		(uuid "141d4f8c-c56c-40a9-9fa1-03d1aad759da")
-	)
-	(segment
 		(start 153.18 93.43)
 		(end 151.485 93.43)
 		(width 0.4)
@@ -11308,20 +11276,12 @@
 		(uuid "3a9480c9-4bd9-446f-a291-9d5d99a6c703")
 	)
 	(segment
-		(start 151.57 90.32)
-		(end 151.31 90.58)
+		(start 151.3425 90.6075)
+		(end 151.63 90.32)
 		(width 0.4)
 		(layer "B.Cu")
 		(net 42)
-		(uuid "600c66c8-2a84-43c0-9470-bccce77e20ef")
-	)
-	(segment
-		(start 151.31 90.58)
-		(end 151.3425 90.6125)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 42)
-		(uuid "aaaa3b1b-9417-4a39-88e0-c0f3f3d35e4d")
+		(uuid "81ce414d-9935-4b9e-8844-2a4fb45716d5")
 	)
 	(segment
 		(start 153.6025 90.39)
@@ -11346,6 +11306,14 @@
 		(layer "B.Cu")
 		(net 42)
 		(uuid "c3115743-cd11-4f34-aee5-03d3648c5733")
+	)
+	(segment
+		(start 151.3425 91.45)
+		(end 151.3425 90.6075)
+		(width 0.4)
+		(layer "B.Cu")
+		(net 42)
+		(uuid "e3783ddf-c22a-4158-9c80-34783fe865b2")
 	)
 	(segment
 		(start 140.23 93.6825)

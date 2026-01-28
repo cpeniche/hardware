@@ -10320,7 +10320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jauch.com/downloadfile/57fded7e6f1b9_aba9c9bb2731dd0bfc46/jxs11_180913.pdf"
 			(at 177.8 34.29 0)
 			(effects
 				(font
