@@ -918,7 +918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mini Pci Express Half"
 			(at -10.16 27.94 0)
 			(effects
 				(font
