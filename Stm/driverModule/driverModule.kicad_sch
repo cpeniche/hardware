@@ -310,32 +310,32 @@
 		(uuid 3f853b0e-f8be-480b-a880-1fb3856a0251)
 	)
 	(junction
-		(at 208.28 113.03)
+		(at 240.03 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "290fbb1d-a459-41c2-901a-0f1e451b617f")
 	)
 	(junction
-		(at 208.28 118.11)
+		(at 240.03 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e2d663e-9f07-4c7a-9083-278604a6af36")
 	)
 	(junction
-		(at 208.28 115.57)
+		(at 240.03 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5cb2d72-8733-4627-98e7-63eb7c026106")
 	)
 	(junction
-		(at 208.28 120.65)
+		(at 240.03 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f650d043-e25d-4073-aeed-7ad3e6c46032")
 	)
 	(wire
 		(pts
-			(xy 88.9 143.51) (xy 92.71 143.51)
+			(xy 120.65 144.78) (xy 124.46 144.78)
 		)
 		(stroke
 			(width 0)
@@ -345,7 +345,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 124.46) (xy 153.67 124.46)
+			(xy 161.29 125.73) (xy 185.42 125.73)
 		)
 		(stroke
 			(width 0)
@@ -375,7 +375,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 134.62) (xy 153.67 134.62)
+			(xy 161.29 135.89) (xy 185.42 135.89)
 		)
 		(stroke
 			(width 0)
@@ -395,13 +395,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 115.57) (xy 208.28 115.57)
+			(xy 233.68 116.84) (xy 240.03 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1957f534-221b-4ff0-96a3-1aa8a8a0bc1d")
+	)
+	(wire
+		(pts
+			(xy 74.93 152.4) (xy 78.74 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eac4f44-0533-4688-abbd-d190016e3b29")
 	)
 	(wire
 		(pts
@@ -425,7 +435,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 118.11) (xy 208.28 118.11)
+			(xy 233.68 119.38) (xy 240.03 119.38)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +465,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 113.03) (xy 219.71 113.03)
+			(xy 240.03 114.3) (xy 251.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -495,7 +505,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 140.97) (xy 204.47 140.97)
+			(xy 233.68 142.24) (xy 236.22 142.24)
 		)
 		(stroke
 			(width 0)
@@ -515,7 +525,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 113.03) (xy 153.67 113.03)
+			(xy 181.61 114.3) (xy 185.42 114.3)
 		)
 		(stroke
 			(width 0)
@@ -535,6 +545,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 137.16) (xy 78.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e247a4b-837f-4a6d-9df9-98ba185f34d2")
+	)
+	(wire
+		(pts
 			(xy 72.39 58.42) (xy 76.2 58.42)
 		)
 		(stroke
@@ -545,7 +565,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 110.49) (xy 153.67 110.49)
+			(xy 161.29 111.76) (xy 185.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -555,7 +575,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 132.08 113.03)
+			(xy 161.29 114.3) (xy 163.83 114.3)
 		)
 		(stroke
 			(width 0)
@@ -565,7 +585,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 140.97) (xy 92.71 140.97)
+			(xy 120.65 142.24) (xy 124.46 142.24)
 		)
 		(stroke
 			(width 0)
@@ -595,7 +615,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 120.65) (xy 208.28 120.65)
+			(xy 233.68 121.92) (xy 240.03 121.92)
 		)
 		(stroke
 			(width 0)
@@ -605,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 153.67 127)
+			(xy 161.29 128.27) (xy 185.42 128.27)
 		)
 		(stroke
 			(width 0)
@@ -655,13 +675,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 111.76) (xy 208.28 113.03)
+			(xy 240.03 113.03) (xy 240.03 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65ebe9d6-351b-477c-ad59-65b2f1751daa")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 50.8 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67918cc9-11e7-4bd5-878f-53887f2f7587")
 	)
 	(wire
 		(pts
@@ -675,7 +705,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 129.54) (xy 204.47 129.54)
+			(xy 233.68 130.81) (xy 236.22 130.81)
 		)
 		(stroke
 			(width 0)
@@ -685,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 148.59) (xy 92.71 148.59)
+			(xy 120.65 149.86) (xy 124.46 149.86)
 		)
 		(stroke
 			(width 0)
@@ -695,7 +725,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 115.57) (xy 219.71 115.57)
+			(xy 240.03 116.84) (xy 251.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -705,7 +735,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 151.13) (xy 153.67 151.13)
+			(xy 161.29 152.4) (xy 185.42 152.4)
 		)
 		(stroke
 			(width 0)
@@ -715,7 +745,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 138.43) (xy 204.47 138.43)
+			(xy 233.68 139.7) (xy 236.22 139.7)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +755,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 135.89) (xy 204.47 135.89)
+			(xy 44.45 138.43) (xy 50.8 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d98ab1-5cf6-4e32-acb8-7d1121821b24")
+	)
+	(wire
+		(pts
+			(xy 233.68 137.16) (xy 236.22 137.16)
 		)
 		(stroke
 			(width 0)
@@ -735,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 113.03) (xy 208.28 113.03)
+			(xy 233.68 114.3) (xy 240.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -745,7 +785,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 146.05) (xy 153.67 146.05)
+			(xy 161.29 147.32) (xy 185.42 147.32)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +805,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 140.97) (xy 153.67 140.97)
+			(xy 161.29 142.24) (xy 185.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -785,7 +825,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 153.67) (xy 153.67 153.67)
+			(xy 161.29 154.94) (xy 185.42 154.94)
 		)
 		(stroke
 			(width 0)
@@ -805,7 +845,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 152.4) (xy 204.47 152.4)
+			(xy 233.68 153.67) (xy 236.22 153.67)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +875,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 113.03) (xy 92.71 113.03)
+			(xy 180.34 58.42) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a325981d-48ff-4f18-bf43-9020221fccce")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 186.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a867ef6a-b8b3-4431-9766-7e559bb42012")
+	)
+	(wire
+		(pts
+			(xy 120.65 114.3) (xy 124.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 116.84) (xy 208.28 118.11)
+			(xy 240.03 118.11) (xy 240.03 119.38)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 132.08) (xy 153.67 132.08)
+			(xy 161.29 133.35) (xy 185.42 133.35)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 120.65) (xy 219.71 120.65)
+			(xy 240.03 121.92) (xy 251.46 121.92)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 149.86) (xy 204.47 149.86)
+			(xy 233.68 151.13) (xy 236.22 151.13)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 143.51) (xy 153.67 143.51)
+			(xy 161.29 144.78) (xy 185.42 144.78)
 		)
 		(stroke
 			(width 0)
@@ -955,6 +1015,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 143.51) (xy 78.74 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4820dd-4454-44e3-a400-45e08655b3d8")
+	)
+	(wire
+		(pts
 			(xy 231.14 55.88) (xy 237.49 55.88)
 		)
 		(stroke
@@ -965,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 115.57) (xy 92.71 115.57)
+			(xy 120.65 116.84) (xy 124.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -985,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 127) (xy 204.47 127)
+			(xy 233.68 128.27) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 110.49) (xy 92.71 110.49)
+			(xy 120.65 111.76) (xy 124.46 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 119.38) (xy 208.28 120.65)
+			(xy 240.03 120.65) (xy 240.03 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1115,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 118.11) (xy 219.71 118.11)
+			(xy 74.93 146.05) (xy 78.74 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f977873a-b1e5-4bc9-8bd5-ebb4cfa60d00")
+	)
+	(wire
+		(pts
+			(xy 240.03 119.38) (xy 251.46 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 114.3) (xy 208.28 115.57)
+			(xy 240.03 115.57) (xy 240.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1074,7 +1154,7 @@
 		(uuid "fe0e5376-282d-47bd-a30f-6d0b3bba4cc6")
 	)
 	(label "LatchPositionThroughSignal"
-		(at 88.9 110.49 180)
+		(at 120.65 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1083,8 +1163,18 @@
 		)
 		(uuid "030a3e16-b462-4694-8e05-a2f9d9b1aee3")
 	)
+	(label "~{pdrst2}"
+		(at 78.74 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "083b704e-3c0b-4a9a-a09d-5045ce0ecae0")
+	)
 	(label "+3V3"
-		(at 149.86 113.03 180)
+		(at 181.61 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1094,7 +1184,7 @@
 		(uuid "0a3b34d3-5747-46cc-811a-f52508be91d7")
 	)
 	(label "LatchSensorPurpleConnector"
-		(at 88.9 113.03 180)
+		(at 120.65 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1103,8 +1193,18 @@
 		)
 		(uuid "0b9912d0-f4da-440c-bdfa-a890a58053e1")
 	)
+	(label "WindowMotorDir"
+		(at 157.48 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12d6766e-45c8-4022-b7f3-e65432f1e791")
+	)
 	(label "MirrorSpiChipSelect"
-		(at 219.71 113.03 0)
+		(at 251.46 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1163,6 +1263,16 @@
 		)
 		(uuid "2ff21fba-f799-4f1e-9985-52caccfa747f")
 	)
+	(label "~{pdrst2}"
+		(at 180.34 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31fc78b6-2dde-4a92-b9bb-e39408339f4f")
+	)
 	(label "Uart_Tx"
 		(at 237.49 77.47 0)
 		(effects
@@ -1174,7 +1284,7 @@
 		(uuid "34303ed2-dd70-49be-be3a-d8048a0494fc")
 	)
 	(label "LatchMotorEnable"
-		(at 204.47 127 0)
+		(at 236.22 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1192,6 +1302,16 @@
 			(justify right bottom)
 		)
 		(uuid "39f3170a-2b05-4b96-9c05-bca3150920e8")
+	)
+	(label "LatchMotorEnable"
+		(at 153.67 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "482d25cc-4f96-4175-92eb-53ca21d73d3b")
 	)
 	(label "CAN_RX"
 		(at 237.49 71.12 0)
@@ -1223,8 +1343,18 @@
 		)
 		(uuid "51c90f03-1a9e-4f7f-b37c-0336d713e70c")
 	)
+	(label "+3V3"
+		(at 78.74 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55acb80b-92d2-42bb-8fbe-fe05ed77aa18")
+	)
 	(label "SpiClock"
-		(at 219.71 115.57 0)
+		(at 251.46 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1234,7 +1364,7 @@
 		(uuid "615777fa-3719-44d3-953d-2df5ef82efe2")
 	)
 	(label "SpiMasterOutput"
-		(at 219.71 120.65 0)
+		(at 251.46 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1244,7 +1374,7 @@
 		(uuid "6569e1cd-e6b4-495d-b044-5d033e360987")
 	)
 	(label "LatchMotorDirection"
-		(at 204.47 129.54 0)
+		(at 236.22 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1264,7 +1394,7 @@
 		(uuid "71565c4e-034d-4d3e-8572-e1097024a112")
 	)
 	(label "LIN_BUS"
-		(at 88.9 148.59 180)
+		(at 120.65 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1272,6 +1402,26 @@
 			(justify right bottom)
 		)
 		(uuid "7b712f15-497c-4328-89c5-00af491c4081")
+	)
+	(label "~{pdrst1}"
+		(at 78.74 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d3f4b4f-d52d-4036-bceb-3a21226cc2db")
+	)
+	(label "~{pdrst1}"
+		(at 180.34 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8752410d-ff3a-45c8-b0e3-9e88b4ae6682")
 	)
 	(label "LatchMotorDirection"
 		(at 180.34 53.34 180)
@@ -1324,7 +1474,7 @@
 		(uuid "9a0244de-af5f-4cef-8576-81a3b07b61eb")
 	)
 	(label "CAN_L"
-		(at 88.9 143.51 180)
+		(at 120.65 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1333,8 +1483,18 @@
 		)
 		(uuid "9cc1b837-d183-4ef4-a6f6-85ba7356fa25")
 	)
+	(label "SpiClock"
+		(at 44.45 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fd464dc-51c1-46ee-857f-8c5d82bfc440")
+	)
 	(label "CAN_H"
-		(at 88.9 140.97 180)
+		(at 120.65 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1394,7 +1554,7 @@
 		(uuid "ad3ff932-8cbf-4d16-aa7d-e6e6ef8bee44")
 	)
 	(label "KeyfobOpen3v3"
-		(at 204.47 152.4 0)
+		(at 236.22 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1464,7 +1624,7 @@
 		(uuid "cfaee00d-d7cb-4d02-b6e9-1179715452e6")
 	)
 	(label "WindowMotorEnable"
-		(at 204.47 135.89 0)
+		(at 236.22 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1493,6 +1653,16 @@
 		)
 		(uuid "daa393ea-25a3-43d0-a88d-d906ea8de79a")
 	)
+	(label "SpiMasterInput"
+		(at 44.45 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dafaf58f-91fc-4db6-a2db-3c5583c5631d")
+	)
 	(label "CAN_H"
 		(at 138.43 71.12 0)
 		(effects
@@ -1512,6 +1682,16 @@
 			(justify right bottom)
 		)
 		(uuid "e774daba-8282-4f3a-8bbd-0382f22f9e6a")
+	)
+	(label "GND"
+		(at 78.74 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e870f0a7-1f4e-4656-8865-b81adf50f2d3")
 	)
 	(label "LIN_TX"
 		(at 100.33 67.31 180)
@@ -1534,7 +1714,7 @@
 		(uuid "eb82564e-72f3-4338-ad43-b11bd816137b")
 	)
 	(label "LatchSensorGreenConnector"
-		(at 88.9 115.57 180)
+		(at 120.65 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1554,7 +1734,7 @@
 		(uuid "f0747345-fd2f-4312-afb1-c68c40422c10")
 	)
 	(label "GND"
-		(at 132.08 113.03 0)
+		(at 163.83 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1564,7 +1744,7 @@
 		(uuid "f0f329b5-2240-4b08-90ce-c562ff5bd8d3")
 	)
 	(label "KeyfobClose3v3"
-		(at 204.47 149.86 0)
+		(at 236.22 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1574,7 +1754,7 @@
 		(uuid "f1af4f00-840a-4081-9ed5-09d38a4c87da")
 	)
 	(label "SpiMasterInput"
-		(at 219.71 118.11 0)
+		(at 251.46 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1584,7 +1764,7 @@
 		(uuid "f716446a-c0b8-43bb-bc0c-d0155b0805f4")
 	)
 	(label "WindowMotorDir"
-		(at 204.47 140.97 0)
+		(at 236.22 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1594,7 +1774,7 @@
 		(uuid "f7c188a1-7095-4f6e-9e46-b5801a329096")
 	)
 	(label "WindowMotorCurrentSense"
-		(at 204.47 138.43 0)
+		(at 236.22 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1689,7 +1869,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 208.28 116.84 0)
+		(at 240.03 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1698,7 +1878,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fa6e538-0ff0-487f-870d-f9aa10990b3f")
 		(property "Reference" "TP6"
-			(at 209.55 116.8399 0)
+			(at 241.3 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1887,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 209.55 118.1099 0)
+			(at 241.3 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1897,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 116.84 0)
+			(at 245.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 116.84 0)
+			(at 245.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +1915,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 208.28 116.84 0)
+			(at 240.03 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +2002,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 208.28 111.76 0)
+		(at 240.03 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1830,7 +2010,7 @@
 		(dnp no)
 		(uuid "6a770209-36ef-413d-8bd9-c2ae6ae82785")
 		(property "Reference" "TP4"
-			(at 209.55 111.506 0)
+			(at 241.3 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +2019,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 208.534 108.712 0)
+			(at 240.284 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +2029,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 111.76 0)
+			(at 245.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +2038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 111.76 0)
+			(at 245.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +2047,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 208.28 111.76 0)
+			(at 240.03 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +2056,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5cb774f-3dc9-4abc-9e6c-24139033da27")
+			(uuid "c5cb774f-3dc9-4abc-9e6c-24139033da28")
 		)
 		(instances
 			(project ""
@@ -1889,7 +2069,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 208.28 114.3 0)
+		(at 240.03 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1898,7 +2078,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b636d62-c5c7-4d2d-92ed-9595e5e3a003")
 		(property "Reference" "TP5"
-			(at 209.55 114.2999 0)
+			(at 241.3 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +2087,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 209.55 115.5699 0)
+			(at 241.3 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2097,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 114.3 0)
+			(at 245.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 114.3 0)
+			(at 245.11 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2115,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 208.28 114.3 0)
+			(at 240.03 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2124,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5cb774f-3dc9-4abc-9e6c-24139033da27")
+			(uuid "c5cb774f-3dc9-4abc-9e6c-24139033da29")
 		)
 		(instances
 			(project ""
@@ -1957,7 +2137,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 208.28 119.38 0)
+		(at 240.03 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1966,7 +2146,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b8f81c3-c0b1-46ef-87a9-a839555c417e")
 		(property "Reference" "TP7"
-			(at 209.55 119.3799 0)
+			(at 241.3 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2155,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 209.55 120.6499 0)
+			(at 241.3 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +2165,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 213.36 119.38 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 119.38 0)
+			(at 245.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2183,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 208.28 119.38 0)
+			(at 240.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +2192,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5cb774f-3dc9-4abc-9e6c-24139033da27")
+			(uuid "c5cb774f-3dc9-4abc-9e6c-24139033da2a")
 		)
 		(instances
 			(project ""
@@ -2216,6 +2396,108 @@
 		)
 	)
 	(sheet
+		(at 50.8 133.35)
+		(size 24.13 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 0 1.0000)
+		)
+		(uuid "1e0c0fbf-0db8-48a4-b650-64170f0776ab")
+		(property "Sheetname" "AD7171"
+			(at 50.8 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ad7171.kicad_sch"
+			(at 50.8 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3" input
+			(at 74.93 137.16 0)
+			(uuid "06599a25-d3cc-446f-8ffe-db13d9a2b6ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dout{slash}~{rdy}" output
+			(at 50.8 140.97 180)
+			(uuid "08426db5-3ae6-4b9a-aa6f-0149c302ecfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 74.93 152.4 0)
+			(uuid "14e455ef-f64a-4a10-8281-4d354a3776e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sck" input
+			(at 50.8 138.43 180)
+			(uuid "0b2add8f-0a63-4a4e-92f3-99a94be043eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{pdrst1}" input
+			(at 74.93 146.05 0)
+			(uuid "0bd50119-3d1e-4267-a374-2ba835b91eda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{pdrst2}" input
+			(at 74.93 143.51 0)
+			(uuid "cae503a3-1eb4-4a43-a97f-1a58b02de1e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "driverModule"
+				(path "/959b66be-b3e0-42f8-ad58-f1baefc5b565"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 186.69 48.26)
 		(size 44.45 38.1)
 		(exclude_from_sim no)
@@ -2274,16 +2556,6 @@
 		(pin "GND" input
 			(at 231.14 83.82 0)
 			(uuid "68f48220-32ef-4edd-a097-758073223dde")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WindownMotorEnable" input
-			(at 231.14 55.88 0)
-			(uuid "2ade2ecd-81e5-4986-b007-ddc6f8311584")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,6 +2743,36 @@
 				(justify right)
 			)
 		)
+		(pin "WindowMotorEnable" input
+			(at 231.14 55.88 0)
+			(uuid "3f48b59d-e456-48c5-81df-ca7f66e05eae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{pdrst2}" output
+			(at 186.69 55.88 180)
+			(uuid "e3521008-3133-4393-b083-95a98d9caef8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{pdrst1}" output
+			(at 186.69 58.42 180)
+			(uuid "2dafdf80-a477-4e36-8efc-8512471509ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "driverModule"
 				(path "/959b66be-b3e0-42f8-ad58-f1baefc5b565"
@@ -2480,7 +2782,7 @@
 		)
 	)
 	(sheet
-		(at 153.67 106.68)
+		(at 185.42 107.95)
 		(size 48.26 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2495,7 +2797,7 @@
 		)
 		(uuid "929fc890-f6da-48d5-a213-781ba4c4fd4e")
 		(property "Sheetname" "Motors Interface"
-			(at 153.67 103.124 0)
+			(at 185.42 104.394 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2506,7 +2808,7 @@
 			)
 		)
 		(property "Sheetfile" "motors.kicad_sch"
-			(at 153.67 158.496 0)
+			(at 185.42 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +2817,7 @@
 			)
 		)
 		(pin "SpiMasterInput" input
-			(at 201.93 118.11 0)
+			(at 233.68 119.38 0)
 			(uuid "0d829f00-da9c-458b-b1b6-6f17883bb241")
 			(effects
 				(font
@@ -2525,7 +2827,7 @@
 			)
 		)
 		(pin "MirrorMotorXA" input
-			(at 153.67 143.51 180)
+			(at 185.42 144.78 180)
 			(uuid "12e27c4b-6c27-47da-bf93-a403aa9be6c5")
 			(effects
 				(font
@@ -2535,7 +2837,7 @@
 			)
 		)
 		(pin "WindowMotorCurrentSense" input
-			(at 201.93 138.43 0)
+			(at 233.68 139.7 0)
 			(uuid "28c39544-71c3-48ad-9e71-9e3391e1ae34")
 			(effects
 				(font
@@ -2545,7 +2847,7 @@
 			)
 		)
 		(pin "MirrorMotorXYB" input
-			(at 153.67 140.97 180)
+			(at 185.42 142.24 180)
 			(uuid "1397cf05-b364-4ac3-892e-76e9361d4ef9")
 			(effects
 				(font
@@ -2555,7 +2857,7 @@
 			)
 		)
 		(pin "KeyFobClose12V" input
-			(at 153.67 151.13 180)
+			(at 185.42 152.4 180)
 			(uuid "d2b6a311-0161-48e7-bdb7-b3434ea2ab9c")
 			(effects
 				(font
@@ -2565,7 +2867,7 @@
 			)
 		)
 		(pin "SpiClock" input
-			(at 201.93 115.57 0)
+			(at 233.68 116.84 0)
 			(uuid "e827586b-e86f-4ddd-88c9-301b1e22697e")
 			(effects
 				(font
@@ -2575,7 +2877,7 @@
 			)
 		)
 		(pin "KeyfobClose3v3" input
-			(at 201.93 149.86 0)
+			(at 233.68 151.13 0)
 			(uuid "5d3eb007-e849-4c91-b488-976cca66f7a8")
 			(effects
 				(font
@@ -2585,7 +2887,7 @@
 			)
 		)
 		(pin "LatchMotorDirection" input
-			(at 201.93 129.54 0)
+			(at 233.68 130.81 0)
 			(uuid "3abf617d-b9fc-4d62-8eb7-8138bf313ef0")
 			(effects
 				(font
@@ -2595,7 +2897,7 @@
 			)
 		)
 		(pin "MirrorSpiChipSelect" input
-			(at 201.93 113.03 0)
+			(at 233.68 114.3 0)
 			(uuid "a229af90-bb72-4cc7-bd2d-2bbf48be11b9")
 			(effects
 				(font
@@ -2605,7 +2907,7 @@
 			)
 		)
 		(pin "keyFobOpen12V" input
-			(at 153.67 153.67 180)
+			(at 185.42 154.94 180)
 			(uuid "82df3030-958d-4eb5-b03a-4abee84eda31")
 			(effects
 				(font
@@ -2615,7 +2917,7 @@
 			)
 		)
 		(pin "KeyfobOpen3v3" input
-			(at 201.93 152.4 0)
+			(at 233.68 153.67 0)
 			(uuid "2b78f53b-4466-4d14-9b51-a66166228a86")
 			(effects
 				(font
@@ -2625,7 +2927,7 @@
 			)
 		)
 		(pin "SpiMasterOutput" input
-			(at 201.93 120.65 0)
+			(at 233.68 121.92 0)
 			(uuid "e6e80762-e4ef-4669-b245-0aa17ea6a9ff")
 			(effects
 				(font
@@ -2635,7 +2937,7 @@
 			)
 		)
 		(pin "MirrorMotorYA" input
-			(at 153.67 146.05 180)
+			(at 185.42 147.32 180)
 			(uuid "e7224680-e5c5-43c3-9958-59abb53f71d8")
 			(effects
 				(font
@@ -2645,7 +2947,7 @@
 			)
 		)
 		(pin "WindownMotorEnable" input
-			(at 201.93 135.89 0)
+			(at 233.68 137.16 0)
 			(uuid "18dc6f50-041a-45eb-95b3-dd64ec62a428")
 			(effects
 				(font
@@ -2655,7 +2957,7 @@
 			)
 		)
 		(pin "LatchMotorEnable" input
-			(at 201.93 127 0)
+			(at 233.68 128.27 0)
 			(uuid "0d07a525-ba6a-4b72-9b04-74e2cb264112")
 			(effects
 				(font
@@ -2665,7 +2967,7 @@
 			)
 		)
 		(pin "WindowMotorDir" input
-			(at 201.93 140.97 0)
+			(at 233.68 142.24 0)
 			(uuid "2a611d53-eb3b-4713-921e-973479686ca4")
 			(effects
 				(font
@@ -2675,7 +2977,7 @@
 			)
 		)
 		(pin "WindowMotorB" output
-			(at 153.67 132.08 180)
+			(at 185.42 133.35 180)
 			(uuid "f9a729b5-7dd0-4ac5-8c69-26295ae07160")
 			(effects
 				(font
@@ -2685,7 +2987,7 @@
 			)
 		)
 		(pin "LatchMotorB" output
-			(at 153.67 127 180)
+			(at 185.42 128.27 180)
 			(uuid "caa7b2e1-3be8-46b7-8c71-9af5241ae62b")
 			(effects
 				(font
@@ -2695,7 +2997,7 @@
 			)
 		)
 		(pin "LatchMotorA" output
-			(at 153.67 124.46 180)
+			(at 185.42 125.73 180)
 			(uuid "12f47f87-3a9e-43c3-929e-5c6bbcf5ec72")
 			(effects
 				(font
@@ -2705,7 +3007,7 @@
 			)
 		)
 		(pin "+12V" input
-			(at 153.67 110.49 180)
+			(at 185.42 111.76 180)
 			(uuid "59d895a8-2727-470b-9d59-09bebb0a39cb")
 			(effects
 				(font
@@ -2715,7 +3017,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 153.67 113.03 180)
+			(at 185.42 114.3 180)
 			(uuid "a5910d45-4845-4cd8-97a7-b379efdd6de9")
 			(effects
 				(font
@@ -2725,7 +3027,7 @@
 			)
 		)
 		(pin "WindowMotorA" output
-			(at 153.67 134.62 180)
+			(at 185.42 135.89 180)
 			(uuid "200ee40b-924d-49eb-b6e1-9476b8a735bd")
 			(effects
 				(font
@@ -2743,7 +3045,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 105.41)
+		(at 124.46 106.68)
 		(size 36.83 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2759,7 +3061,7 @@
 		)
 		(uuid "ad1971f1-cc31-4ec5-9754-d2c10a4924d8")
 		(property "Sheetname" "Harness"
-			(at 92.71 104.0634 0)
+			(at 124.46 105.3334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -2770,7 +3072,7 @@
 			)
 		)
 		(property "Sheetfile" "Harness.kicad_sch"
-			(at 92.71 159.3346 0)
+			(at 124.46 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +3081,7 @@
 			)
 		)
 		(pin "CAN_H" bidirectional
-			(at 92.71 140.97 180)
+			(at 124.46 142.24 180)
 			(uuid "3d8e1f4c-85e1-476a-ae03-f145d85bdf1d")
 			(effects
 				(font
@@ -2789,7 +3091,7 @@
 			)
 		)
 		(pin "+12V" input
-			(at 129.54 110.49 0)
+			(at 161.29 111.76 0)
 			(uuid "59135974-6739-4722-8dfb-78828494f058")
 			(effects
 				(font
@@ -2799,7 +3101,7 @@
 			)
 		)
 		(pin "MirrorMotorXYB" output
-			(at 129.54 140.97 0)
+			(at 161.29 142.24 0)
 			(uuid "40b8e63e-1a4a-4740-89a5-6a6e6d67a9ff")
 			(effects
 				(font
@@ -2809,7 +3111,7 @@
 			)
 		)
 		(pin "LIN_BUS" bidirectional
-			(at 92.71 148.59 180)
+			(at 124.46 149.86 180)
 			(uuid "2b03f8c2-8dd4-4fdf-b541-63ecf7af89a2")
 			(effects
 				(font
@@ -2819,7 +3121,7 @@
 			)
 		)
 		(pin "KeyFobClose12V" input
-			(at 129.54 151.13 0)
+			(at 161.29 152.4 0)
 			(uuid "28e101ec-69a3-46b8-a4f9-1246c28dadc7")
 			(effects
 				(font
@@ -2829,7 +3131,7 @@
 			)
 		)
 		(pin "CAN_L" bidirectional
-			(at 92.71 143.51 180)
+			(at 124.46 144.78 180)
 			(uuid "213503cc-c72b-4a05-8324-98fd46c38ad7")
 			(effects
 				(font
@@ -2839,7 +3141,7 @@
 			)
 		)
 		(pin "MirrorMotorYA" output
-			(at 129.54 143.51 0)
+			(at 161.29 144.78 0)
 			(uuid "028cf62a-c659-4164-b9d5-49638d042940")
 			(effects
 				(font
@@ -2849,7 +3151,7 @@
 			)
 		)
 		(pin "LatchSensorPurpleConnector" input
-			(at 92.71 115.57 180)
+			(at 124.46 116.84 180)
 			(uuid "efb64509-1980-4ab1-bbfd-7a986bb360be")
 			(effects
 				(font
@@ -2859,7 +3161,7 @@
 			)
 		)
 		(pin "LatchPositionThroughSignal" input
-			(at 92.71 110.49 180)
+			(at 124.46 111.76 180)
 			(uuid "d804a9cb-9190-4a75-b7a3-224187eaae3b")
 			(effects
 				(font
@@ -2869,7 +3171,7 @@
 			)
 		)
 		(pin "MirrorMotorXA" output
-			(at 129.54 146.05 0)
+			(at 161.29 147.32 0)
 			(uuid "736decce-aa54-45fe-a6d9-ccb8eca5d9b8")
 			(effects
 				(font
@@ -2879,7 +3181,7 @@
 			)
 		)
 		(pin "LatchMotorA" output
-			(at 129.54 124.46 0)
+			(at 161.29 125.73 0)
 			(uuid "fb3bd63d-023c-4cf2-a084-c910ffda8841")
 			(effects
 				(font
@@ -2889,7 +3191,7 @@
 			)
 		)
 		(pin "LatchSensorGreenConnector" input
-			(at 92.71 113.03 180)
+			(at 124.46 114.3 180)
 			(uuid "cfb94189-b002-4402-acea-d2e455ad45d9")
 			(effects
 				(font
@@ -2899,7 +3201,7 @@
 			)
 		)
 		(pin "WindowMotorA" output
-			(at 129.54 134.62 0)
+			(at 161.29 135.89 0)
 			(uuid "294778de-fb4f-4fc0-81cd-ed5887815fa0")
 			(effects
 				(font
@@ -2909,7 +3211,7 @@
 			)
 		)
 		(pin "WindowMotorB" output
-			(at 129.54 132.08 0)
+			(at 161.29 133.35 0)
 			(uuid "b4fa11c7-e97b-4547-9a13-3b845c3b14b8")
 			(effects
 				(font
@@ -2919,7 +3221,7 @@
 			)
 		)
 		(pin "keyFobOpen12V" input
-			(at 129.54 153.67 0)
+			(at 161.29 154.94 0)
 			(uuid "345a317c-d53f-4065-9845-73ffaa43eacc")
 			(effects
 				(font
@@ -2929,7 +3231,7 @@
 			)
 		)
 		(pin "LatchMotorB" output
-			(at 129.54 127 0)
+			(at 161.29 128.27 0)
 			(uuid "84cf2496-e596-4a94-97ea-283fa68ac351")
 			(effects
 				(font
@@ -2939,7 +3241,7 @@
 			)
 		)
 		(pin "GND" bidirectional
-			(at 129.54 113.03 0)
+			(at 161.29 114.3 0)
 			(uuid "f6b0385d-8944-4327-8974-1a1d4b3a1de3")
 			(effects
 				(font

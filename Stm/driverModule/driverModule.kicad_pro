@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 2.1082,
+          "width": 0.6604
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -635,7 +635,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -689,6 +689,10 @@
     [
       "ad1971f1-cc31-4ec5-9754-d2c10a4924d8",
       "Harness"
+    ],
+    [
+      "1e0c0fbf-0db8-48a4-b650-64170f0776ab",
+      "AD7171"
     ]
   ],
   "text_variables": {}
