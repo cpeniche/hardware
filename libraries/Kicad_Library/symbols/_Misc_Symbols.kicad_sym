@@ -12701,7 +12701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://ecsxtal.com/store/pdf/ECS-327MVATX.pdf"
 			(at -10.16 8.89 0)
 			(effects
 				(font
