@@ -10426,6 +10426,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 100.33 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b917995-ae39-4f63-9183-10339c0b76a9")
+		(property "Reference" "D1"
+			(at 100.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 102.235 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 98.298 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "dual schottky barrier diode, common cathode"
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7648b5e9-583b-437a-9358-421514aa4aa3")
+		)
+		(pin "2"
+			(uuid "7ebffb9d-98a6-4905-9c40-e0797ef2f8b1")
+		)
+		(pin "3"
+			(uuid "dc8134a4-1bfd-47a1-9307-feea4ecb1313")
+		)
+		(instances
+			(project ""
+				(path "/a18d91d8-98f9-47ec-9c29-ed13c9a9b8c5"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 29.21 0)
 		(unit 1)
@@ -11728,78 +11800,6 @@
 			(project "stm32g431"
 				(path "/a18d91d8-98f9-47ec-9c29-ed13c9a9b8c5"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54C")
-		(at 100.33 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd137b3f-3d3a-4429-abd6-cc0a3ad03715")
-		(property "Reference" "D1"
-			(at 100.33 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54CW"
-			(at 100.33 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 102.235 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
-			(at 98.298 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "dual schottky barrier diode, common cathode"
-			(at 100.33 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6b3ab30f-527e-42a1-bc24-c27be463ddfd")
-		)
-		(pin "2"
-			(uuid "4adbf88c-e5b3-46c9-a449-d4595da6c8b2")
-		)
-		(pin "1"
-			(uuid "534266f8-68e1-478b-9e67-df4f7bb26ae1")
-		)
-		(instances
-			(project ""
-				(path "/a18d91d8-98f9-47ec-9c29-ed13c9a9b8c5"
-					(reference "D1")
 					(unit 1)
 				)
 			)
