@@ -526,7 +526,7 @@
       "plot": "fabricationOutputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pcieBreakOutBoard.step",
       "svg": "",
       "vrml": ""
     },

@@ -506,7 +506,7 @@
       "plot": "fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3dModel/stm32g431.step",
       "svg": "",
       "vrml": ""
     },
