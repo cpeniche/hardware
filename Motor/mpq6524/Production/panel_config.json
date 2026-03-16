@@ -1,0 +1,15 @@
+{
+  "dimensionsInchesBtn": false,
+  "dimensionsMmBtn": true,
+  "panelSizeSmallerBtn": false,
+  "panelSizeLargerBtn": true,
+  "panelSizeXCtrl": "100",
+  "panelSizeYCtrl": "100",
+  "gapsVerticalCtrl": "",
+  "gapsHorizontalCtrl": "",
+  "removeRightVerticalCheck": false,
+  "productionBordersCheck": false,
+  "productionFiducialsCheck": false,
+  "productionExposeCheck": false,
+  "vScoreLayer": "F.Cu"
+}
