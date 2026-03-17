@@ -1585,6 +1585,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "_Connectors:TB002-500-02BE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.04 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TB002-500-02BE"
+				(at -2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "User_Footprint:CUI_TB002-500-02BE"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/tb002-500.pdf"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TB002-500-02BE_0_0"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -1.27 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_Misc_Symbols:MP6612DGF-P"
 			(pin_names
 				(offset 0.254)
@@ -2714,6 +2838,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 76.2) (xy 227.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3cbc81-5a56-47a7-a6d9-8bd8460d603a")
+	)
+	(wire
+		(pts
 			(xy 116.84 95.25) (xy 121.92 95.25)
 		)
 		(stroke
@@ -3031,6 +3165,16 @@
 			(type default)
 		)
 		(uuid "87138ff7-5f10-4339-bff4-e271b4e73fde")
+	)
+	(wire
+		(pts
+			(xy 220.98 73.66) (xy 227.33 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879571ed-a952-49a5-be43-24b4ecdb9c9f")
 	)
 	(wire
 		(pts
@@ -3562,6 +3706,16 @@
 		)
 		(uuid "725e6a1b-19ff-44f0-9c65-ef37c9cf92fa")
 	)
+	(label "Out1"
+		(at 220.98 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "774f3f16-32b6-4386-b910-029f39dc3e3c")
+	)
 	(label "GND"
 		(at 151.13 92.71 180)
 		(effects
@@ -3661,6 +3815,16 @@
 			(justify right bottom)
 		)
 		(uuid "bc7cb3f8-5008-41b5-9d29-0905b738b48c")
+	)
+	(label "Out2"
+		(at 220.98 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdfe9dcc-a06a-45de-8262-8c7987690c28")
 	)
 	(label "IN2"
 		(at 116.84 95.25 0)
@@ -3794,6 +3958,97 @@
 			(project ""
 				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_Connectors:TB002-500-02BE")
+		(at 234.95 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f704ddc-3ac9-4458-becd-c5db21f943aa")
+		(property "Reference" "J3"
+			(at 238.76 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TB002-500-02BE"
+			(at 238.76 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "User_Footprint:CUI_TB002-500-02BE"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/tb002-500.pdf"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197\" (5.00mm) Through Hole"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI"
+			(at 237.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "610e7146-00a5-4480-8393-28b98187907a")
+		)
+		(pin "1"
+			(uuid "30eb53f3-79f1-4c2e-b395-880e2056fde7")
+		)
+		(instances
+			(project ""
+				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4012,10 +4267,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "206148df-9633-472a-801a-c7de7cb08ac7")
+			(uuid "206148df-9633-472a-801a-c7de7cb08ac8")
 		)
 		(pin "1"
-			(uuid "509bd37b-06e0-4251-af68-8920963d4fa5")
+			(uuid "509bd37b-06e0-4251-af68-8920963d4fa6")
 		)
 		(instances
 			(project ""
@@ -4082,10 +4337,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "206148df-9633-472a-801a-c7de7cb08ac7")
+			(uuid "206148df-9633-472a-801a-c7de7cb08ac9")
 		)
 		(pin "1"
-			(uuid "509bd37b-06e0-4251-af68-8920963d4fa5")
+			(uuid "509bd37b-06e0-4251-af68-8920963d4fa7")
 		)
 		(instances
 			(project ""
@@ -4236,10 +4491,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e5")
+			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e6")
 		)
 		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769ee")
+			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769ef")
 		)
 		(instances
 			(project ""
@@ -4510,10 +4765,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "206148df-9633-472a-801a-c7de7cb08ac7")
+			(uuid "206148df-9633-472a-801a-c7de7cb08aca")
 		)
 		(pin "1"
-			(uuid "509bd37b-06e0-4251-af68-8920963d4fa5")
+			(uuid "509bd37b-06e0-4251-af68-8920963d4fa8")
 		)
 		(instances
 			(project ""
@@ -5055,7 +5310,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb7a951e-9606-40b4-b19c-b5f3f4196581")
+			(uuid "eb7a951e-9606-40b4-b19c-b5f3f4196582")
 		)
 		(instances
 			(project ""
@@ -5517,10 +5772,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "206148df-9633-472a-801a-c7de7cb08ac7")
+			(uuid "206148df-9633-472a-801a-c7de7cb08acb")
 		)
 		(pin "1"
-			(uuid "509bd37b-06e0-4251-af68-8920963d4fa5")
+			(uuid "509bd37b-06e0-4251-af68-8920963d4fa9")
 		)
 		(instances
 			(project ""
@@ -5655,10 +5910,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "206148df-9633-472a-801a-c7de7cb08ac7")
+			(uuid "206148df-9633-472a-801a-c7de7cb08acc")
 		)
 		(pin "1"
-			(uuid "509bd37b-06e0-4251-af68-8920963d4fa5")
+			(uuid "509bd37b-06e0-4251-af68-8920963d4faa")
 		)
 		(instances
 			(project ""
@@ -5743,10 +5998,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e5")
+			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e7")
 		)
 		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769ee")
+			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769f0")
 		)
 		(instances
 			(project ""
@@ -5880,10 +6135,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "206148df-9633-472a-801a-c7de7cb08ac7")
+			(uuid "206148df-9633-472a-801a-c7de7cb08acd")
 		)
 		(pin "1"
-			(uuid "509bd37b-06e0-4251-af68-8920963d4fa5")
+			(uuid "509bd37b-06e0-4251-af68-8920963d4fab")
 		)
 		(instances
 			(project ""
@@ -6103,10 +6358,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e5")
+			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e8")
 		)
 		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769ee")
+			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769f1")
 		)
 		(instances
 			(project ""
@@ -6374,7 +6629,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3b7ca7c-bb12-4712-afc1-6a1366239b40")
+			(uuid "e3b7ca7c-bb12-4712-afc1-6a1366239b41")
 		)
 		(instances
 			(project ""
@@ -6529,10 +6784,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e5")
+			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e9")
 		)
 		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769ee")
+			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769f2")
 		)
 		(instances
 			(project ""
