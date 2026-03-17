@@ -201,20 +201,9 @@
 		(uuid "dca7bff9-b8cc-42e4-904c-302e48281e9c")
 	)
 	(embedded_fonts no)
-	(model "OQ0212500000G.stp"
+	(model "${KICAD_USER_3D_MODELS_DIR}/OQ0212500000G.stp"
 		(offset
-			(xyz 1.759999964 0.6600000163 10.32999977)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "/home/carlo/smbshare/Projects/hardware/libraries/Kicad_Library/3d_models/OQ0212500000G.stp"
-		(offset
-			(xyz 1.8 0.7 9.2)
+			(xyz 1.75 0.6 9.2)
 		)
 		(scale
 			(xyz 1 1 1)

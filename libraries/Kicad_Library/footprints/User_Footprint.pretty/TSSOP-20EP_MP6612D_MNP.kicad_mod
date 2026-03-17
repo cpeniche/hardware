@@ -1141,32 +1141,9 @@
 		(uuid "a5b4fb5d-61bc-44d1-a7f8-67ec0ed11879")
 	)
 	(fp_text user "*"
-		(at -3.175 -4.423601 0)
+		(at -3.3 -3.6 0)
 		(layer "F.SilkS")
 		(uuid "d54c4858-6c94-490b-bf29-2eb8451eba2d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -3.175 -4.423601 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "ec866cbe-65d1-45aa-8f02-fd4260891cf0")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.8669 -3.2258 0)
-		(layer "F.Fab")
-		(uuid "1a25cbf5-7813-443f-8844-6c9c7d6899c2")
 		(effects
 			(font
 				(size 1 1)
@@ -1179,18 +1156,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "53451ba8-9e61-4b94-9ef1-c1d9c5832442")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.8669 -3.2258 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "f1fe6bd4-7afd-4d21-906c-fffcd1825e2c")
 		(effects
 			(font
 				(size 1 1)
@@ -1325,4 +1290,15 @@
 		(uuid "a5f1f08e-6064-447b-844c-ca2abffdd106")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_3D_MODELS_DIR}/TSSOP-20EP_MP6612D_MNP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
