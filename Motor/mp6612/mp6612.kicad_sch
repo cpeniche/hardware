@@ -595,174 +595,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1709,6 +1541,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "_Misc_Symbols:B340A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B340A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30891.pdf"
+				(at 0.762 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode 40 V 3A Surface Mount SMA"
+				(at 1.27 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B340A_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B340A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_Misc_Symbols:MP6612DGF-P"
 			(pin_names
 				(offset 0.254)
@@ -2519,12 +2501,6 @@
 		(uuid "122702b7-1e06-4c9a-9035-9fa47f34f00c")
 	)
 	(junction
-		(at 92.71 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18169ba1-fea1-488b-ba1d-e687685cc6a7")
-	)
-	(junction
 		(at 170.18 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2535,6 +2511,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bbc0708-141f-431e-8dcb-750fb8c48cfc")
+	)
+	(junction
+		(at 93.98 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32801b6b-3936-4de2-b6f7-2df5477530c3")
 	)
 	(junction
 		(at 187.96 133.35)
@@ -2553,6 +2535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43cec2ec-ad16-41b6-8ed9-162139042cde")
+	)
+	(junction
+		(at 93.98 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47a6146e-0237-4879-a0a7-9e93ece5ef60")
 	)
 	(junction
 		(at 81.28 35.56)
@@ -2601,12 +2589,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a775f73-8a87-4683-9403-b9b6b411ad8b")
-	)
-	(junction
-		(at 92.71 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c748128-b2aa-48b4-84f4-8dfb45f53fcd")
 	)
 	(junction
 		(at 127 35.56)
@@ -2878,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 35.56) (xy 104.14 35.56)
+			(xy 81.28 35.56) (xy 93.98 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2928,17 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 35.56) (xy 92.71 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54aa3ceb-1b1b-461b-b329-adbb45774011")
-	)
-	(wire
-		(pts
-			(xy 92.71 27.94) (xy 104.14 27.94)
+			(xy 81.28 27.94) (xy 93.98 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2975,6 +2947,16 @@
 			(type default)
 		)
 		(uuid "5e43800b-f364-4c19-be4f-d49cb42287a4")
+	)
+	(wire
+		(pts
+			(xy 93.98 27.94) (xy 104.14 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63780ea1-b181-4625-90d7-78afde1e0ea4")
 	)
 	(wire
 		(pts
@@ -3015,6 +2997,16 @@
 			(type default)
 		)
 		(uuid "6ac2b37f-edd4-4f26-ac92-8e2ac53128e9")
+	)
+	(wire
+		(pts
+			(xy 93.98 35.56) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf3afb2-0f00-4668-a8c8-44a648f3a399")
 	)
 	(wire
 		(pts
@@ -3225,16 +3217,6 @@
 			(type default)
 		)
 		(uuid "99c3eace-4226-4489-a8b9-9d57fbbdac8a")
-	)
-	(wire
-		(pts
-			(xy 81.28 27.94) (xy 92.71 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aeb4ade-45d2-4963-a65f-71042b0bf211")
 	)
 	(wire
 		(pts
@@ -3887,6 +3869,76 @@
 		(uuid "fa354a5c-cb4e-44af-a20e-5c3404c15918")
 	)
 	(symbol
+		(lib_id "_Misc_Symbols:B340A")
+		(at 85.09 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02d4d1dc-eb38-485e-bcbb-e71256198db7")
+		(property "Reference" "D4"
+			(at 87.63 68.2624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B340A"
+			(at 87.63 70.8024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 80.645 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30891.pdf"
+			(at 89.662 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 40 V 3A Surface Mount SMA"
+			(at 89.154 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae18741b-78ae-4b15-b4f8-93395556e7bc")
+		)
+		(pin "2"
+			(uuid "6c1925f3-03c9-4e6b-be94-394597b6dd6b")
+		)
+		(instances
+			(project "mpq6612"
+				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 173.99 133.35 0)
 		(unit 1)
@@ -4055,94 +4107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 77.47 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d2e5a08-1a16-4d0c-b5dc-ea4c00fcf08d")
-		(property "Reference" "D4"
-			(at 80.01 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 80.01 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e5")
-		)
-		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769ee")
-		)
-		(instances
-			(project ""
-				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 149.86 31.75 0)
 		(unit 1)
@@ -4282,6 +4246,76 @@
 		)
 	)
 	(symbol
+		(lib_id "_Misc_Symbols:B340A")
+		(at 77.47 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b3324d1-6ed7-46d7-9578-91238dc1e16e")
+		(property "Reference" "D3"
+			(at 80.01 58.1024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B340A"
+			(at 80.01 60.6424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 73.025 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30891.pdf"
+			(at 82.042 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 40 V 3A Surface Mount SMA"
+			(at 81.534 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00138f98-f5c9-4d5c-8297-3f29b998af83")
+		)
+		(pin "2"
+			(uuid "419910b3-2463-425d-9a03-835fccc5b084")
+		)
+		(instances
+			(project "mpq6612"
+				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 139.7 31.75 0)
 		(unit 1)
@@ -4412,94 +4446,6 @@
 			(project "mpq6612"
 				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 77.47 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "426e7ccc-6671-4504-8f3c-cbaf8fb4f008")
-		(property "Reference" "D2"
-			(at 80.01 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 80.01 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e6")
-		)
-		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769ef")
-		)
-		(instances
-			(project ""
-				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5584,6 +5530,76 @@
 		)
 	)
 	(symbol
+		(lib_id "_Misc_Symbols:B340A")
+		(at 93.98 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aa306cd-6bfb-439d-83c6-64ac0da04f14")
+		(property "Reference" "D1"
+			(at 96.52 30.1624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B340A"
+			(at 96.52 32.7024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 89.535 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30891.pdf"
+			(at 98.552 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 40 V 3A Surface Mount SMA"
+			(at 98.044 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d9c18f6-07f4-41eb-b784-cdc2843f5166")
+		)
+		(pin "2"
+			(uuid "22fd2fb0-109f-4e2d-bd9b-15552fad06e5")
+		)
+		(instances
+			(project "mpq6612"
+				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 118.11 0)
 		(unit 1)
@@ -5925,17 +5941,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 92.71 31.75 270)
+		(lib_id "_Misc_Symbols:B340A")
+		(at 77.47 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b3824825-a32c-4799-b022-3d6ba16f2337")
-		(property "Reference" "D1"
-			(at 95.25 30.4799 90)
+		(uuid "ad08a6f3-2471-434d-8f99-ca91a081bba4")
+		(property "Reference" "D5"
+			(at 80.01 68.2624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,8 +5959,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 95.25 33.0199 90)
+		(property "Value" "B340A"
+			(at 80.01 70.8024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,8 +5968,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 92.71 31.75 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 73.025 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,8 +5977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 92.71 31.75 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30891.pdf"
+			(at 82.042 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,43 +5986,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 92.71 31.75 0)
+		(property "Description" "Diode 40 V 3A Surface Mount SMA"
+			(at 81.534 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Device" "D"
-			(at 92.71 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 92.71 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e7")
 		)
 		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769f0")
+			(uuid "a16b9456-057f-4022-96c9-94a93213b211")
+		)
+		(pin "2"
+			(uuid "2c845eeb-0e81-4736-9747-eadfeb9e59f8")
 		)
 		(instances
-			(project ""
+			(project "mpq6612"
 				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6279,94 +6277,6 @@
 			(project "mpq6612"
 				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 85.09 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6b98a22-9718-4267-8a73-065da6955aff")
-		(property "Reference" "D3"
-			(at 87.63 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 87.63 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e8")
-		)
-		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769f1")
-		)
-		(instances
-			(project ""
-				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6711,94 +6621,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 85.09 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0ef37b1-baf6-4d3e-a29d-4b7a1e1d4df3")
-		(property "Reference" "D5"
-			(at 87.63 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 87.63 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 85.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 85.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 85.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9eba7d1-180f-4858-801e-c0708d3388e9")
-		)
-		(pin "1"
-			(uuid "aa8593f2-ab7d-4a47-a4ff-d39b209769f2")
-		)
-		(instances
-			(project ""
-				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 118.11 138.43 0)
 		(unit 1)
@@ -6826,7 +6648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
 			(at 118.11 138.43 0)
 			(effects
 				(font
@@ -7071,6 +6893,76 @@
 			(project "mpq6612"
 				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_Misc_Symbols:B340A")
+		(at 85.09 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb7f6eb5-c72e-41d5-b165-d84cb7bb6f8a")
+		(property "Reference" "D2"
+			(at 87.63 58.1024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B340A"
+			(at 87.63 60.6424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 80.645 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30891.pdf"
+			(at 89.662 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 40 V 3A Surface Mount SMA"
+			(at 89.154 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "524b83c2-5909-4571-a1a7-c3d03bb750c9")
+		)
+		(pin "2"
+			(uuid "fd890513-4448-4885-915e-e22cb8604856")
+		)
+		(instances
+			(project "mpq6612"
+				(path "/449dfc60-9bd9-4e8d-a4b9-ffb86fa16aa6"
+					(reference "D2")
 					(unit 1)
 				)
 			)
