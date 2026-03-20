@@ -468,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mpq6612.kicad_pro",
+    "filename": "mp6612.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fabricationOutputs/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

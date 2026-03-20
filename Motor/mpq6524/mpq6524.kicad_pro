@@ -507,7 +507,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fabricationOutputs/",
+      "plot": "fabricationOutputs/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "mpq6524.stl",
