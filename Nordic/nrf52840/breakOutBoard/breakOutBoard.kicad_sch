@@ -2634,6 +2634,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "_Misc_Symbols:2450AT18A0100001E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "E"
+				(at 3.175 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "2450AT18A0100001E"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "User_Footprint:XCVR_2450AT18A0100001E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.johansontechnology.com/docs/1129/2450AT18A100E-AEC_tCZ7Fpd.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RF ANTENNA Chip Solder Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "4.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.40 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Johanson Technology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "2450AT18A0100001E_0_0"
+				(polyline
+					(pts
+						(xy 0 8.001) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -2.667 8.001)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 8.001) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_Misc_Symbols:ECS-320-8-37B-CKY-TR"
 			(pin_names
 				(offset 1.016)
@@ -3212,6 +3375,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "50 0hm"
+		(exclude_from_sim no)
+		(at 223.012 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f91ad292-a3a1-4742-8406-65662833b3e3")
+	)
 	(junction
 		(at 144.78 49.53)
 		(diameter 0)
@@ -3307,6 +3480,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b86a68f1-c120-4ea6-a1c5-0521be5115f8")
+	)
+	(junction
+		(at 241.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfe00ef1-be00-4dcd-a6fc-6552a9abae67")
 	)
 	(junction
 		(at 191.77 91.44)
@@ -3475,6 +3654,16 @@
 			(type default)
 		)
 		(uuid "136ff386-93af-44c2-b6de-aca96117a678")
+	)
+	(wire
+		(pts
+			(xy 241.3 101.6) (xy 246.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1549fb0b-c4e6-4cce-a416-6c1ebb6d4568")
 	)
 	(wire
 		(pts
@@ -3728,6 +3917,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 101.6) (xy 228.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e258901-5136-4225-a6a4-c2d01d226c62")
+	)
+	(wire
+		(pts
 			(xy 41.91 151.13) (xy 45.72 151.13)
 		)
 		(stroke
@@ -3815,6 +4014,16 @@
 			(type default)
 		)
 		(uuid "5681a82c-a373-47ea-aebf-03a8695eb07c")
+	)
+	(wire
+		(pts
+			(xy 58.42 166.37) (xy 55.88 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57117ced-b757-40e9-8a13-326488ecf02e")
 	)
 	(wire
 		(pts
@@ -4148,16 +4357,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 166.37) (xy 45.72 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f77ab03-11a1-438f-bf70-f79f34613a5f")
-	)
-	(wire
-		(pts
 			(xy 156.21 129.54) (xy 156.21 132.08)
 		)
 		(stroke
@@ -4288,6 +4487,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 101.6) (xy 256.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4758a3f-82eb-42fa-8097-7596f264a00c")
+	)
+	(wire
+		(pts
 			(xy 58.42 151.13) (xy 55.88 151.13)
 		)
 		(stroke
@@ -4358,6 +4567,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 101.6) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15c60eb-215e-4815-a6ab-6f1b63b462ec")
+	)
+	(wire
+		(pts
 			(xy 111.76 111.76) (xy 115.57 111.76)
 		)
 		(stroke
@@ -4385,6 +4604,16 @@
 			(type default)
 		)
 		(uuid "b5986d34-d4f9-40b1-aa59-89d8f44c021c")
+	)
+	(wire
+		(pts
+			(xy 58.42 163.83) (xy 55.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b873948b-55da-4608-85d8-fc8adbc7769f")
 	)
 	(wire
 		(pts
@@ -4435,6 +4664,16 @@
 			(type default)
 		)
 		(uuid "c422f538-bf2c-4337-bcdf-39f822f765fe")
+	)
+	(wire
+		(pts
+			(xy 241.3 113.03) (xy 241.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d61c01-683e-440e-85a6-38c59415f2e0")
 	)
 	(wire
 		(pts
@@ -4565,6 +4804,16 @@
 			(type default)
 		)
 		(uuid "deef3bf5-3ac8-43fa-bbb1-b1843858e1a4")
+	)
+	(wire
+		(pts
+			(xy 254 101.6) (xy 256.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8bb1d1-c02e-4b54-90fc-b7c41f4f75f9")
 	)
 	(wire
 		(pts
@@ -4946,6 +5195,16 @@
 		)
 		(uuid "30186b3c-a391-4913-aa34-7509307cbf06")
 	)
+	(label "P0.09"
+		(at 58.42 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3021dc8a-1731-49f3-bb0a-b17249e5df65")
+	)
 	(label "P0.20"
 		(at 41.91 151.13 180)
 		(effects
@@ -5126,16 +5385,6 @@
 		)
 		(uuid "77e8815e-06d7-49f9-af0c-60d23d668a2b")
 	)
-	(label "P0.09"
-		(at 41.91 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7aa5a835-400e-4135-b5b3-6311842a0edf")
-	)
 	(label "P0.03"
 		(at 58.42 156.21 0)
 		(effects
@@ -5235,6 +5484,16 @@
 			(justify right bottom)
 		)
 		(uuid "b4b70b3a-1dda-4b86-90f1-1d7c76057274")
+	)
+	(label "P1.15"
+		(at 58.42 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5c98bd0-5e91-4826-b779-193b477714f8")
 	)
 	(label "XC1"
 		(at 173.99 88.9 180)
@@ -5730,7 +5989,7 @@
 				)
 			)
 		)
-		(property "Value" "4n7H"
+		(property "Value" "4.7nH"
 			(at 194.31 99.06 90)
 			(effects
 				(font
@@ -5775,6 +6034,74 @@
 			(project ""
 				(path "/f95eedce-accf-4394-9dff-10c749432bc6"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 232.41 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bcd6a17-5aa9-4b0e-bf36-cdf993e608ee")
+		(property "Reference" "C3"
+			(at 232.41 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0pF"
+			(at 232.41 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 236.22 100.6348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade0a163-8fc2-4b93-9649-075db60858d0")
+		)
+		(pin "2"
+			(uuid "ba306c55-38ab-4e01-82f1-e41e7d40934c")
+		)
+		(instances
+			(project "breakOutBoard"
+				(path "/f95eedce-accf-4394-9dff-10c749432bc6"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6065,7 +6392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1p2F"
+		(property "Value" "1.2pF"
 			(at 207.01 109.2199 0)
 			(effects
 				(font
@@ -6181,6 +6508,179 @@
 			(project "breakOutBoard"
 				(path "/f95eedce-accf-4394-9dff-10c749432bc6"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ad992ec-c528-42df-9d0c-57cd938c1be3")
+		(property "Reference" "#PWR021"
+			(at 241.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 239.268 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c3b68c7-84ba-4f5b-b9da-e37de14fe521")
+		)
+		(instances
+			(project "breakOutBoard"
+				(path "/f95eedce-accf-4394-9dff-10c749432bc6"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_Misc_Symbols:2450AT18A0100001E")
+		(at 256.54 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46c2b9e3-2489-4b22-ac68-d79aaa06aa2e")
+		(property "Reference" "E1"
+			(at 260.35 89.9794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2450AT18A0100001E"
+			(at 260.35 92.5194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "User_Footprint:XCVR_2450AT18A0100001E"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.johansontechnology.com/docs/1129/2450AT18A100E-AEC_tCZ7Fpd.pdf"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF ANTENNA Chip Solder Surface Mount"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4.0"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.40 mm"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Johanson Technology"
+			(at 256.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce9c7caf-e8bb-4c65-8f05-c36914ca83e2")
+		)
+		(instances
+			(project ""
+				(path "/f95eedce-accf-4394-9dff-10c749432bc6"
+					(reference "E1")
 					(unit 1)
 				)
 			)
@@ -6335,7 +6835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "1.0pF"
 			(at 191.77 109.2199 0)
 			(effects
 				(font
@@ -6728,6 +7228,76 @@
 	)
 	(symbol
 		(lib_id "Device:L")
+		(at 241.3 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d9c5d46-1679-4d84-8535-19e8ceb5249a")
+		(property "Reference" "L5"
+			(at 242.57 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7nH"
+			(at 242.57 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 241.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 241.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "704eb0ac-1e36-497a-95ff-f0e730673330")
+		)
+		(pin "2"
+			(uuid "ada103a0-0e90-4ee3-b41e-e870bb24cd67")
+		)
+		(instances
+			(project "breakOutBoard"
+				(path "/f95eedce-accf-4394-9dff-10c749432bc6"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
 		(at 127 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7023,7 +7593,7 @@
 				)
 			)
 		)
-		(property "Value" "2n2H"
+		(property "Value" "2.2nH"
 			(at 210.82 99.06 90)
 			(effects
 				(font
@@ -7499,6 +8069,74 @@
 			(project "breakOutBoard"
 				(path "/f95eedce-accf-4394-9dff-10c749432bc6"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 250.19 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76a79fc-703c-42b5-ba61-48a25a0e6dbd")
+		(property "Reference" "L6"
+			(at 250.19 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9nH"
+			(at 250.19 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1d17814-7935-436d-9eec-64e11c54d45a")
+		)
+		(pin "2"
+			(uuid "fc13abb6-b2f0-4d8f-a200-074f5590fd7b")
+		)
+		(instances
+			(project "breakOutBoard"
+				(path "/f95eedce-accf-4394-9dff-10c749432bc6"
+					(reference "L6")
 					(unit 1)
 				)
 			)
