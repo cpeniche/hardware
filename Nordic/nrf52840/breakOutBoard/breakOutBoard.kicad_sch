@@ -6683,7 +6683,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "6pF"
 			(at 199.136 59.69 0)
 			(effects
 				(font
@@ -7751,7 +7751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -7873,7 +7873,7 @@
 		(dnp no)
 		(uuid "833cd4d6-af2f-434c-82f4-4811eef3ad28")
 		(property "Reference" "C9"
-			(at 240.03 62.23 0)
+			(at 239.014 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,8 +7881,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 239.268 59.944 0)
+		(property "Value" "6pF"
+			(at 239.522 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8080,7 @@
 		(dnp no)
 		(uuid "a183bb71-57cc-4f0f-bea1-e0eccf2b553b")
 		(property "Reference" "C11"
-			(at 195.58 90.424 0)
+			(at 202.692 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,8 +8088,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 198.12 90.424 0)
+		(property "Value" "N/C"
+			(at 206.502 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8450,7 +8450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0u01F"
+		(property "Value" "0.01uF"
 			(at 43.942 88.392 0)
 			(effects
 				(font
