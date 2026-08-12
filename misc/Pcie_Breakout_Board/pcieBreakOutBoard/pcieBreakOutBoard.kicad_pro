@@ -661,6 +661,18 @@
     [
       "12b1338c-66b4-40fc-bcb6-22ba3c1b4efc",
       "Root"
+    ],
+    [
+      "b665729f-0b97-47d9-8790-47a0b59e4b2d",
+      "Power3v3"
+    ],
+    [
+      "2310e3ec-9b81-42d8-a940-13ec79083f4a",
+      "MiniPcieExHalf"
+    ],
+    [
+      "a6f2494a-799a-42fc-83bb-1a352a63812f",
+      "Jtag"
     ]
   ],
   "text_variables": {}
