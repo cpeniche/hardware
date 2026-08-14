@@ -2223,6 +2223,12 @@
 		(uuid "a8c30df0-6529-4a11-b5e3-2cb261a06063")
 	)
 	(junction
+		(at 135.89 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0ec6596-91a9-4a98-9085-5f660de3483f")
+	)
+	(junction
 		(at 123.19 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2354,6 +2360,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 63.5) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8945fc-4f24-4a59-afcd-97f4dfaaa052")
+	)
+	(wire
+		(pts
 			(xy 209.55 96.52) (xy 209.55 99.06)
 		)
 		(stroke
@@ -2474,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 77.47) (xy 144.78 77.47)
+			(xy 123.19 77.47) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2541,6 +2557,16 @@
 			(type default)
 		)
 		(uuid "bc59ca54-2626-4536-8c1b-680c35f1a16d")
+	)
+	(wire
+		(pts
+			(xy 135.89 77.47) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf399078-223b-4670-bc36-28e98aef79e7")
 	)
 	(wire
 		(pts
@@ -2622,16 +2648,6 @@
 		)
 		(uuid "fe577b37-c6e7-410d-afc5-753cf9996a1a")
 	)
-	(label "VBUS"
-		(at 128.27 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "783f3189-fc07-4b94-b4b5-0115287488e5")
-	)
 	(label "DP"
 		(at 128.27 96.52 180)
 		(effects
@@ -2661,6 +2677,17 @@
 			(justify right bottom)
 		)
 		(uuid "f387e37a-89b2-4677-9c17-3b6b1ec20978")
+	)
+	(hierarchical_label "Vbus"
+		(shape output)
+		(at 135.89 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5036db86-efa1-4db7-ad78-e4f76ed59aa2")
 	)
 	(hierarchical_label "DP"
 		(shape bidirectional)
