@@ -4590,7 +4590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "User_Footprint:CONN_2041119-1_TEC"
+		(property "Footprint" "Connector_PCBEdge:BUS_PCI_Express_Mini_Half"
 			(at 147.574 60.706 0)
 			(effects
 				(font

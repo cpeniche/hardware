@@ -105,7 +105,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b665729f-0b97-47d9-8790-47a0b59e4b2d")
-		(property "Sheetname" "Power3v3"
+		(property "Sheetname" "Power"
 			(at 101.6 61.5184 0)
 			(effects
 				(font
