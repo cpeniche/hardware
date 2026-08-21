@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 181.61 77.47)
+		(size 19.05 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "467bc621-b4b5-45fe-9f37-7652e0bd9a4d")
+		(property "Sheetname" "Display"
+			(at 181.61 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 181.61 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WeatherDashboard"
+				(path "/189808bb-364f-4c11-a922-cc9d9f33a674"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 91.44 76.2)
 		(size 17.78 16.51)
 		(exclude_from_sim no)
