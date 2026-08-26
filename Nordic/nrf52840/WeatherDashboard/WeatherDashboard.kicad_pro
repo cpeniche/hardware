@@ -625,6 +625,10 @@
     [
       "467bc621-b4b5-45fe-9f37-7652e0bd9a4d",
       "Display"
+    ],
+    [
+      "081f139b-fac2-4839-8ac9-66f3e165cfb8",
+      "Pcie Connector"
     ]
   ],
   "text_variables": {}
