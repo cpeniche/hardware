@@ -5356,36 +5356,6 @@
 		)
 		(uuid "066460fe-1798-4500-a397-92416eede198")
 	)
-	(label "EPD_BUSY"
-		(at 187.96 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "092e0168-a55a-4ad7-abd0-8bcf8b38ab0c")
-	)
-	(label "3v3_EN"
-		(at 43.18 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19053313-5a80-4e78-a0c7-a95d8f4ea155")
-	)
-	(label "BS"
-		(at 187.96 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "434f4ced-9fea-40dd-8e02-c977f6351b74")
-	)
 	(label "GND"
 		(at 194.31 105.41 180)
 		(effects
@@ -5395,16 +5365,6 @@
 			(justify right bottom)
 		)
 		(uuid "49aefab5-6aa9-4d4c-a6e2-876268bb628a")
-	)
-	(label "~{EPD_CS}"
-		(at 187.96 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5695fc86-25da-4ed1-b0d2-9b7009402b6e")
 	)
 	(label "PREVGH"
 		(at 194.31 115.57 180)
@@ -5416,16 +5376,6 @@
 		)
 		(uuid "6213a055-ff06-4eda-90e8-e2c3df3edc5c")
 	)
-	(label "EPD_DIN"
-		(at 187.96 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64c843f1-0c59-46c3-94a3-c4eadd75e4d1")
-	)
 	(label "GDR"
 		(at 92.71 48.26 180)
 		(effects
@@ -5435,16 +5385,6 @@
 			(justify right bottom)
 		)
 		(uuid "664f043f-dfb4-486b-87cc-8998053e2eea")
-	)
-	(label "TSDA"
-		(at 187.96 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e9f9228-5899-4999-ab76-ddd21456fd69")
 	)
 	(label "GDR"
 		(at 189.23 67.31 180)
@@ -5465,16 +5405,6 @@
 			(justify left bottom)
 		)
 		(uuid "76b459fb-5350-486b-ae85-a5215cde6e87")
-	)
-	(label "EPD_SCK"
-		(at 187.96 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8a376179-ccc3-46e3-8ec4-e725676023da")
 	)
 	(label "PREVGL"
 		(at 194.31 120.65 180)
@@ -5506,16 +5436,6 @@
 		)
 		(uuid "a5dc74c3-fcfa-456e-a0f2-e7ebe69dfef7")
 	)
-	(label "TSCL"
-		(at 187.96 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abe88f12-3181-4ab5-a37f-31b0cf75c052")
-	)
 	(label "3v3"
 		(at 76.2 101.6 0)
 		(effects
@@ -5546,16 +5466,6 @@
 		)
 		(uuid "e8ce3f47-e37f-4d45-b0aa-a044fd7eb12f")
 	)
-	(label "~{EPD_RST}"
-		(at 187.96 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9275444-16ab-440e-9c69-287ccdd9e323")
-	)
 	(label "RESE"
 		(at 189.23 69.85 180)
 		(effects
@@ -5576,15 +5486,27 @@
 		)
 		(uuid "ee998142-b52d-47e6-bdce-a81a063eebf3")
 	)
-	(label "EPD_DC"
-		(at 187.96 90.17 180)
+	(hierarchical_label "BS"
+		(shape input)
+		(at 187.96 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "f4fdbb44-085f-444d-842d-6c8b5f83a03a")
+		(uuid "14b07b76-0138-4509-aac2-495cd3f201a6")
+	)
+	(hierarchical_label "EPD_DIN"
+		(shape input)
+		(at 187.96 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "254c7024-976f-4b85-8028-67150f991915")
 	)
 	(hierarchical_label "3v3"
 		(shape input)
@@ -5596,6 +5518,105 @@
 			(justify right)
 		)
 		(uuid "37eacbe1-3890-4f8a-b080-862c4f147a32")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 161.29 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3aa5d50e-9862-4165-bb72-74e7e6f7a565")
+	)
+	(hierarchical_label "~{EPD_RST}"
+		(shape input)
+		(at 187.96 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f9459b9-ce8b-4327-b970-043829c730eb")
+	)
+	(hierarchical_label "~{EPD_CS}"
+		(shape input)
+		(at 187.96 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73d02c85-fdf9-404a-9987-78e38848b969")
+	)
+	(hierarchical_label "EPD_DC"
+		(shape input)
+		(at 187.96 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74fc2c23-f5a1-4b63-8fe0-4a4405e5e1a1")
+	)
+	(hierarchical_label "EPD_BUSY"
+		(shape input)
+		(at 187.96 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "981f019e-de3f-45cb-884c-8ae182ae0c62")
+	)
+	(hierarchical_label "TSDA"
+		(shape input)
+		(at 187.96 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab0bde6a-402a-419b-aed1-ef274f92583b")
+	)
+	(hierarchical_label "TSCL"
+		(shape input)
+		(at 187.96 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b22c2533-eb70-4136-9e34-9ee20edd63ad")
+	)
+	(hierarchical_label "3v3_EN"
+		(shape input)
+		(at 43.18 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3fcadd2-6fc8-4017-9cac-931d3f9f2c63")
+	)
+	(hierarchical_label "EPD_SCK"
+		(shape input)
+		(at 187.96 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e63fe925-6edb-4406-9173-93c5bf8661f2")
 	)
 	(symbol
 		(lib_id "Device:C")
