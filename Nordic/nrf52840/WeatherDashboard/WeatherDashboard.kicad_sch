@@ -6,6 +6,12 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
+		(at 152.4 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fd45408-2e94-4636-ba6c-a3997139d4cf")
+	)
+	(junction
 		(at 138.43 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -151,6 +157,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 76.2) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a984e62-4e4b-4500-bf82-9a57b5708a1a")
+	)
+	(wire
+		(pts
 			(xy 138.43 129.54) (xy 138.43 100.33)
 		)
 		(stroke
@@ -191,6 +207,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 76.2) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a16d4e-8e0e-406e-87c5-7fed755087ae")
+	)
+	(wire
+		(pts
 			(xy 135.89 102.87) (xy 154.94 102.87)
 		)
 		(stroke
@@ -211,7 +237,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 154.94 73.66)
+			(xy 130.81 73.66) (xy 152.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -258,6 +284,16 @@
 			(type default)
 		)
 		(uuid "c3b357bf-5c65-45d4-8cf4-a174e5003549")
+	)
+	(wire
+		(pts
+			(xy 152.4 73.66) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfb798c-17be-4f35-8d2b-c9554ec4f226")
 	)
 	(wire
 		(pts
@@ -560,16 +596,6 @@
 		(pin "EPD_SCK" input
 			(at 154.94 85.09 180)
 			(uuid "555fb84c-3374-444a-8bae-661670a65622")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BS" input
-			(at 154.94 95.25 180)
-			(uuid "a35bb3e2-91bf-4db9-ac8b-c59d7831d999")
 			(effects
 				(font
 					(size 1.27 1.27)
