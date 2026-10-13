@@ -87,13 +87,33 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 58.42) (xy 147.32 58.42)
+			(xy 154.94 53.34) (xy 147.32 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2bbca447-599e-4b55-ad8f-99ebb4f15400")
+	)
+	(wire
+		(pts
+			(xy 139.7 59.69) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1a8dc5-d2da-4ebb-b8d5-cf9ca7a67a01")
+	)
+	(wire
+		(pts
+			(xy 134.62 57.15) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cabf28e-4f5b-42aa-97dd-7645af550117")
 	)
 	(wire
 		(pts
@@ -117,7 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 130.81 54.61)
+			(xy 154.94 50.8) (xy 130.81 50.8)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +207,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 147.32 106.68)
+			(xy 147.32 53.34) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0)
@@ -217,6 +237,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 97.79) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a270ed3f-a3f7-40dd-9f88-e55c552bf2ee")
+	)
+	(wire
+		(pts
 			(xy 135.89 102.87) (xy 154.94 102.87)
 		)
 		(stroke
@@ -224,6 +254,16 @@
 			(type default)
 		)
 		(uuid "a52eb5a8-9a51-4007-993e-952620cd2d7e")
+	)
+	(wire
+		(pts
+			(xy 139.7 97.79) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e5eccc-1677-4114-9cb3-2e378b9308b4")
 	)
 	(wire
 		(pts
@@ -247,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 54.61) (xy 130.81 73.66)
+			(xy 130.81 50.8) (xy 130.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -317,6 +357,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 57.15) (xy 134.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fafa23-2827-43ac-b71b-c4969afcf854")
+	)
+	(wire
+		(pts
 			(xy 147.32 106.68) (xy 154.94 106.68)
 		)
 		(stroke
@@ -324,6 +374,16 @@
 			(type default)
 		)
 		(uuid "e7c152fa-6f7f-4501-b276-1ad8b4c6cd14")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13e9c98-964e-4ae6-938a-f1ea3359d15a")
 	)
 	(sheet
 		(at 106.68 71.12)
@@ -459,6 +519,26 @@
 				(justify right)
 			)
 		)
+		(pin "EnSwitch" output
+			(at 124.46 95.25 0)
+			(uuid "9907f827-35a9-404f-af80-c48794f3cdf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AdcIn" input
+			(at 124.46 97.79 0)
+			(uuid "4c9adc83-8321-451c-8187-5f069ca07d60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "WeatherDashboard"
 				(path "/189808bb-364f-4c11-a922-cc9d9f33a674"
@@ -468,8 +548,8 @@
 		)
 	)
 	(sheet
-		(at 154.94 52.07)
-		(size 12.7 10.16)
+		(at 154.94 48.26)
+		(size 15.24 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -484,7 +564,7 @@
 		)
 		(uuid "3f611b1e-4b9e-472b-bbce-6aa18c3c2d69")
 		(property "Sheetname" "Power"
-			(at 154.94 51.3584 0)
+			(at 154.94 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,7 +582,7 @@
 			)
 		)
 		(pin "3v3" output
-			(at 154.94 54.61 180)
+			(at 154.94 50.8 180)
 			(uuid "2b03e44c-1755-4da8-a7cf-1dd756376687")
 			(effects
 				(font
@@ -512,8 +592,28 @@
 			)
 		)
 		(pin "GND" input
-			(at 154.94 58.42 180)
+			(at 154.94 53.34 180)
 			(uuid "d484b651-81f1-4750-bbdb-b0012dd46c1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EnSwitch" input
+			(at 154.94 57.15 180)
+			(uuid "01a973d2-b4be-4fc4-a4b9-63acacbd97aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VoltageRead" output
+			(at 154.94 59.69 180)
+			(uuid "7e47acc1-b9ab-4a9e-aa7f-235d2e154255")
 			(effects
 				(font
 					(size 1.27 1.27)
