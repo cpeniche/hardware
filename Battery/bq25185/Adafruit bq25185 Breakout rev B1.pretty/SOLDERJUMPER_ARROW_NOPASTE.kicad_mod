@@ -53,33 +53,10 @@
 			)
 		)
 	)
+	(attr allow_soldermask_bridges)
 	(fp_poly
 		(pts
-			(xy 0.106121 0.002663) (xy -0.679416 0.7882) (xy -1.3946 0.7882) (xy -1.3946 -0.7882) (xy -0.62715 -0.7882)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "2295215c-3ed0-4883-8a9f-bf1ae5f6d503")
-	)
-	(fp_poly
-		(pts
-			(xy 1.3946 0.7882) (xy -0.315893 0.7882) (xy 0.443148 0) (xy -0.315893 -0.7882) (xy 1.3946 -0.7882)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "96c3149c-39a7-4bd2-b935-3d7e4d2b24d6")
-	)
-	(fp_poly
-		(pts
-			(xy -1.4605 0.8255) (xy 1.4605 0.8255) (xy 1.4605 -0.8255) (xy -1.4605 -0.8255)
+			(xy -1.4005 0.7855) (xy 1.3905 0.7855) (xy 1.4005 -0.7855) (xy -1.3905 -0.7855)
 		)
 		(stroke
 			(width 0)
@@ -173,24 +150,48 @@
 		(layer "F.SilkS")
 		(uuid "bfdde4ad-9f23-4936-b421-3ce867c61ba5")
 	)
-	(pad "1" smd roundrect
-		(at -1.016 0)
-		(size 0.762 1.524)
+	(pad "1" smd custom
+		(at -1.037008 0)
+		(size 0.715184 1.5764)
 		(layers "F.Cu")
-		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.143129 0.002663) (xy 0.357592 0.7882) (xy -0.357592 0.7882) (xy -0.357592 -0.7882) (xy 0.409858 -0.7882)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "03079d0e-915b-4a9f-abf0-fffa04a621fa")
 	)
-	(pad "2" smd roundrect
-		(at 1.016 0)
-		(size 0.762 1.524)
+	(pad "2" smd custom
+		(at 0.9635 0)
+		(size 0.867 1.58)
 		(layers "F.Cu")
-		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.4311 0.7882) (xy -1.279393 0.7882) (xy -0.520352 0) (xy -1.279393 -0.7882) (xy 0.4311 -0.7882)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "ee5d4f7f-79ec-46b9-8284-09347e42c774")
 	)
 	(embedded_fonts no)

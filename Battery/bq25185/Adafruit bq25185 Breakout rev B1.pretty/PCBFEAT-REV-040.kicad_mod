@@ -61,7 +61,7 @@
 		(layer "F.SilkS")
 		(uuid "6d240674-c1e4-4a15-9c24-9fe1a52f9e7d")
 	)
-	(fp_text user "${REV}"
+	(fp_text user "${BOARD_REV}"
 		(at -0.3556 0.508 0)
 		(unlocked yes)
 		(layer "F.SilkS")

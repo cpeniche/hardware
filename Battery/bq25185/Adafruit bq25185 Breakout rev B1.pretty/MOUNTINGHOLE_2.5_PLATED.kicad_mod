@@ -107,7 +107,7 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints allowed)
 		)
 		(placement
@@ -142,7 +142,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layer "B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "b80db390-8dd0-494d-868d-cd7cff14bd64")
 		(hatch edge 0.5)
 		(connect_pads
@@ -153,8 +153,8 @@
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
+			(pads allowed)
+			(copperpour allowed)
 			(footprints allowed)
 		)
 		(placement

@@ -7,11 +7,12 @@
 		(at -1.651 -1.27 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "a0fc5d72-a92c-4e33-bed7-67048dc47eeb")
 		(effects
 			(font
-				(size 0.666496 0.666496)
-				(thickness 0.146304)
+				(size 0.5 0.5)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -23,8 +24,8 @@
 		(uuid "7aeec91a-216e-4c25-859d-2a23466508d0")
 		(effects
 			(font
-				(size 0.36576 0.36576)
-				(thickness 0.04064)
+				(size 0.369824 0.369824)
+				(thickness 0.036576)
 			)
 			(justify left bottom)
 		)
@@ -41,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Solder Jumper - Closed\n\nThese solder jumpers are closed by default\n\n• CLOSEDWIRE - 10 mil trace between pads that can be cut and resoldered later\n• CLOSEDPERM - 63 mil trace between pads for a permanent connection (used to 'bridge' two signals, a shameless hack for Eagle).  Can double as a test point as well (no cream layer)"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,6 +54,8 @@
 			)
 		)
 	)
+	(attr allow_soldermask_bridges)
+	(net_tie_pad_groups "1,2")
 	(fp_poly
 		(pts
 			(xy 1.397 0.889) (xy -1.397 0.889) (xy -1.397 -0.889) (xy 1.397 -0.889)
@@ -197,16 +200,23 @@
 		(layers "F.Cu")
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
+		(clearance 0)
 		(thermal_bridge_angle 0)
 		(uuid "a5da2589-2987-49b3-bb63-b7228d68e41b")
 	)
-	(pad "2" smd rect
+	(pad "2" smd custom
 		(at 0.762 0)
 		(size 1.1684 1.6002)
 		(layers "F.Cu")
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
+		(clearance 0)
 		(thermal_bridge_angle 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
 		(uuid "5ff9cc26-85b9-4f33-ad35-82d4083d544b")
 	)
 	(pad "WIRE" smd rect
@@ -215,6 +225,7 @@
 		(layers "F.Cu")
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
+		(clearance 0)
 		(thermal_bridge_angle 0)
 		(uuid "70b283e3-8038-4e9b-9e15-54184a289bb8")
 	)

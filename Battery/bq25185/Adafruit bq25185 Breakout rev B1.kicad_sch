@@ -4476,6 +4476,22 @@
 		(color 0 0 0 0)
 		(uuid "f07255cc-286b-4215-b529-d3ebf5c9c826")
 	)
+	(no_connect
+		(at 53.34 124.46)
+		(uuid "0d514a51-0e84-4347-bae7-43ccd37c2721")
+	)
+	(no_connect
+		(at 53.34 137.16)
+		(uuid "19d3a064-5800-43a7-aba9-7f3a07c15ded")
+	)
+	(no_connect
+		(at 53.34 127)
+		(uuid "1f6b5ce2-74f7-4a24-81db-593cba5cc168")
+	)
+	(no_connect
+		(at 53.34 134.62)
+		(uuid "9cf2a88f-8c41-4185-99e8-0bb82be97f22")
+	)
 	(wire
 		(pts
 			(xy 81.28 43.18) (xy 81.28 50.8)
@@ -4528,16 +4544,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 129.54) (xy 68.58 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2bc6f960-b08a-44a3-868f-8a92f7582867")
-	)
-	(wire
-		(pts
 			(xy 223.52 116.84) (xy 223.52 121.92)
 		)
 		(stroke
@@ -4575,6 +4581,16 @@
 			(type solid)
 		)
 		(uuid "4491cb51-1574-47fc-b458-5f8ccbe657b4")
+	)
+	(wire
+		(pts
+			(xy 53.34 129.54) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45148b92-820c-407d-ad71-6a3a8379c355")
 	)
 	(wire
 		(pts
@@ -4745,6 +4761,16 @@
 			(type solid)
 		)
 		(uuid "86fc393c-5ae5-4485-bf35-c2befd52f2c5")
+	)
+	(wire
+		(pts
+			(xy 68.58 129.54) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8708c22b-e42c-471c-a449-7d162145c8cf")
 	)
 	(wire
 		(pts
@@ -4928,16 +4954,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 129.54) (xy 68.58 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d1784505-d9fb-4eb5-83fa-783ff2bb3bc2")
-	)
-	(wire
-		(pts
 			(xy 218.44 68.58) (xy 218.44 73.66)
 		)
 		(stroke
@@ -4975,16 +4991,6 @@
 			(type solid)
 		)
 		(uuid "d796d810-1911-41c8-87d5-23fc5271e292")
-	)
-	(wire
-		(pts
-			(xy 165.1 50.8) (xy 165.1 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "da9e7523-65e4-48f7-96d8-a137185a8b16")
 	)
 	(wire
 		(pts
@@ -5035,6 +5041,16 @@
 			(type solid)
 		)
 		(uuid "ed11462e-07b4-43bd-920f-976177ad3ae8")
+	)
+	(wire
+		(pts
+			(xy 165.1 50.8) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed716b4-8429-491a-8ecf-3436dd243d22")
 	)
 	(wire
 		(pts
@@ -5291,7 +5307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -5424,7 +5440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 208.28 78.74 0)
 			(effects
 				(font
@@ -5464,7 +5480,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER"
-			(at 156.21 127 0)
+			(at 156.464 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5490,7 +5506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
 			(at 152.4 124.46 0)
 			(effects
 				(font
@@ -5634,7 +5650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper - Closed\n\nThese solder jumpers are closed by default\n\n• CLOSEDWIRE - 10 mil trace between pads that can be cut and resoldered later\n• CLOSEDPERM - 63 mil trace between pads for a permanent connection (used to 'bridge' two signals, a shameless hack for Eagle).  Can double as a test point as well (no cream layer)"
 			(at 165.1 58.42 0)
 			(effects
 				(font
@@ -5703,7 +5719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VBUS Supply Symbole"
 			(at 243.84 63.5 0)
 			(effects
 				(font
@@ -5810,7 +5826,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER"
-			(at 146.05 127 0)
+			(at 145.796 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5836,7 +5852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
 			(at 142.24 124.46 0)
 			(effects
 				(font
@@ -5905,7 +5921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 182.88 48.26 0)
 			(effects
 				(font
@@ -5971,7 +5987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 264.16 99.06 0)
 			(effects
 				(font
@@ -6039,7 +6055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 60.96 137.16 0)
 			(effects
 				(font
@@ -6108,7 +6124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -6174,7 +6190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
 			(at 266.7 165.1 0)
 			(effects
 				(font
@@ -6237,7 +6253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 106.68 68.58 0)
 			(effects
 				(font
@@ -6303,7 +6319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 132.08 132.08 0)
 			(effects
 				(font
@@ -6369,7 +6385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper - Closed\n\nThese solder jumpers are closed by default\n\n• CLOSEDWIRE - 10 mil trace between pads that can be cut and resoldered later\n• CLOSEDPERM - 63 mil trace between pads for a permanent connection (used to 'bridge' two signals, a shameless hack for Eagle).  Can double as a test point as well (no cream layer)"
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -6438,7 +6454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
 			(at 271.78 165.1 0)
 			(effects
 				(font
@@ -6501,7 +6517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 223.52 127 0)
 			(effects
 				(font
@@ -6567,7 +6583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 152.4 132.08 0)
 			(effects
 				(font
@@ -6633,7 +6649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VBAT Supply Sumbol"
 			(at 210.82 93.98 0)
 			(effects
 				(font
@@ -6699,7 +6715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 172.72 43.18 0)
 			(effects
 				(font
@@ -6866,7 +6882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 68.58 137.16 0)
 			(effects
 				(font
@@ -6935,7 +6951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 76.2 137.16 0)
 			(effects
 				(font
@@ -7001,7 +7017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FRAME\n\nDIN A4, landscape with location and doc. field"
 			(at 17.78 198.12 0)
 			(effects
 				(font
@@ -7064,7 +7080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.0V Supply"
 			(at 238.76 83.82 0)
 			(effects
 				(font
@@ -7205,7 +7221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VBAT Supply Sumbol"
 			(at 182.88 35.56 0)
 			(effects
 				(font
@@ -7273,7 +7289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 106.68 60.96 0)
 			(effects
 				(font
@@ -7420,7 +7436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 132.08 124.46 0)
 			(effects
 				(font
@@ -7489,7 +7505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 71.12 58.42 0)
 			(effects
 				(font
@@ -7555,7 +7571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.0V Supply"
 			(at 200.66 35.56 0)
 			(effects
 				(font
@@ -7621,7 +7637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 114.3 68.58 0)
 			(effects
 				(font
@@ -7687,7 +7703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 215.9 127 0)
 			(effects
 				(font
@@ -7755,7 +7771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -7824,7 +7840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
 			(at 238.76 165.1 0)
 			(effects
 				(font
@@ -7887,7 +7903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -7951,7 +7967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
 			(at 71.12 40.64 0)
 			(effects
 				(font
@@ -8020,7 +8036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 254 88.9 0)
 			(effects
 				(font
@@ -8101,7 +8117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VBAT Supply Sumbol"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -8167,7 +8183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VBAT Supply Sumbol"
 			(at 233.68 86.36 0)
 			(effects
 				(font
@@ -8235,7 +8251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -8304,7 +8320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VBUS Supply Symbole"
 			(at 68.58 116.84 0)
 			(effects
 				(font
@@ -8370,7 +8386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.0V Supply"
 			(at 71.12 30.48 0)
 			(effects
 				(font
@@ -8438,7 +8454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 160.02 86.36 0)
 			(effects
 				(font
@@ -8509,7 +8525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -8578,7 +8594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
 			(at 261.62 165.1 0)
 			(effects
 				(font
@@ -8641,7 +8657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 142.24 132.08 0)
 			(effects
 				(font
@@ -8709,7 +8725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 165.1 68.58 0)
 			(effects
 				(font
@@ -8778,7 +8794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 53.34 144.78 0)
 			(effects
 				(font
@@ -8844,7 +8860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.0V Supply"
 			(at 172.72 35.56 0)
 			(effects
 				(font
@@ -8910,7 +8926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 68.58 144.78 0)
 			(effects
 				(font
@@ -8976,7 +8992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 172.72 48.26 0)
 			(effects
 				(font
@@ -9042,7 +9058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.0V Supply"
 			(at 152.4 35.56 0)
 			(effects
 				(font
@@ -9181,7 +9197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
 			(at 81.28 40.64 0)
 			(effects
 				(font
@@ -9252,7 +9268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 149.86 91.44 0)
 			(effects
 				(font
@@ -9396,7 +9412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 182.88 43.18 0)
 			(effects
 				(font
@@ -9465,7 +9481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.0V Supply"
 			(at 81.28 30.48 0)
 			(effects
 				(font
@@ -9533,7 +9549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 71.12 50.8 0)
 			(effects
 				(font
@@ -9678,7 +9694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VBUS Supply Symbole"
 			(at 76.2 119.38 0)
 			(effects
 				(font
@@ -9744,7 +9760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
 			(at 254 165.1 0)
 			(effects
 				(font
@@ -9809,7 +9825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -9878,7 +9894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.0V Supply"
 			(at 91.44 30.48 0)
 			(effects
 				(font
@@ -9944,7 +9960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
 			(at 76.2 129.54 0)
 			(effects
 				(font
@@ -10013,7 +10029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "VBUS Supply Symbole"
 			(at 109.22 33.02 0)
 			(effects
 				(font
@@ -10079,7 +10095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -10145,7 +10161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Type-C USB 2.0 Connector"
 			(at 43.18 132.08 0)
 			(effects
 				(font
@@ -10257,7 +10273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PIN HEADER"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -10338,7 +10354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GND"
 			(at 60.96 144.78 0)
 			(effects
 				(font
@@ -10404,7 +10420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
 			(at 246.38 165.1 0)
 			(effects
 				(font
@@ -10467,7 +10483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Solder JUMPER\n\nSolder the two pads together to create a connection, or remove the solder to break it.\n\nREFLOW - Use this footprint for solder paste and reflow ovens. WAVE - Use this footprint for hand-soldering (larger pads).\n\nCLOSED - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads."
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -10510,7 +10526,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER_CLOSED"
-			(at 128.27 111.76 0)
+			(at 123.698 106.426 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10536,7 +10552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Jumper - Closed\n\nThese solder jumpers are closed by default\n\n• CLOSEDWIRE - 10 mil trace between pads that can be cut and resoldered later\n• CLOSEDPERM - 63 mil trace between pads for a permanent connection (used to 'bridge' two signals, a shameless hack for Eagle).  Can double as a test point as well (no cream layer)"
 			(at 132.08 114.3 0)
 			(effects
 				(font
@@ -10603,7 +10619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
 			(at 91.44 40.64 0)
 			(effects
 				(font
