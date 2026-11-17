@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "189808bb-364f-4c11-a922-cc9d9f33a674")
 	(paper "A4")
+	(title_block
+		(title "Weather Board")
+		(date "2026-11-16")
+		(rev "1.0")
+	)
 	(lib_symbols)
 	(junction
 		(at 152.4 73.66)

@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "6bd16fa4-03ec-4d9a-aa0b-8a331a6787b4")
 	(paper "A4")
+	(title_block
+		(title "Weather Board")
+		(date "2026-11-16")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -158,6 +163,113 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1253,8 +1365,8 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 16.51 -10.16 0)
+				(pin passive line
+					(at 16.51 -12.7 0)
 					(length 2.54)
 					(name "OUT"
 						(effects
@@ -1642,6 +1754,12 @@
 		(uuid "6467cdaf-8ecf-441b-8d59-865f259e72bb")
 	)
 	(junction
+		(at 242.57 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "668c5ae5-c321-4434-b72e-776d878fc8cd")
+	)
+	(junction
 		(at 232.41 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1660,10 +1778,10 @@
 		(uuid "dba49505-2561-4117-b327-2fdb494bc3ce")
 	)
 	(junction
-		(at 129.54 97.79)
+		(at 152.4 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e71f0fa2-fc30-4ecb-b2a4-e4fa55ebacbd")
+		(uuid "e505cd91-2670-4e97-94cc-4c7d483e1403")
 	)
 	(junction
 		(at 153.67 97.79)
@@ -1683,7 +1801,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 85.09) (xy 157.48 85.09)
+			(xy 182.88 113.03) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13427cab-f67c-4bf6-9804-fe5f1b4402eb")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 152.4 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1730,6 +1858,26 @@
 			(type default)
 		)
 		(uuid "26e0da02-eb40-4ab8-a25c-0e8b7360a64e")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288297e7-3108-46a9-97bb-4912e6cd3484")
+	)
+	(wire
+		(pts
+			(xy 232.41 80.01) (xy 242.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a328341-c44c-489d-be60-ffd378c44052")
 	)
 	(wire
 		(pts
@@ -1793,16 +1941,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 95.25) (xy 129.54 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "587dec4f-1c72-4e56-a426-5890678348b0")
-	)
-	(wire
-		(pts
 			(xy 156.21 92.71) (xy 156.21 97.79)
 		)
 		(stroke
@@ -1833,6 +1971,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 80.01) (xy 245.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7896c73a-9b84-4edb-a4e4-fb4fe1b02e5b")
+	)
+	(wire
+		(pts
 			(xy 223.52 63.5) (xy 232.41 63.5)
 		)
 		(stroke
@@ -1850,6 +1998,46 @@
 			(type default)
 		)
 		(uuid "8e295513-05ca-49b0-af71-cdef3dd1ebaa")
+	)
+	(wire
+		(pts
+			(xy 226.06 116.84) (xy 226.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90315284-5860-4883-81a7-e5bfc30b8999")
+	)
+	(wire
+		(pts
+			(xy 222.25 113.03) (xy 226.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97653956-4832-41f9-8d8d-d26d4d8362ab")
+	)
+	(wire
+		(pts
+			(xy 242.57 73.66) (xy 242.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978463cb-9539-40cd-8e35-94a546c5e901")
+	)
+	(wire
+		(pts
+			(xy 201.93 113.03) (xy 201.93 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b69f9f-f42e-4e95-9fa3-d1e4a99a93d5")
 	)
 	(wire
 		(pts
@@ -1890,6 +2078,16 @@
 			(type default)
 		)
 		(uuid "b376a198-bb10-4e8d-b80b-6f0993e6de39")
+	)
+	(wire
+		(pts
+			(xy 152.4 80.01) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca33b46a-82e4-4d1c-81be-7e791871e0f6")
 	)
 	(wire
 		(pts
@@ -1963,16 +2161,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 80.01) (xy 245.11 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8cfb324-6317-472b-bbca-ac8b6e6f0dc3")
-	)
-	(wire
-		(pts
 			(xy 212.09 71.12) (xy 218.44 71.12)
 		)
 		(stroke
@@ -2011,6 +2199,16 @@
 		)
 		(uuid "6804a054-ab75-4bce-870b-9b78a070f939")
 	)
+	(label "PG"
+		(at 222.25 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bed78c6-0004-4211-9036-9e69f9bb0e2b")
+	)
 	(label "VIN"
 		(at 204.47 63.5 0)
 		(effects
@@ -2020,6 +2218,16 @@
 			(justify left bottom)
 		)
 		(uuid "9cba93ce-8bc8-4bf3-8090-d50d625246d9")
+	)
+	(label "VIN"
+		(at 182.88 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d82468f4-58de-4719-a6da-e7fce31b6b41")
 	)
 	(label "PG"
 		(at 151.13 95.25 0)
@@ -2495,6 +2703,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 242.57 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55fdf63b-bb0e-484a-a162-9dc98e6b3706")
+		(property "Reference" "TP2"
+			(at 243.84 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 243.84 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 247.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b00bb811-56d4-42f6-905d-7061b078d645")
+		)
+		(instances
+			(project "WeatherDashboard"
+				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 93.98 0)
 		(unit 1)
@@ -2555,6 +2830,73 @@
 			(project "WeatherDashboard"
 				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 152.4 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b1422e3-8ca7-4a43-a9ef-8cce239667c7")
+		(property "Reference" "TP3"
+			(at 153.67 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 153.67 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35324b5f-5a73-4c9c-b587-dbffbe1455f2")
+		)
+		(instances
+			(project "WeatherDashboard"
+				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2753,6 +3095,73 @@
 			(project "WeatherDashboard"
 				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 226.06 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ff1e9dc-4df8-4642-af75-569902df49fc")
+		(property "Reference" "TP1"
+			(at 227.33 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 227.33 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 226.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "449219cb-f1a1-452e-a401-ec4209f73a8c")
+		)
+		(instances
+			(project "WeatherDashboard"
+				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2999,6 +3408,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 201.93 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b246895c-176f-482e-91be-688ab5af506a")
+		(property "Reference" "#PWR023"
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "198b175d-c743-4a7f-bfe0-6a70f762c798")
+		)
+		(instances
+			(project "WeatherDashboard"
+				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 208.28 71.12 90)
 		(unit 1)
@@ -3061,6 +3536,73 @@
 			(project "WeatherDashboard"
 				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 201.93 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd8d6a8e-0b21-4069-8761-0c17ed31318e")
+		(property "Reference" "TP10"
+			(at 203.2 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 203.2 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 207.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 201.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c7fb7d1-285b-44cd-8908-9bad0e4a0350")
+		)
+		(instances
+			(project "WeatherDashboard"
+				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -3131,6 +3673,73 @@
 			(project "WeatherDashboard"
 				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 182.88 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1c4ac83-0086-4dae-b84c-807005d240e7")
+		(property "Reference" "TP11"
+			(at 184.15 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 184.15 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "144c2e7e-91e2-45f6-bea1-76b8d1762292")
+		)
+		(instances
+			(project "WeatherDashboard"
+				(path "/189808bb-364f-4c11-a922-cc9d9f33a674/3f611b1e-4b9e-472b-bbce-6aa18c3c2d69"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
