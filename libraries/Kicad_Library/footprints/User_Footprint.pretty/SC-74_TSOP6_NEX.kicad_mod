@@ -579,4 +579,15 @@
 		(uuid "b8b7c389-0367-4def-95b8-204e4c02fecf")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_3D_MODELS_DIR}/SC-74TSOP6_NEX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
