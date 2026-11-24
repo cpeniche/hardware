@@ -1,0 +1,19 @@
+Quantity,Manufacturer Part Number,Manufacturer,Reference Designator,Customer Reference,Description,Lifecycle Status,Notes
+1,NRF52840-QFAA-F-R7,Nordic Semiconductor,U1,U1,nRF52840 BLE/802.15.4 SoC QFN-48 6x6mm,Active,Replaces NRF52840-QFAA-R7 (NRND); newer build code F - check errata vs SDK
+1,ECS-320-8-37B-CKY-TR,ECS Inc,Y1,Y1,Crystal 32MHz 10ppm 8pF 4-SMD,Active,
+1,ECS-327MVATX-3-CN-TR3,ECS Inc,Y2,Y2,Oscillator 32.768kHz CMOS,Active,
+1,FTSH-105-01-F-DV-K,Samtec,J1,J1,Header 2x5 1.27mm SMD keyed (ARM Cortex SWD),Active,Part chosen for J1 (schematic had no MPN)
+1,U.FL-R-SMT-1(10),Hirose Electric,J3,J3,U.FL RF connector SMD,Active,
+5,GRM188R72A104KA35D,Murata,"C1,C13,C16,C17,C19","C1,C13,C16,C17,C19",Cap 100nF 100V X7R 0603,Active,Replaces GRM188R71H104KA93D (Obsolete)
+1,GRM188R72A103KA01D,Murata,C2,C2,Cap 10nF 100V X7R 0603,Active,Replaces GRM188R71H103KA01D (Obsolete)
+2,GCM188R71C105KA64D,Murata,"C4,C6","C4,C6",Cap 1uF 16V X7R 0603 AEC-Q200,Active,Replaces GRM188R71C105KA12D (Obsolete)
+1,GCM188R71H473KA55D,Murata,C5,C5,Cap 47nF 50V X7R 0603 AEC-Q200,Unverified (in stock),Replaces GRM188R71H473KA61D (Obsolete) - confirm status
+2,KGM15ACG1H120JT,KYOCERA AVX,"C9,C10","C9,C10",Cap 12pF 50V C0G 0603 5%,Unverified (Mouser: readily available),Replaces GRM1885C1H120JA01D (NRND)
+1,GCM1885C1H101JA16D,Murata,C12,C12,Cap 100pF 50V C0G 0603 AEC-Q200,Active,Replaces GRM1885C1H101JA01D (NRND)
+1,GRM1555C1H1R0BA01D,Murata,C14,C14,Cap 1.0pF 50V C0G 0402 +/-0.1pF (RF match),Active,
+1,GRM1555C1H1R2BA01D,Murata,C15,C15,Cap 1.2pF 50V C0G 0402 +/-0.1pF (RF match),Active,
+1,GRM185R61C475KE11D,Murata,C20,C20,Cap 4.7uF 16V X5R 0603,Active,Replaces GRM188R61A475KE15D (Obsolete); 0.5mm tall
+1,LQG15HS4N7B02D,Murata,L1,L1,Inductor 4.7nH +/-0.1nH 0402 multilayer (RF match),Active,Replaces LQP15MN4N7B02D (at risk/NRND); verify RF match
+1,LQG15HS2N2B02D,Murata,L2,L2,Inductor 2.2nH +/-0.1nH 0402 multilayer (RF match),Active,Replaces LQP15MN2N2B02D (Obsolete); lower Q - verify RF match
+1,LQM18DN100M70L,Murata,L3,L3,Inductor 10uH 0603 (DC/DC),Active,
+1,LQG18HN15NJ00D,Murata,L4,L4,Inductor 15nH 0603 (DC/DC),Active,
